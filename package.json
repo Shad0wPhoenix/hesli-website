@@ -1,0 +1,28 @@
+{
+  "name": "hesli-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shad0wPhoenix/hesli-website.git"
+  },
+  "keywords": [],
+  "author": "ShadowPhoenix",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Shad0wPhoenix/hesli-website/issues"
+  },
+  "homepage": "https://github.com/Shad0wPhoenix/hesli-website#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
