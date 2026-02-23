@@ -1,0 +1,81 @@
+.btn {
+    --border: var(--border-width) solid var(--darkTeal);
+
+    display: block;
+    text-align: center;
+    width: fit-content;
+    padding: 2px 1rem;
+    margin: 0.6rem 2rem;
+    border-top: var(--border);
+    border-bottom: var(--border);
+    background: var(--container-background-solid);
+    color: var(--darkTeal);
+    font-family: var(--fontScript);
+    font-size: 1rem;
+    line-height: 1.35;
+    transition: background 100ms;
+    cursor: pointer;
+    position: relative;
+
+    .left,
+    .right {
+        position: absolute;
+        width: 1.2rem;
+        height: 1.2rem;
+        border-bottom: var(--border);
+        border-left: var(--border);
+        background: inherit;
+        transition: background 100ms;
+
+        &::before {
+            content: "";
+            width: 0.8rem;
+            height: 0.8rem;
+            border: var(--border);
+            position: absolute;
+            top: 0.75rem;
+            left: -0.45rem;
+        }
+
+        &::after {
+            content: "";
+            width: 0.4rem;
+            height: 0.4rem;
+            background: var(--darkTeal);
+            position: absolute;
+            top: 0.8rem;
+            left: -0.1rem;
+        }
+    }
+
+    .left {
+        left: -0.6rem;
+        top: 0.2rem;
+        transform: rotate(45deg);
+    }
+
+    .right {
+        right: -0.6rem;
+        top: 0.2rem;
+        transform: rotate(-135deg);
+    }
+
+    &:hover {
+        background: var(--parchment);
+        border-color: var(--teal);
+        color: var(--teal);
+
+        .left,
+        .right {
+            border-color: inherit;
+
+            &::before {
+                border-color: inherit;
+            }
+
+            &::after {
+                background: var(--teal);
+            }
+        }
+    }
+}

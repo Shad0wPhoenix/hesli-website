@@ -30,3 +30,33 @@ This is simply a small quote
 This is another small quote, but this time with an author.
 {% endquote %}
 
+{% quote %}
+This is a more complex quote
+
+{% quote %}
+Because it has a quote in a quote
+{% endquote %}
+
+{% endquote %}
+
+{% quote "Author"%}
+This is a more complex authored quote
+
+{% quote "Author 2" %}
+Because it has a nested authored quote
+{% endquote %}
+
+{% endquote %}
+
+{% aloud %}
+This is a small WA aloud box
+{% endaloud %}
+
+{% quote %}
+This is a more complex quote
+
+{% aloud %}
+Because it has a nested aloud box
+{% endaloud %}
+
+{% endquote %}

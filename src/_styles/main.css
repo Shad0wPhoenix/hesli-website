@@ -1,0 +1,61 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic&display=swap');
+
+/* Component Imports */
+@import url('./headers.css');
+@import url('./text.css');
+@import url('./container.css');
+@import url('./image.css');
+@import url('./element.css');
+@import url('./tooltip.css');
+@import url('./formatting.css');
+
+:root {
+
+    /* Colour Palette */
+    --darkRed: #a71d31;
+    --brown: #6b4b36;
+    --parchment: #e7dfc6;
+    --purple: #692F6F;
+    --lavender: #7756a6;
+    --darkTeal: #33658a;
+    --teal: #028090;
+    --beige: #cfad86;
+    --seaGreen: #298E6B;
+
+    --red: #c53834;
+    --yellow: #c07800;
+    --green: #09ae75;
+
+    --container-background-trans: rgba(207, 173, 134, 0.75);
+    --container-background-solid: #d5ba96;
+
+    /* Fonts */
+    --fontHeader: Edu NSW ACT Hand Pre;
+    --fontScript: Patrick Hand;
+    --fontContainer: Playwrite NZ Basic;
+    font-size: 20px;
+    font-family: var(--fontScript);
+    line-height: 1.25;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--brown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.page {
+    margin: 1rem;
+    padding: 0.8rem;
+    background-color: var(--parchment);
+    color: var(--purple);
+}

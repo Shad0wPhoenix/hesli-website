@@ -1,0 +1,29 @@
+:is(p) {
+    margin: 0.6rem 0 0;
+}
+
+:is(mark) {
+    background-color: rgba(74, 74, 74, 0.35);
+    border-radius: 0.75em 0;
+    color: var(--purple);
+
+    &.red {
+        background-color: rgba(197, 56, 52, 0.35);
+    }
+
+    &.yellow {
+        background-color: rgba(192, 120, 0, 0.35);
+    }
+
+    &.green {
+        background-color: rgba(9, 174, 117, 0.35);
+    }
+}
+
+:is(a) {
+    color: var(--darkTeal);
+
+    &:hover {
+        color: var(--teal);
+    }
+}

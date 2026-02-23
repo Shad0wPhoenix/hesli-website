@@ -1,0 +1,214 @@
+:root {
+    --border-width: 2px;
+    --border-color: var(--purple);
+    --border: var(--border-width) solid var(--border-color);
+
+}
+
+.corner {
+    --short-side: calc(calc(var(--border-width) * -1) + 1rem);
+    --long-side: calc(1.6rem + var(--border-width));
+    --rem-spacing: calc(calc(var(--border-width) * -2) + var(--short-side));
+    --border-spacing: calc(var(--border-width) * -1);
+
+    width: 0.5rem;
+    height: 0.5rem;
+    border: var(--border);
+    position: absolute;
+
+    &::after,
+    &::before {
+        content: "";
+        position: absolute;
+    }
+
+    &.left {
+        left: -0.5rem;
+
+        &::after {
+            left: var(--rem-spacing);
+        }
+
+        &::before {
+            left: var(--border-spacing);
+        }
+    }
+
+    &.right {
+        right: -0.5rem;
+
+        &::after {
+            right: var(--rem-spacing);
+        }
+
+        &::before {
+            right: var(--border-spacing);
+        }
+    }
+
+    &.top {
+        top: -0.5rem;
+
+        &::after {
+            top: var(--border-spacing);
+        }
+
+        &::before {
+            top: var(--rem-spacing);
+        }
+    }
+
+    &.bottom {
+        bottom: -0.5rem;
+
+        &::after {
+            bottom: var(--border-spacing);
+        }
+
+        &::before {
+            bottom: var(--rem-spacing);
+        }
+    }
+}
+
+:is(blockquote) {
+    border: var(--border);
+    padding: 0.6rem;
+    margin: 1rem;
+    position: relative;
+    background: var(--container-background-trans);
+    font-family: var(--fontContainer);
+    font-size: 0.8rem;
+    line-height: 1.65;
+    
+    > details .spoiler {
+        margin-bottom: 0.6rem;
+    }
+
+    p {
+        margin-top: 0;
+    }
+
+    .author {
+        color: var(--darkRed);
+        margin-top: 0.3rem;
+        text-align: right;
+
+        &::before {
+            content: "- ";
+        }
+    }
+
+    &.quote > .corner,
+    &.aloud > .corner {
+        &::after {
+            width: var(--long-side);
+            height: var(--short-side);
+        }
+
+        &::before {
+            width: var(--short-side);
+            height: var(--long-side);
+        }
+    }
+
+    &.quote > .corner {
+        &.left {
+            &::after {
+                border-left: var(--border);
+            }
+
+            &::before {
+                border-left: var(--border);
+            }
+        }
+
+        &.right {
+            &::after {
+                border-right: var(--border);
+            }
+
+            &::before {
+                border-right: var(--border);
+            }
+        }
+
+        &.top {
+            &::after {
+                border-top: var(--border);
+            }
+
+            &::before {
+                border-top: var(--border);
+            }
+        }
+
+        &.bottom {
+            &::after {
+                border-bottom: var(--border);
+            }
+
+            &::before {
+                border-bottom: var(--border);
+            }
+        }
+    }
+
+    &.aloud > .corner {
+        &.left::before {
+            border-left: var(--border);
+        }
+
+        &.right::before {
+            border-right: var(--border);
+        }
+
+        &.top::after {
+            border-top: var(--border);
+        }
+
+        &.bottom::after {
+            border-bottom: var(--border);
+        }
+    }
+}
+
+.spoiler {
+    background-color: var(--container-background-trans);
+    padding: 0.3rem 0.6rem;
+    margin: 0 0.6rem;
+    border: var(--border);
+    position: relative;
+
+    .spoiler-content > p:first-child {
+        margin: 0;
+    }
+
+    .spoiler-content > details .spoiler {
+        margin-bottom: 12px;
+    }
+
+    > .corner {
+        &::after,
+        &::before {
+            width: var(--short-side);
+            height: var(--short-side);
+        }
+
+        &.left::after {
+            border-left: var(--border);
+        }
+
+        &.right::after {
+            border-right: var(--border);
+        }
+
+        &.top::before {
+            border-top: var(--border);
+        }
+
+        &.bottom::before {
+            border-bottom: var(--border);
+        }
+    }
+}

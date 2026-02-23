@@ -1,0 +1,55 @@
+.img {
+    --border: var(--border-width) solid var(--darkRed);
+
+    width: fit-content;
+    padding: calc(0.6rem - calc(var(--border-width) * 2));
+    margin: 0.6rem;
+    border: var(--border);
+    background-color: var(--container-background-trans);
+
+    position: relative;
+
+    img {
+        display: block;
+    }
+
+    .inner-border {
+        border: var(--border);
+
+        .credits {
+            padding: 0 0.3rem;
+        }
+
+        &:has(.credits) img {
+            border-bottom: var(--border);
+        }
+    }
+
+    .inner-border > .corner {
+        position: absolute;
+        width: 0.6rem;
+        height: 0.6rem;
+        border: var(--border);
+
+        &.left {
+            left: var(--border-spacing);
+        }
+
+        &.right {
+            right: var(--border-spacing);
+        }
+
+        &.top {
+            top: var(--border-spacing);
+        }
+
+        &.bottom {
+            bottom: var(--border-spacing);
+        }
+    }
+}
+
+img {
+    object-fit: contain;
+    max-width: 100%;
+}

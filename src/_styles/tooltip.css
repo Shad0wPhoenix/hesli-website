@@ -1,0 +1,104 @@
+.tooltip {
+    text-decoration: underline;
+    text-decoration-color: var(--seaGreen);
+    text-decoration-thickness: var(--border-width);
+    color: var(--seaGreen);
+    cursor: help;
+}
+
+#tooltip {
+    --border: var(--border-width) solid var(--seaGreen);
+
+    position: fixed;
+    background: var(--container-background-solid);
+    color: var(--purple);
+    border: var(--border);
+    padding: 0.4rem 0.8rem;
+    min-width: min-content;
+    width: max-content;
+    max-width: 400px;
+
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+
+    .content > p:first-child {
+        margin: 0;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    > .corner {
+        width: 0;
+        height: 0;
+        border: none;
+        position: absolute;
+
+        &::after,
+        &::before {
+            content: "";
+            position: absolute;
+
+            width: 1.2rem;
+            height: 1.2rem;
+        }
+
+        &.left {
+            left: -0.4rem;
+
+            &::after {
+                left: 0.6rem;
+            }
+
+            &::before {
+                left: 0.6rem;
+                border-left: var(--border);
+            }
+        }
+
+        &.right {
+            right: -0.4rem;
+
+            &::after {
+                right: 0.6rem;
+            }
+
+            &::before {
+                right: 0.6rem;
+                border-right: var(--border);
+            }
+        }
+
+        &.top {
+            top: -0.4rem;
+
+            &::after {
+                top: 0.6rem;
+                border-top: var(--border);
+            }
+
+            &::before {
+                top: 0.6rem;
+            }
+        }
+
+        &.bottom {
+            bottom: -0.4rem;
+
+            &::after {
+                bottom: 0.6rem;
+                border-bottom: var(--border);
+            }
+
+            &::before {
+                bottom: 0.6rem;
+            }
+        }
+    }
+}
