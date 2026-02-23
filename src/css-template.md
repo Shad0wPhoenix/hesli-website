@@ -17,6 +17,15 @@ Sed feugiat sem sit amet nibh semper, at ornare lectus mattis. Maecenas euismod 
 Text Styling\
 **Bold Text**\
 ***Important Text***\
+{% mark %}Default Marked Text{% endmark %}\
+{% mark "red" %}Red Marked Text{% endmark %}\
+{% mark "yellow" %}Yellow Marked Text{% endmark %}\
+{% mark "green" %}Green Marked Text{% endmark %}\
+{% small 'Smoll Text' %}\
+~~Deleted Text~~\
+{% underline 'Inserted Text' %}\
+{% sub 'Subscript Text' %}\
+{% sup 'Superscript Text' %}
 
 [Homepage](#)
 ***
