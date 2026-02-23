@@ -60,3 +60,25 @@ Because it has a nested aloud box
 {% endaloud %}
 
 {% endquote %}
+
+{% spoiler "A spoiler" %}
+This is a spoiler!
+{% endspoiler %}
+
+{% spoiler "A spoiler" %}
+This is a spoiler!
+
+{% spoiler "Another spoiler" %}
+With a nested spoiler!
+{% endspoiler %}
+
+{% endspoiler %}
+
+{% quote %}
+This is a more complex quote
+
+{% spoiler "A spoiler!" %}
+Because I'm hiding here
+{% endspoiler %}
+
+{% endquote %}
