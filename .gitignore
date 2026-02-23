@@ -1,0 +1,11 @@
+# Workspace
+*.vscode
+
+# Files
+*.crt
+*.env
+*.key
+
+# Directories
+node_modules
+www
