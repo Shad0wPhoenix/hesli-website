@@ -91,3 +91,19 @@ Because I'm hiding here
 {% endspoiler %}
 
 {% endquote %}
+
+***
+
+{% image "/img/lmao.gif" %}{% endimage %}
+
+{% image "/img/lmao.gif", "alt text test" %}{% endimage %}
+
+{% image "/img/lmao.gif", "alt text test", "Title test" %}{% endimage %}
+
+{% image "/img/lmao.gif" %}
+{% credits "Too accurate", "", "ShadowPhoenix", "" %}
+{% endimage %}
+
+{% image "/img/lmao.gif" %}
+{% credits "Too accurate", "https://computer-adventures.com/", "ShadowPhoenix", "https://computer-adventures.com/" %}
+{% endimage %}

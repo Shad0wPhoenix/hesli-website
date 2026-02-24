@@ -1,0 +1,11 @@
+{% macro image(content, path, alt, title) %}
+<div class="img">
+    <div class="inner-border">
+        <div class="corner top left"></div>
+        <div class="corner top right"></div>
+        <div class="corner bottom left"></div>
+        <div class="corner bottom right"></div>
+        <img src="{{ path }}" alt="{{ alt }}" title="{{ title }}">
+        {{ content | safe }}</div>
+</div>
+{% endmacro %}

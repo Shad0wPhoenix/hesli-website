@@ -32,7 +32,7 @@ export default function (eleventy) {
     // Pass Through Copy
     eleventy.addPassthroughCopy(`${input}/${styles}/`);
     eleventy.addPassthroughCopy(`${input}/${scripts}/`);
-    eleventy.addPassthroughCopy(`${input}/${images}`);
+    eleventy.addPassthroughCopy({ [`${input}/${images}/`] : "img" });
 
     return {
         dir: {
