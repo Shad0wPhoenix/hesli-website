@@ -27,7 +27,7 @@ export default function (eleventy) {
     eleventy.setLibrary("njk", nunjucksEnv);
 
     // Register (Paired) Shortcodes
-    registerShortcodes(eleventy, nunjucksEnv);
+    registerShortcodes(eleventy, nunjucksEnv, markdown);
 
     // Pass Through Copy
     eleventy.addPassthroughCopy(`${input}/${styles}/`);

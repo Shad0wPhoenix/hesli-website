@@ -12,7 +12,7 @@ title: css-template
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec consequat nisi, nec pharetra odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras pellentesque nisi mi, eu iaculis mi blandit vitae. Nulla sed purus magna. Fusce ac massa eu velit aliquam interdum. Aliquam et dictum est. Mauris suscipit ac nisi a condimentum. Duis commodo elementum varius. Quisque mauris purus, volutpat at est eu, viverra tempor mauris. Cras volutpat lorem et turpis luctus, ut finibus neque iaculis. Sed id odio finibus, rutrum risus eu, faucibus est. Nunc vestibulum nisl sed nisl accumsan lacinia. Vestibulum facilisis, augue et tincidunt dignissim, ex arcu finibus mi, non fringilla mi lacus vitae justo. Praesent congue lectus lorem, in auctor ipsum elementum at.
 
-Sed feugiat sem sit amet nibh semper, at ornare lectus mattis. Maecenas euismod massa nunc, sed scelerisque neque sollicitudin sed. Mauris faucibus risus quam, ac consectetur est pretium vel. [Integer Aliquet](#) sit amet arcu non posuere. Nunc tempor neque eu nibh ultricies gravida. Pellentesque sit amet pulvinar sem. Fusce iaculis leo nec egestas consectetur. Donec placerat imperdiet augue ut imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Sed feugiat sem sit amet nibh semper, at ornare lectus mattis. Maecenas euismod massa nunc, sed scelerisque neque sollicitudin sed. Mauris faucibus risus quam, ac consectetur est pretium vel. [Integer Aliquet](#) sit amet arcu non posuere. Nunc tempor neque eu nibh ultricies gravida. Pellentesque sit amet pulvinar sem. Fusce iaculis leo nec egestas consectetur. Donec placerat imperdiet augue ut imperdiet. Pellentesque {% tooltip "habitant morbi" %}A simple tooltip to demonstrate tooltips{% endtooltip %} tristique senectus et netus et malesuada fames ac turpis egestas.
 
 Text Styling\
 **Bold Text**\
@@ -107,3 +107,9 @@ Because I'm hiding here
 {% image "/img/lmao.gif" %}
 {% credits "Too accurate", "https://computer-adventures.com/", "ShadowPhoenix", "https://computer-adventures.com/" %}
 {% endimage %}
+
+{% tooltip "A simple tooltip!" %}A simple tooltip to demonstrate tooltips{% endtooltip %}
+
+{% tooltip "An Extended Tooltip!", "tti-ex" %}
+An extended tooltip that _should_ allow more for complex and longer markdown text, such as basic [urls](#) and more.
+{% endtooltip %}
