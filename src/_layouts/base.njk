@@ -21,7 +21,8 @@
     </head>
     <body>
         <main class="page container">
-            {{content | safe}}
+            {% include "partials/backToTop.njk" %}
+            {{ content | safe }}
         </main>
 
         {% include "partials/tooltip.njk" %}

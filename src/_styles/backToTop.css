@@ -1,0 +1,7 @@
+#btn_btt {
+    position: sticky;
+    top: 0;
+    margin-left: auto;
+    z-index: 100;
+    padding: 0.6rem;
+}
