@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function scrollFunction() {
         if (document.body.scrollTop > scrollMargin || document.documentElement.scrollTop > scrollMargin) {
-            btn_btt.style.display = "block";
+            btn_btt.classList.add("visible");
         } else {
-            btn_btt.style.display = "none";
+            btn_btt.classList.remove("visible");
         }
     }
 });

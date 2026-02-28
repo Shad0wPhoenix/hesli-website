@@ -39,10 +39,16 @@
     font-size: 20px;
     font-family: var(--fontScript);
     line-height: 1.25;
+
+    --pagePadding: 0.8rem;
 }
 
 *, *::before, *::after {
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -55,7 +61,7 @@ body {
 
 .page {
     margin: 1rem;
-    padding: 0.8rem;
+    padding: var(--pagePadding);
     background-color: var(--parchment);
     color: var(--purple);
 }
