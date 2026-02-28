@@ -1,0 +1,4 @@
+<header class="container">
+    {% if headerImage %}<img src="{{ headerImage | url }}" class="banner">{% else %}<img src="{{ default.headerImage | url }}" class="banner">{% endif %}
+    {% include "partials/backToTop.njk" %}
+</header>

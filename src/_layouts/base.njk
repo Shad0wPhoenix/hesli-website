@@ -20,8 +20,8 @@
         <script src="https://kit.fontawesome.com/653e38639f.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        {% include "partials/header.njk" %}
         <main class="page container">
-            {% include "partials/backToTop.njk" %}
             {{ content | safe }}
         </main>
 

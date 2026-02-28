@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic&display=swap');
 
 /* Component Imports */
-@import url('./headers.css');
+@import url('./header.css');
 @import url('./text.css');
 @import url('./container.css');
 @import url('./image.css');
@@ -57,10 +57,11 @@ body {
     justify-content: center;
     align-items: center;
     margin: 1rem;
+    flex-direction: column;
 }
 
 .page {
-    margin: 1rem;
+    margin: 0 1rem 1rem;
     padding: var(--pagePadding);
     background-color: var(--parchment);
     color: var(--purple);
