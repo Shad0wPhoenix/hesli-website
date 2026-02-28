@@ -1,4 +1,5 @@
 <header class="container">
     {% if headerImage %}<img src="{{ headerImage | url }}" class="banner">{% else %}<img src="{{ default.headerImage | url }}" class="banner">{% endif %}
+    {% if not homepage %}<a href="/" class="btn"><span class="left"></span><span class="right"></span>Home</a>{% endif %}
     {% include "partials/backToTop.njk" %}
 </header>

@@ -34,6 +34,8 @@ export default function (eleventy) {
     eleventy.addPassthroughCopy(`${input}/${scripts}/`);
     eleventy.addPassthroughCopy({ [`${input}/${images}/`] : "img" });
 
+    eleventy.addGlobalData("layout", "base")
+
     return {
         dir: {
             input: input,
