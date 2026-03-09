@@ -2,6 +2,7 @@
 import markdown from './lib/markdown.config.js';
 import getNunjucksEnv from './lib/nunjucks.js';
 import registerShortcodes from './lib/shortcodes/index.js';
+import buildNavigationGraph from './lib/navigation.js';
 
 /**
  * Eleventy Configuration
@@ -10,21 +11,35 @@ import registerShortcodes from './lib/shortcodes/index.js';
  */
 export default function (eleventy) {
 
-    const input = "src";
+    const workspace = "src";
+    const input = "content";
     const output = "www";
     const components = "_includes";
     const data = "_data";
     const layouts = "_layouts";
     const scripts = "_scripts";
     const styles = "_styles";
-    const images = "content/img";
+    const images = `${input}/img`;
 
     // Nunjuck Environment
-    const nunjucksEnv = getNunjucksEnv(`${input}/${components}`);
+    const nunjucksEnv = getNunjucksEnv(`${workspace}/${components}`);
 
     // Setting Libraries
     eleventy.setLibrary("md", markdown);
     eleventy.setLibrary("njk", nunjucksEnv);
+
+    // Creating Collection for Navigation
+    eleventy.addCollection("navGraph", function(collections) {
+        const pages = collections.all ?? collections.items;
+
+        if (!pages) {
+            console.warn("No pages found in collections!");
+            return { root: { name: "root", children: [], parent: null }, nodes: new Map(), flat: [] };
+        }
+
+        console.log("Pages to build: ", pages.length);
+        return buildNavigationGraph(pages, input);
+    });
 
     // Register (Paired) Shortcodes
     registerShortcodes(eleventy, nunjucksEnv, markdown);
@@ -38,11 +53,11 @@ export default function (eleventy) {
 
     return {
         dir: {
-            input: input,
+            input: `${workspace}/${input}`,
             output: output,
-            data: data,
-            includes: components,
-            layouts: layouts
+            data: `../${data}`,
+            includes: `../${components}`,
+            layouts: `../${layouts}`
         },
 
         markdownTemplateEngine: "njk",
