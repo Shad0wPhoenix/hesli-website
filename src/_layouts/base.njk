@@ -20,11 +20,21 @@
         <script src="https://kit.fontawesome.com/653e38639f.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        {% include "partials/header.njk" %}
-        <main class="page container">
-            {{ content | safe }}
-        </main>
+        {% set navigation = collections.navGraph %}
+        {% set currentNode = navigation.getNodeByStem(page.filePathStem) %}
+        {% set ancestors = navigation.getAncestors(currentNode) %}
+        
+        {% from "partials/sidebar.njk" import render %}
+        <div class="sidebar-nav">
+            {{ render(navigation.root, ancestors) }}
+        </div>
+        <div class="content">
+            {% include "partials/header.njk" %}
+            <main class="page container">
+                {{ content | safe }}
+            </main>
 
-        {% include "partials/tooltip.njk" %}
+            {% include "partials/tooltip.njk" %}
+        </div>
     </body>
 </html>

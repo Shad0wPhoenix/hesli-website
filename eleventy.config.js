@@ -38,18 +38,25 @@ export default function (eleventy) {
         }
 
         console.log("Pages to build: ", pages.length);
-        return buildNavigationGraph(pages, input);
+        const navGraph = buildNavigationGraph(pages, input);
+        console.log(navGraph);
+        return navGraph;
+        // return buildNavigationGraph(pages, input);
     });
 
     // Register (Paired) Shortcodes
     registerShortcodes(eleventy, nunjucksEnv, markdown);
 
     // Pass Through Copy
-    eleventy.addPassthroughCopy(`${input}/${styles}/`);
-    eleventy.addPassthroughCopy(`${input}/${scripts}/`);
-    eleventy.addPassthroughCopy({ [`${input}/${images}/`] : "img" });
+    eleventy.addPassthroughCopy({ [`${workspace}/${styles}/`] : `${styles}` });
+    eleventy.addPassthroughCopy({ [`${workspace}/${scripts}/`] : `${scripts}` });
+    eleventy.addPassthroughCopy({ [`${workspace}/${images}/`] : "img" });
 
-    eleventy.addGlobalData("layout", "base")
+    // Trigger Rebuild on JS and CSS changes
+    eleventy.addWatchTarget(`./${workspace}/${scripts}`);
+    eleventy.addWatchTarget(`./${workspace}/${styles}`); 
+
+    eleventy.addGlobalData("layout", "base");
 
     return {
         dir: {

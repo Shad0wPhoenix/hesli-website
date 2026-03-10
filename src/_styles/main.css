@@ -11,6 +11,7 @@
 @import url('./element.css');
 @import url('./tooltip.css');
 @import url('./formatting.css');
+@import url('./sidebar-nav.css');
 
 :root {
 
@@ -54,15 +55,12 @@ html {
 body {
     background-color: var(--brown);
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 1rem;
-    flex-direction: column;
 }
 
 .page {
-    margin: 0 1rem 1rem;
     padding: var(--pagePadding);
     background-color: var(--parchment);
     color: var(--purple);
+    margin-top: -12px;
 }

@@ -1,0 +1,26 @@
+{% macro render(node, ancestors = []) %}
+<ul>
+    {% for child in node.children %}
+
+    {# <li class="{% if isActive %}active{% endif %}">
+        {% if child.url %}
+            <a href="{{ child.url }}">{{ child.name }}</a>
+        {% else %}
+            <span class="directory">{{ child.name }}</span>
+        {% endif %}
+
+        {% if child.children.length and isActive %}
+            {{ render(child, ancestors) }}
+        {% endif %}
+    </li> #}
+    <li>
+        <a href="{{ child.url | url }}">{{ child.name }}</a>
+
+        {% if child.children.length %}
+            {{ render(child, ancestors) }}
+        {% endif %}
+    </li>
+
+    {% endfor %}
+</ul>
+{% endmacro %}

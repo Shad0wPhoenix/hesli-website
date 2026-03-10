@@ -1,0 +1,12 @@
+.sidebar-nav {
+    width: 250px;
+    border-right: 2px solid var(--brown);
+    position: sticky;
+    top: 1rem;
+    bottom: 1rem;
+    height: calc(100vh - 2rem);
+    overflow-y: auto;
+    padding: var(--pagePadding);
+    background-color: var(--parchment);
+    color: var(--purple);
+}
