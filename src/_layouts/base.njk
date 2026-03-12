@@ -26,11 +26,12 @@
         
         {% from "partials/sidebar.njk" import render %}
         <div class="sidebar-nav">
+            {% if not homepage %}<a href="/" class="btn"><span class="left"></span><span class="right"></span>Home</a>{% endif %}
             {{ render(navigation.root, ancestors) }}
         </div>
         <div class="content">
             {% include "partials/header.njk" %}
-            <main class="page container">
+            <main class="page">
                 {{ content | safe }}
             </main>
 

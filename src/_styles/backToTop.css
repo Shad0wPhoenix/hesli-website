@@ -1,6 +1,7 @@
 #btn_btt {
     position: fixed;
     top: 0;
+    right: calc(var(--pagePadding) + 1rem);
     z-index: 100;
     padding: 1.2rem 0.6rem;
     background-color: transparent;
@@ -42,7 +43,7 @@
     }
 }
 
-@media (min-width:576px) {
+/* @media (min-width:576px) {
     #btn_btt {
         right: calc(100vw / 2 - (540px - var(--pagePadding)) / 2);
     }
@@ -70,4 +71,4 @@
     #btn_btt {
         right: calc(100vw / 2 - (1320px - var(--pagePadding)) / 2);
     }
-}
+}  */

@@ -58,6 +58,12 @@ body {
     margin: 1rem;
 }
 
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
 .page {
     padding: var(--pagePadding);
     background-color: var(--parchment);
