@@ -22,12 +22,13 @@
     <body>
         {% set navigation = collections.navGraph %}
         {% set currentNode = navigation.getNodeByStem(page.filePathStem) %}
-        {% set ancestors = navigation.getAncestors(currentNode) %}
+        {# {% set ancestors = navigation.getAncestors(currentNode) %} #}
+        {% set ancestors = navigation.getActivePath(currentNode) %}
         
-        {% from "partials/sidebar.njk" import render %}
+        {% from "partials/sidebar-nav.njk" import render %}
         <div class="sidebar-nav">
-            {% if not homepage %}<a href="/" class="btn"><span class="left"></span><span class="right"></span>Home</a>{% endif %}
-            {{ render(navigation.root, ancestors) }}
+            <script src="/_scripts/navToggle.js"></script>
+            {{ render(navigation.root, page, ancestors) }}
         </div>
         <div class="content">
             {% include "partials/header.njk" %}

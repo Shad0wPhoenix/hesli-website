@@ -41,7 +41,6 @@ export default function (eleventy) {
         const navGraph = buildNavigationGraph(pages, input);
         console.log(navGraph);
         return navGraph;
-        // return buildNavigationGraph(pages, input);
     });
 
     // Register (Paired) Shortcodes
