@@ -56,6 +56,10 @@ body {
     background-color: var(--brown);
     display: flex;
     margin: 1rem;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
 }
 
 .content {
@@ -68,5 +72,4 @@ body {
     padding: var(--pagePadding);
     background-color: var(--parchment);
     color: var(--purple);
-    margin-top: -12px;
 }
