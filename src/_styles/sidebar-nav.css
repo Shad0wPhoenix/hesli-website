@@ -1,6 +1,5 @@
 .sidebar-nav {
     flex: 0 0 250px;
-    /* width: 250px; */
     border-right: 2px solid var(--brown);
     position: sticky;
     top: 1rem;
@@ -11,14 +10,17 @@
     background-color: var(--parchment);
     color: var(--purple);
 
-    /* transform: translateX(0); */
     transition: flex-basis 0.3 ease;
 
     &.collapsed {
-        /* transform: translateX(-120%); */
         flex-basis: 0;
         padding: 0;
     }
+}
+
+#menu-toggle {
+    position: fixed;
+    top: 1rem;
 }
 
 #backdrop {

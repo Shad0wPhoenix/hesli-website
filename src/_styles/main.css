@@ -12,6 +12,7 @@
 @import url('./tooltip.css');
 @import url('./formatting.css');
 @import url('./sidebar-nav.css');
+@import url('./sidebar.css');
 
 :root {
 
@@ -72,4 +73,7 @@ body {
     padding: var(--pagePadding);
     background-color: var(--parchment);
     color: var(--purple);
+
+    container-type: inline-size;
+    container-name: article;
 }
