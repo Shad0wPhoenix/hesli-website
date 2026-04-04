@@ -21,6 +21,7 @@
 #menu-toggle {
     position: fixed;
     top: 1rem;
+    z-index: 999;
 }
 
 #backdrop {

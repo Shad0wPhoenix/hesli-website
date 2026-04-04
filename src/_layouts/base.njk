@@ -22,7 +22,6 @@
     <body>
         {% set navigation = collections.navGraph %}
         {% set currentNode = navigation.getNodeByStem(page.filePathStem) %}
-        {# {% set ancestors = navigation.getAncestors(currentNode) %} #}
         {% set ancestors = navigation.getActivePath(currentNode) %}
         
         {% from "partials/sidebar-nav.njk" import render %}
@@ -37,6 +36,7 @@
             </main>
 
             {% include "partials/tooltip.njk" %}
+            {% include "partials/madeWithTavernRumours.njk" %}
         </div>
     </body>
 </html>

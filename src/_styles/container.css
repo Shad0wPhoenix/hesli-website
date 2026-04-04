@@ -71,6 +71,7 @@
     }
 }
 
+#madeWithTavernRumours,
 :is(blockquote) {
     border: var(--border);
     padding: 0.6rem;

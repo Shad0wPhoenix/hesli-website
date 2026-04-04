@@ -53,7 +53,8 @@ export default function (eleventy) {
 
     // Trigger Rebuild on JS and CSS changes
     eleventy.addWatchTarget(`./${workspace}/${scripts}`);
-    eleventy.addWatchTarget(`./${workspace}/${styles}`); 
+    eleventy.addWatchTarget(`./${workspace}/${styles}`);
+    eleventy.addWatchTarget(`./${workspace}/lib`)
 
     eleventy.addGlobalData("layout", "base");
 
