@@ -23,6 +23,7 @@
         {% set navigation = collections.navGraph %}
         {% set currentNode = navigation.getNodeByStem(page.filePathStem) %}
         {% set ancestors = navigation.getActivePath(currentNode) %}
+        {% set breadcrumbs = navigation.getBreadcrumbs(currentNode) %}
         
         {% from "partials/sidebar-nav.njk" import render %}
         <div class="sidebar-nav">

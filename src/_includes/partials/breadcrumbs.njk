@@ -1,0 +1,8 @@
+{% set breadcrumbs = navigation.getBreadcrumbs(currentNode) %}
+<div class="breadcrumbs">
+    <a href="/"><i class="fa-regular fa-house-chimney"></i></a>
+    {% for breadcrumb in breadcrumbs %}
+         &gt; 
+        {% if breadcrumb.url %}<a href="{{ breadcrumb.url }}">{{ breadcrumb.title }}</a>{% else %}{{ breadcrumb.title }}{% endif %}
+    {% endfor %}
+</div>

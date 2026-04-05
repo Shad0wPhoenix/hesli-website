@@ -9,3 +9,14 @@ header {
         display: block;
     }
 }
+
+.breadcrumbs {
+    line-height: 1.5;
+    padding-left: var(--pagePadding);
+    padding-top: 0.2rem;
+    color: var(--purple);
+
+    a {
+        color: var(--darkRed);
+    }
+}
