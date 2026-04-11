@@ -27,11 +27,18 @@
         
         {% from "partials/sidebar-nav.njk" import render %}
         <div class="sidebar-nav">
-            <script src="/_scripts/navToggle.js"></script>
-            {{ render(navigation.root, page, ancestors) }}
+            <script src="/_scripts/menuToggle.js"></script>
+            {# <button id="menu-toggle"><i class="fa-solid fa-bars" id="menu-toggle"></i></button> #}
+            <div class="navigation">
+                <script src="/_scripts/navToggle.js"></script>
+                {{ render(navigation.root, page, ancestors) }}
+            </div>
         </div>
+
         <div class="content">
             {% include "partials/header.njk" %}
+            {# <script src="/_scripts/menuToggle.js"></script> #}
+            <button id="menu-toggle"><i class="fa-solid fa-bars" id="menu-toggle"></i></button>
             <main class="page">
                 {{ content | safe }}
             </main>

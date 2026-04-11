@@ -13,6 +13,7 @@
 @import url('./formatting.css');
 @import url('./sidebar-nav.css');
 @import url('./sidebar.css');
+@import url('./ribbons.css');
 
 :root {
 
@@ -67,13 +68,13 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
+    background-color: var(--parchment);
+    color: var(--purple);
 }
 
 footer,
 .page {
     padding: var(--pagePadding);
-    background-color: var(--parchment);
-    color: var(--purple);
 }
 
 .page {
