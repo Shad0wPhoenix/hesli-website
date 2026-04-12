@@ -1,5 +1,5 @@
 ---
-title: css-template
+title: CSS Template
 ---
 
 # Header 1

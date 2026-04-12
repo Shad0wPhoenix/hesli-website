@@ -2,7 +2,7 @@
 <div class="breadcrumbs">
     <a href="/"><i class="fa-regular fa-house-chimney"></i></a>
     {%- for breadcrumb in breadcrumbs -%}
-         &gt; 
+        &nbsp;&gt;&nbsp;
         {%- if breadcrumb.url -%}<a href="{{ breadcrumb.url }}">{{ breadcrumb.title }}</a>{%- else -%}{{ breadcrumb.title }}{%- endif -%}
     {%- endfor -%}
 </div>
