@@ -1,6 +1,6 @@
 <header>
-    {% if headerImage %}<img src="{{ headerImage | url }}" class="banner">{% else %}<img src="{{ default.headerImage | url }}" class="banner">{% endif %}
-    {% include "partials/backToTop.njk" %}
+    {%- if headerImage -%}<img src="{{ headerImage | url }}" class="banner">{%- else -%}<img src="{{ default.headerImage | url }}" class="banner">{%- endif -%}
+    {%- include "partials/backToTop.njk" -%}
     <div id="backdrop"></div>
-    {% include "partials/breadcrumbs.njk" %}
+    {%- include "partials/breadcrumbs.njk" -%}
 </header>

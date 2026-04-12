@@ -20,15 +20,14 @@
         <script src="https://kit.fontawesome.com/653e38639f.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        {% set navigation = collections.navGraph %}
-        {% set currentNode = navigation.getNodeByStem(page.filePathStem) %}
-        {% set ancestors = navigation.getActivePath(currentNode) %}
-        {% set breadcrumbs = navigation.getBreadcrumbs(currentNode) %}
+        {%- set navigation = collections.navGraph -%}
+        {%- set currentNode = navigation.getNodeByStem(page.filePathStem) -%}
+        {%- set ancestors = navigation.getActivePath(currentNode) -%}
+        {%- set breadcrumbs = navigation.getBreadcrumbs(currentNode) -%}
         
-        {% from "partials/sidebar-nav.njk" import render %}
+        {%- from "partials/sidebar-nav.njk" import render -%}
         <div class="sidebar-nav">
             <script src="/_scripts/menuToggle.js"></script>
-            {# <button id="menu-toggle"><i class="fa-solid fa-bars" id="menu-toggle"></i></button> #}
             <div class="navigation">
                 <script src="/_scripts/navToggle.js"></script>
                 {{ render(navigation.root, page, ancestors) }}
@@ -36,15 +35,14 @@
         </div>
 
         <div class="content">
-            {% include "partials/header.njk" %}
-            {# <script src="/_scripts/menuToggle.js"></script> #}
+            {%- include "partials/header.njk" -%}
             <button id="menu-toggle"><i class="fa-solid fa-bars" id="menu-toggle"></i></button>
             <main class="page">
                 {{ content | safe }}
             </main>
 
-            {% include "partials/tooltip.njk" %}
-            {% include "partials/madeWithTavernRumours.njk" %}
+            {%- include "partials/tooltip.njk" -%}
+            {%- include "partials/madeWithTavernRumours.njk" -%}
         </div>
     </body>
 </html>

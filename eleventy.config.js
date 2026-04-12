@@ -37,10 +37,7 @@ export default function (eleventy) {
             return { root: { name: "root", children: [], parent: null }, nodes: new Map(), flat: [] };
         }
 
-        console.log("Pages to build: ", pages.length);
-        const navGraph = buildNavigationGraph(pages, input);
-        console.log(navGraph);
-        return navGraph;
+        return buildNavigationGraph(pages, input);
     });
 
     // Register (Paired) Shortcodes

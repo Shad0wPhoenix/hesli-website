@@ -1,4 +1,4 @@
-{% macro spoiler(content, button) %}
+{%- macro spoiler(content, button) -%}
 <details>
     <summary class="btn btn-spoiler">
         <span class="left"></span>
@@ -13,4 +13,4 @@
         <div class="spoiler-content">
             {{ content | safe }}</div></div>
 </details>
-{% endmacro %}
+{%- endmacro -%}

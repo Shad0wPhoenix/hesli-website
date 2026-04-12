@@ -1,4 +1,4 @@
-{% if page.extendedTooltips %}
+{%- if page.extendedTooltips -%}
 <div id="tooltip">
     <div class="corner top left"></div>
     <div class="corner top right"></div>
@@ -6,7 +6,7 @@
     <div class="corner bottom right"></div>
     <div class="content"></div>
 </div>
-{% for t in page.extendedTooltips %}<template id="{{ t.id }}">{{ t.renderedContent | safe }}</template>{% endfor %}
-{% endif %}
+{%- for t in page.extendedTooltips -%}<template id="{{ t.id }}">{{ t.renderedContent | safe }}</template>{%- endfor -%}
+{%- endif -%}
 
 <script src="/_scripts/tooltip.js"></script>

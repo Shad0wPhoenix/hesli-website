@@ -8,7 +8,6 @@ document.addEventListener("click", (e) => {
     const isOpen = btn.dataset.open === "true";
 
     btn.dataset.open = (!isOpen).toString();
-    btn.textContent = isOpen ? "+" : "-";
 
     if (children) {
         children.style.display = isOpen ? "none" : "block";

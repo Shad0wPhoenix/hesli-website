@@ -1,4 +1,4 @@
-{% macro image(content, path, alt, title) %}
+{%- macro image(content, path, alt, title) -%}
 <div class="img">
     <div class="inner-border">
         <div class="corner top left"></div>
@@ -8,4 +8,4 @@
         <img src="{{ path }}" alt="{{ alt }}" title="{{ title }}">
         {{ content | safe }}</div>
 </div>
-{% endmacro %}
+{%- endmacro -%}

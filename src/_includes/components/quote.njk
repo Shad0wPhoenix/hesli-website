@@ -1,9 +1,9 @@
-{% macro quote(content, author='') %}
+{%- macro quote(content, author='') -%}
 <blockquote class="quote">
     <div class="corner top left"></div>
     <div class="corner top right"></div>
     <div class="corner bottom left"></div>
     <div class="corner bottom right"></div>
-    {{ content | safe }}{% if author and author | trim %}<div class="author">{{ author }}</div>{% endif %}
+    {{ content | safe }}{%- if author and author | trim -%}<div class="author">{{ author }}</div>{%- endif -%}
 </blockquote>
-{% endmacro %}
+{%- endmacro -%}

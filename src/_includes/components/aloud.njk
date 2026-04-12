@@ -1,4 +1,4 @@
-{% macro aloud(content) %}
+{%- macro aloud(content) -%}
 <blockquote class="aloud">
     <div class="corner top left"></div>
     <div class="corner top right"></div>
@@ -6,4 +6,4 @@
     <div class="corner bottom right"></div>
     {{ content | safe }}
 </blockquote>
-{% endmacro %}
+{%- endmacro -%}
