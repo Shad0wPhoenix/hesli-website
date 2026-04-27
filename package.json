@@ -25,13 +25,13 @@
   },
   "homepage": "https://github.com/Shad0wPhoenix/hesli-website#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy": "^3.1.5",
     "markdown-it-attrs": "^4.3.1"
   },
   "devDependencies": {
     "@eslint/css": "^0.14.1",
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.0.1",
-    "globals": "^17.3.0"
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0"
   }
 }
