@@ -3,7 +3,7 @@
 
     width: fit-content;
     padding: calc(0.6rem - calc(var(--border-width) * 2));
-    margin: 0.6rem;
+    /* margin: 0.6rem; */
     border: var(--border);
     background-color: var(--container-background-trans);
 
@@ -11,6 +11,10 @@
 
     img {
         display: block;
+    }
+
+    p {
+        margin: 0;
     }
 
     .inner-border {

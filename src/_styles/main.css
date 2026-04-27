@@ -81,3 +81,7 @@ footer,
     container-type: inline-size;
     container-name: article;
 }
+
+.row {
+    --bs-gutter-x: var(--pagePadding);
+}
