@@ -19,7 +19,7 @@ export default function (eleventy) {
     const layouts = "_layouts";
     const scripts = "_scripts";
     const styles = "_styles";
-    const images = `${input}/img`;
+    const images = `${input}/_img`;
 
     // Nunjuck Environment
     const nunjucksEnv = getNunjucksEnv(`${workspace}/${components}`);
@@ -46,7 +46,7 @@ export default function (eleventy) {
     // Pass Through Copy
     eleventy.addPassthroughCopy({ [`${workspace}/${styles}/`] : `${styles}` });
     eleventy.addPassthroughCopy({ [`${workspace}/${scripts}/`] : `${scripts}` });
-    eleventy.addPassthroughCopy({ [`${workspace}/${images}/`] : "img" });
+    eleventy.addPassthroughCopy({ [`${workspace}/${images}/`] : "_img" });
 
     // Trigger Rebuild on JS and CSS changes
     eleventy.addWatchTarget(`./${workspace}/${scripts}`);
