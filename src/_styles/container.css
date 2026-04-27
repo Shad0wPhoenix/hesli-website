@@ -72,6 +72,7 @@
 }
 
 #madeWithTavernRumours,
+.error,
 :is(blockquote) {
     border: var(--border);
     padding: 0.6rem;
@@ -172,6 +173,13 @@
             border-bottom: var(--border);
         }
     }
+}
+
+#madeWithTavernRumours,
+.error {
+    width: fit-content;
+    max-width: calc(100% - 2rem);
+    margin: 1rem auto;
 }
 
 .spoiler {

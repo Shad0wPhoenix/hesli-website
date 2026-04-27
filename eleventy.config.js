@@ -47,6 +47,7 @@ export default function (eleventy) {
     eleventy.addPassthroughCopy({ [`${workspace}/${styles}/`] : `${styles}` });
     eleventy.addPassthroughCopy({ [`${workspace}/${scripts}/`] : `${scripts}` });
     eleventy.addPassthroughCopy({ [`${workspace}/${images}/`] : "_img" });
+    eleventy.addPassthroughCopy(".htaccess");
 
     // Trigger Rebuild on JS and CSS changes
     eleventy.addWatchTarget(`./${workspace}/${scripts}`);
