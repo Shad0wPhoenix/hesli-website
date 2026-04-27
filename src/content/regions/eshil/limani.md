@@ -49,16 +49,32 @@ As a token of their gratitude, Limani voluntarily joined the Kingdom of Illtresi
 ### Notable Citizens
 There are many prominent figures roaming the city. These are a few of the people that everyone in town loves to talk about.
 
+{% container "row" %}
+{% container "col-md-8" %}
+
 #### Barney
 As the only [Lileon]() in town, Barney is a hot topic. He is the owner of [The Wandering Lileon](./limani/wanderingLileon) who welcomes travellers and adventurers of all colours and backgrounds. As long as they behave, that is.
 
-_[Learn more about Barnabas Stripepaw](../../npcs/eshil/barnabasStripepaw)_
+_[Learn more about Barnabas Stripepaw](/npcs/barnabasStripepaw)_
+{% endcontainer %}
 
-![This is Barnabas!](../../npcs/eshil/barnabasStripepaw/barnabasStripepaw.jpg)
+{% container "col-md-4" %}{% image "/_img/npcs/barnabasStripepaw.jpg" %}
+{% credits "This is Barnabas!" %}
+{% endimage %}
+{% endcontainer %}{% endcontainer %}
+
+{% container "row" %}
+{% container "col-md-4" %}{% image "/_img/npcs/ashishLudak.jpg" %}
+{% credits "This is Ashish!" %}
+{% endimage %}
+{% endcontainer %}
+
+{% container "col-md-8" %}
 
 #### Ashish
 She might come off as a total wackadoodle, but she knows everything thats happening in town as if she has eyes and ears everywhere. Ashish likes to help adventurers get a job, or giving passing travellers directions to their next destination.
 
-_[Learn more about Ashish Ludak](../../npcs/eshil/ashishLudak)_
+_[Learn more about Ashish Ludak](/npcs/ashishLudak)_
 
-![This is Ashish!](../../npcs/eshil/ashishLudak/ashishLudak.jpg)
+{% endcontainer %}
+{% endcontainer %}

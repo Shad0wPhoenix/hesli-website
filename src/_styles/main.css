@@ -21,12 +21,13 @@
     --darkRed: #a71d31;
     --brown: #6b4b36;
     --parchment: #e7dfc6;
+    --parchment-light: #f3efe3;
     --purple: #692F6F;
     --lavender: #7756a6;
     --darkTeal: #33658a;
     --teal: #028090;
     --beige: #cfad86;
-    --seaGreen: #298E6B;
+    --seaGreen: #298e6b;
 
     --red: #c53834;
     --yellow: #c07800;
@@ -84,4 +85,9 @@ footer,
 
 .row {
     --bs-gutter-x: var(--pagePadding);
+}
+
+:is(blockquote),
+.spoiler {
+    display: flow-root;
 }
