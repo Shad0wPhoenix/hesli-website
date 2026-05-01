@@ -35,6 +35,8 @@ Text Styling\
 {% sup 'Superscript Text' %}
 
 [Homepage](#)
+
+{% button "#" %}Learn More!{% endbutton %}
 ***
 Tables
 
