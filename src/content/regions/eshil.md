@@ -1,6 +1,7 @@
 ---
-layout: base
 title: Eshil
+tags:
+    - Revisit
 ---
 # Eshil
 
