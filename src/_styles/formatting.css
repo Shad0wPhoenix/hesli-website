@@ -21,6 +21,10 @@ p.center,
     float: right;
 }
 
+.m-right {
+    margin-left: auto;
+}
+
 .w-10 {
     width: 10%;
 }

@@ -59,3 +59,13 @@
     font-size: clamp(1em, 1.5em, 2vw);
     color: var(--seaGreen);
 }
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+th, td {
+    border: 2px solid var(--seaGreen);
+    padding: 0.1rem 0.8rem;
+}
