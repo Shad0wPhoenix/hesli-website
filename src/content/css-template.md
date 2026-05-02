@@ -44,6 +44,12 @@ There are mysteries to be uncovered in this article. If you are a player, keep t
 
 {% endsecretToggle %}
 
+{% secretToggle "Custom Label" %}
+
+This is a little test toggle for testing the custom label.
+
+{% endsecretToggle %}
+
 {% secret %}
 This will be a secret.
 {% endsecret %}
