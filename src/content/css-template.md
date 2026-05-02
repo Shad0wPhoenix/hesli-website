@@ -37,6 +37,17 @@ Text Styling\
 [Homepage](#)
 
 {% button "#" %}Learn More!{% endbutton %}
+
+{% secretToggle %}
+
+There are mysteries to be uncovered in this article. If you are a player, keep the fun all for yourself and don't read them. If you are not a player and are curious about the hidden content, check the box below to be granted special access to the information that players won't have!
+
+{% endsecretToggle %}
+
+{% secret %}
+This will be a secret.
+{% endsecret %}
+
 ***
 Tables
 
@@ -53,6 +64,11 @@ Sed feugiat sem sit amet nibh semper, at ornare lectus mattis. Maecenas euismod 
 
 {% endcontainer %}
 {% endcontainer %}
+
+| This | Is | A | Test |
+| --- | --- | --- | --- |
+| To | See | How | Tables |
+| Work | For | Styling | Purposes |
 
 ***
 Special Blocks

@@ -1,4 +1,5 @@
-aside {
+aside,
+.sidebar {
     background-color: var(--parchment-light);
     border: 2px solid var(--seaGreen);
     padding: 0.4rem;
