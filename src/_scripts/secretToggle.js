@@ -13,6 +13,6 @@ secretToggle.addEventListener('click', () => {
 
 function applyToggle(toggledOn) {
     document.querySelectorAll('.secret').forEach(secret => {
-        secret.style.display = toggledOn ? "block" : "none";
+        secret.style.display = toggledOn ? "flow-root" : "none";
     })
 }

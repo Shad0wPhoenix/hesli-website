@@ -10,11 +10,11 @@
 @import url('./image.css');
 @import url('./element.css');
 @import url('./tooltip.css');
-@import url('./formatting.css');
 @import url('./secret.css');
 @import url('./sidebar-nav.css');
 @import url('./sidebar.css');
 @import url('./ribbons.css');
+@import url('./formatting.css');
 
 :root {
 
@@ -89,6 +89,7 @@ footer,
 }
 
 :is(blockquote),
-.spoiler {
+.spoiler,
+.secret {
     display: flow-root;
 }

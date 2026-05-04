@@ -3,3 +3,9 @@
     {{ content | safe }}
 </aside>
 {% endmacro -%}
+
+{%- macro sidebarRight(content) %}
+<div class="col-md-4 f-right m-left-0-8 s-right">
+    {{ content | safe }}
+</div>
+{% endmacro -%}

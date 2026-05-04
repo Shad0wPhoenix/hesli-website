@@ -85,6 +85,20 @@
     font-size: 0.8rem;
     line-height: 1.65;
 
+    .secret,
+    .spoiler,
+    :is(blockquote) {
+        margin: 1rem 0.5rem 0.5rem;
+    }
+
+    .content {
+        background: inherit;
+
+        :first-child {
+            margin-top: 0;
+        }
+    }
+
     >details .spoiler {
         margin-bottom: 0.6rem;
     }
@@ -119,7 +133,9 @@
     }
 }
 
-.quote>.corner {
+.quote>.corner,
+.secretToggle>.corner,
+.secret>.corner {
 
     &.left::before,
     &.left::after {
@@ -162,21 +178,7 @@
 
 .secretToggle>.corner,
 .secret>.corner {
-    &.left::after {
-        border-left: var(--border);
-    }
-
-    &.right::after {
-        border-right: var(--border);
-    }
-
-    &.top::before {
-        border-top: var(--border);
-    }
-
-    &.bottom::before {
-        border-bottom: var(--border);
-    }
+    border-color: var(--parchment);
 }
 
 #madeWithTavernRumours,
@@ -230,4 +232,17 @@
             border-bottom: var(--border);
         }
     }
+}
+
+.menu {
+    background: var(--parchment-light);
+    
+    > .corner {
+        border-color: var(--parchment);
+    }
+}
+
+:is(blockquote),
+.spoiler {
+    display: flow-root;
 }

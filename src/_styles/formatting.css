@@ -21,8 +21,26 @@ p.center,
     float: right;
 }
 
+.f-wrapper {
+    display: flow-root;
+}
+
 .m-right {
     margin-left: auto;
+}
+
+.m-left-0-8 {
+    margin-left: 0.8rem;
+}
+
+.s-right {
+    .secret,
+    .secretToggle,
+    .spoiler,
+    :is(blockquote) {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
 }
 
 .w-10 {
@@ -75,4 +93,8 @@ p.center,
 
 .w-90 {
     width: 90%;
+}
+
+.mw-300 {
+    max-width: 300px;
 }

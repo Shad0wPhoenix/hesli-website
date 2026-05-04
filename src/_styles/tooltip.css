@@ -23,8 +23,12 @@
     opacity: 0;
     transition: opacity 0.2s ease;
 
-    .content > p:first-child {
-        margin: 0;
+    .content {
+        background: var(--container-background-solid);
+
+        > p:first-child {
+            margin: 0;
+        }
     }
 
     &::after {
