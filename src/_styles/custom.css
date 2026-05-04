@@ -1,0 +1,13 @@
+.edwigePortrait {
+    .img {
+        border-radius: 50%;
+
+        .inner-border {
+            border-radius: 50%;
+
+            > .corner {
+                border-color: transparent;
+            }
+        }
+    }
+}
