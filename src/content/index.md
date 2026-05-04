@@ -42,7 +42,7 @@ Curious to learn more? Read [this article]() for a detailed explanation!
 ## Current Focus in Worldbuilding
 This worldbuilding project is still relatively young, with just over a year of actual development put into it. Since it's also very a much a hobby project, I don't always have time and energy to put into it. Eventually, I hope to play one or more campaigns in this world with my friends, but for that I need a solid foundation in this world. I may pants a lot, but my brain loves to have at least a minimum of prepared work before my players ruin everything (as they should).
  
-At the moment, I'm primarily working on the region [Eshil](/regions/eshil). If you look at the article, you'll see there's much to fill in and a whole lot more that's outside of that overview article. To give myself some semblance of an organised checklist, I've created the [Development Hub](). You'll find every article that I want to finish, for now.
+At the moment, I'm primarily working on the region [Eshil](/world/eshil). If you look at the article, you'll see there's much to fill in and a whole lot more that's outside of that overview article. To give myself some semblance of an organised checklist, I've created the [Development Hub](). You'll find every article that I want to finish, for now.
  
 Aside from continuously expanding the world, I want to do something about the organisation of this place. So, if you see articles switching around, don't be alarmed.
  

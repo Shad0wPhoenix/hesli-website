@@ -16,14 +16,14 @@ Barnabas is a man of great patience with a peculiar appearence, not found anywhe
 
 {% endsidebar %}
 
-Mostly walking on all fours, but sometimes only on the hind-legs, Barnabas Stripepaw serves the patrons of [The Wandering Lileon](/regions/eshil/limani/wanderingLileon.md). His hulking frame intimidates most of the (new) customers who threaten to become a problem. Those that behave get to know his gentle nature and his witty sense of humour that brings a smile to anyone's face.
+Mostly walking on all fours, but sometimes only on the hind-legs, Barnabas Stripepaw serves the patrons of [The Wandering Lileon](/world/eshil/limani/wanderingLileon.md). His hulking frame intimidates most of the (new) customers who threaten to become a problem. Those that behave get to know his gentle nature and his witty sense of humour that brings a smile to anyone's face.
 
 {% quote "A joking Barnabas" %}
 Ah, my meat fresh is new. How you taste?
 {% endquote %}
 
 ## A Striped Oddity
-As the only Lileon wandering through [Limani](/regions/eshil/limani.md), Barnabas is quite the sight to behold. Especially people new to the town who see the gentle giant for the first time, have the shock of a lifetime when he opens his mouth and casually talks. It takes some getting used to, but people soon realise that he cannot hurt a fly.
+As the only Lileon wandering through [Limani](/world/eshil/limani.md), Barnabas is quite the sight to behold. Especially people new to the town who see the gentle giant for the first time, have the shock of a lifetime when he opens his mouth and casually talks. It takes some getting used to, but people soon realise that he cannot hurt a fly.
 
 This gentle giant provides a listening ear to everyone. Barnabas loves to hear other people's stories and ponder over them. The citizens of Limani are aware of this and therefore come to his establishment to vent about the problems they face, or just anything else that comes to mind. His calm and inviting personality makes him very approachable for these rambling sessions.
 

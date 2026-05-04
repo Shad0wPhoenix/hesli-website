@@ -16,7 +16,7 @@ Ashish with their upbeat mood bounces through life like a skippyball. Their long
 
 {% endsidebar %}
 
-Being the most extravagant presence of the entire town, Ashish certainly has made a name for themself. Their obnoxious flamboyancy certainly played a part to becoming the talk of the decade. However, there is one skillset that they possess which still astounds many people visiting and living in [Limani](/regions/eshil/limani.md).
+Being the most extravagant presence of the entire town, Ashish certainly has made a name for themself. Their obnoxious flamboyancy certainly played a part to becoming the talk of the decade. However, there is one skillset that they possess which still astounds many people visiting and living in [Limani](/world/eshil/limani.md).
 
 {% quote "Ashish Ludak" %}
 Well hello there, you dashing young traveller! I haven't seen you before; you must be new in town! You strike me as the type looking for a quest or an adventure, are you not? I know a couple people that could get you there. Come along!
