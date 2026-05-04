@@ -13,6 +13,10 @@ This building appears in two realms. Do you want to know what it looks like on t
 
 {% container "sidebar" %}
 
+{% image "/_img/buildings/junipersDamnedAlehouse.jpg" %}
+{% credits "Tavern in Ruins", "https://unsplash.com/photos/4dPHQviRbWo", "Andrew Ridley", "https://unsplash.com/@aridley88" %}
+{% endimage %}
+
 **Location**\
 [Lonely Marshes]()
 

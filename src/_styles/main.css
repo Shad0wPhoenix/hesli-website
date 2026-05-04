@@ -87,9 +87,3 @@ footer,
 .row {
     --bs-gutter-x: var(--pagePadding);
 }
-
-:is(blockquote),
-.spoiler,
-.secret {
-    display: flow-root;
-}

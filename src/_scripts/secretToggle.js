@@ -1,7 +1,7 @@
 const secretToggle = document.getElementById('secretToggle');
 const lsSecretToggle = localStorage.getItem("secretToggle");
 
-if (lsSecretToggle !== null && lsSecretToggle) {
+if (lsSecretToggle !== null && lsSecretToggle === "true") {
     applyToggle(lsSecretToggle);
     secretToggle.checked = true;
 }

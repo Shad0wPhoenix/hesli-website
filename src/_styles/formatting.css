@@ -23,6 +23,8 @@ p.center,
 
 .f-wrapper {
     display: flow-root;
+    container-type: inline-size;
+    container-name: f-wrapper;
 }
 
 .m-right {
@@ -97,4 +99,11 @@ p.center,
 
 .mw-300 {
     max-width: 300px;
+}
+
+@container f-wrapper (max-width: 767px) {
+    .col-md-6 {
+        flex-shrink: 0;
+        width: 100%;
+    }
 }
