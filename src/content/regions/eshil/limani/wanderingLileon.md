@@ -6,7 +6,9 @@ tags:
 ---
 # The Wandering Lileon
 
-{% sidebar %}
+{% sidebarRight %}
+
+{% aloud "menu" %}
 ##### Wandering Lileon Welcome You!
 
 Foodz here, drinkz here, have look, choose wisely, or ask.
@@ -36,7 +38,10 @@ Foodz here, drinkz here, have look, choose wisely, or ask.
 | Barney Brew: Mug | 1sp |
 | Barney Brew: Pint | 5sp |
 | Barney Brew: Keg| HA FUNNY YOU! |
-{% endsidebar %}
+
+{% endaloud %}
+
+{% endsidebarRight %}
 
 Amidst the bustling squares of the entertainment district in [Limani](../limani.md), stands a tall building painted in the most eccentric colours imaginable. Popping out with its blue walls and orange support beams, it is hard to miss The Wandering Lileon. With its equally whimsical owner [Barnabas Stripepaw](/npcs/barnabasStripepaw.md), travellers and adventurers are in for a treat when they decide to stay at this curious tavern.
 
@@ -49,7 +54,9 @@ The colourful spectacle is not the only exotic feature of The Wandering Lileon. 
 
 People always talk about The Gate into The Wandering Lileon. It got the nickname, because the front door is a whopping 3.3m (11ft) tall and 2.1m (7ft) wide. It takes much strength to open the door. However, to make sure that the smaller customers can find their way into the tavern, The Gate has a small portal, allowing normal sized people to enter the establishment.
 
-> Nice you be, nice I be. Nice you not be, gone you be. - Text above the bar
+{% quote "Text above the bar" %}
+Nice you be, nice I be. Nice you not be, gone you be.
+{% endquote %}
 
 Inside is the sole reason for the existence of The Gate. Behind the enormous bar on the side of the building is [Barnabas Stripepaw](/npcs/barnabasStripepaw.md), the owner of this tavern. His hulking size demands a large building to move freely through the space. Therefore, the ceiling of the ground floor is 3.5m (11.5ft) above the ground with thick support beams keeping the place up. Still, even when Barnabas is standing straight, his manes and head scratch the ceiling.
 

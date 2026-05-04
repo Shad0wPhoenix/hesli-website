@@ -1,5 +1,8 @@
 ---
 title: Barnabas Stripepaw
+tags:
+    - NPC
+    - Rewrite
 ---
 # Barnabas Stripepaw
 {% sidebar %}

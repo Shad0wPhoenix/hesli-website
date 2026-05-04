@@ -1,5 +1,8 @@
 ---
 title: Ashish Ludak
+tags:
+    - NPC
+    - Rewrite
 ---
 # Ashish Ludak
 {% sidebar %}
