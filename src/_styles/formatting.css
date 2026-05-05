@@ -24,6 +24,11 @@ p.center,
 
 .f-right {
     float: right;
+
+    &.padded {
+        margin: 0.8rem;
+        margin-right: 0;
+    }
 }
 
 .f-wrapper {
@@ -40,19 +45,8 @@ p.center,
     margin-left: 0.8rem;
 }
 
-.s-right {
-    .secret,
-    .secretToggle,
-    .spoiler,
-    :is(blockquote) {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-    }
-
-    .img {
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-    }
+.m-right-0-8 {
+    margin-right: 0.8rem;
 }
 
 .w-10 {
@@ -105,6 +99,58 @@ p.center,
 
 .w-90 {
     width: 90%;
+}
+
+.mw-10 {
+    max-width: 10%;
+}
+
+.mw-20 {
+    max-width: 20%;
+}
+
+.mw-25 {
+    max-width: 25%;
+}
+
+.mw-30 {
+    max-width: 30%;
+}
+
+.mw-33 {
+    max-width: 33%;
+}
+
+.mw-40 {
+    max-width: 40%;
+}
+
+.mw-50 {
+    max-width: 50%;
+}
+
+.mw-60 {
+    max-width: 60%;
+}
+
+.mw-66 {
+    max-width: 66%;
+}
+
+.mw-70 {
+    max-width: 70%;
+}
+
+.mw-75 {
+    max-width: 75%;
+}
+
+.mw-80 {
+    max-width: 80%;
+}
+
+.mw-90 {
+    max-width: 90%;
 }
 
 .mw-300 {

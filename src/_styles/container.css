@@ -89,14 +89,21 @@
     .secret,
     .spoiler,
     :is(blockquote) {
-        margin: 1rem 0.5rem 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
 
     .content {
-        background: inherit;
+        background: transparent;
 
-        :first-child {
+        > :first-child {
             margin-top: 0;
+        }
+
+        :is(p) + :is(blockquote) {
+            margin-top: 1.1rem;
         }
     }
 
