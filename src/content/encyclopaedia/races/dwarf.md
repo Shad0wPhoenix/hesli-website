@@ -60,7 +60,7 @@ Most male dwarfs are very strong and their physique shows it. Their arms and leg
 The most recognisable feature of a dwarf is the beard. Many have big beards or elaborate mustaches that they take meticulous care of. The beard or mustache shows in some Dwarven cultures the social hierarchy, especially in Irrean society. Dwarfs that have a simple beard are considered low in rank in these societies whereas a dwarf with an elaborate and perfectly groomed beard is known for being at the top of the social ladder.
 
 ## History
-Dwarfs have a rich history spanning many generations. In recent years, they have been focussing on restoring their relationship with the [High Elfs]() and maintaining a proper one with the [Gnomes](./gnome.md) and [Humans](./human.md).
+Dwarfs have a rich history spanning many generations. In recent years, they have been focussing on restoring their relationship with the [High Elfs]() and maintaining a proper one with the [Gnomes](./gnome) and [Humans](./human).
 
 Together with the High Elfs, they have sent searching parties to the corners of Hesli to find the disappeared [Wood Elfs](), but to no avail thus far.
 

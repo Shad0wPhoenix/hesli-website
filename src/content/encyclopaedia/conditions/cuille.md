@@ -25,13 +25,13 @@ Natural
 Common
 
 **Affected Species**\
-[High Elf](/encyclopaedia/biota/fauna/people/elf/highElf.md)
+[High Elf](/encyclopaedia/races/elf/highElf)
 
 {% endcontainer %}
 
 {% endsidebarRight %}
 
-Plaguing the [High Elves](/encyclopaedia/biota/fauna/people/elf/highElf.md) since time immemorial, is a common condition among the [Eilmari]() high elves. Cuille nearly halves the lifespan of the elves, rendering them a mere 375 years old on average instead of 750 years. There are a very few high elf families that have been able to avoid this condition from manifesting itself in their bloodline.
+Plaguing the [High Elves](/encyclopaedia/races/elf/highElf) since time immemorial, is a common condition among the [Eilmari]() high elves. Cuille nearly halves the lifespan of the elves, rendering them a mere 375 years old on average instead of 750 years. There are a very few high elf families that have been able to avoid this condition from manifesting itself in their bloodline.
 
 {% secret %}
 
@@ -85,7 +85,7 @@ There is one explanation that the counsel has offered its citizens to clarify wh
 {% secret %}
 
 ## Punishment from the Dragons
-It all happened a very long time ago, when the dragons were still roaming the lands of Hesli. It was the gold dragons that had nurtured their little creatures, now known as [High Elves](/encyclopaedia/biota/fauna/people/elf/highElf.md), to be strong helpers and warriors. In return, they expected the elves to stand by their side as they took care of the world. However, when The Draconic War broke out, a large group of elves decided to plead fealty to the black dragons instead.
+It all happened a very long time ago, when the dragons were still roaming the lands of Hesli. It was the gold dragons that had nurtured their little creatures, now known as [High Elves](/encyclopaedia/races/elf/highElf), to be strong helpers and warriors. In return, they expected the elves to stand by their side as they took care of the world. However, when The Draconic War broke out, a large group of elves decided to plead fealty to the black dragons instead.
 
 {% container "f-right col-md-4" %}
 

@@ -44,7 +44,7 @@ Foodz here, drinkz here, have look, choose wisely, or ask.
 
 {% endsidebarRight %}
 
-Amidst the bustling squares of the entertainment district in [Limani](../limani.md), stands a tall building painted in the most eccentric colours imaginable. Popping out with its blue walls and orange support beams, it is hard to miss The Wandering Lileon. With its equally whimsical owner [Barnabas Stripepaw](/npcs/barnabasStripepaw.md), travellers and adventurers are in for a treat when they decide to stay at this curious tavern.
+Amidst the bustling squares of the entertainment district in [Limani](/atlas/eshil/limani), stands a tall building painted in the most eccentric colours imaginable. Popping out with its blue walls and orange support beams, it is hard to miss The Wandering Lileon. With its equally whimsical owner [Barnabas Stripepaw](/npcs/barnabasStripepaw), travellers and adventurers are in for a treat when they decide to stay at this curious tavern.
 
 {% quote "Barnabas Stripepaw" %}
 Welcome you to Wandering Lileon! Drink you need?
@@ -59,7 +59,7 @@ People always talk about The Gate into The Wandering Lileon. It got the nickname
 Nice you be, nice I be. Nice you not be, gone you be.
 {% endquote %}
 
-Inside is the sole reason for the existence of The Gate. Behind the enormous bar on the side of the building is [Barnabas Stripepaw](/npcs/barnabasStripepaw.md), the owner of this tavern. His hulking size demands a large building to move freely through the space. Therefore, the ceiling of the ground floor is 3.5m (11.5ft) above the ground with thick support beams keeping the place up. Still, even when Barnabas is standing straight, his manes and head scratch the ceiling.
+Inside is the sole reason for the existence of The Gate. Behind the enormous bar on the side of the building is [Barnabas Stripepaw](/npcs/barnabasStripepaw), the owner of this tavern. His hulking size demands a large building to move freely through the space. Therefore, the ceiling of the ground floor is 3.5m (11.5ft) above the ground with thick support beams keeping the place up. Still, even when Barnabas is standing straight, his manes and head scratch the ceiling.
 
 {% aloud %}
 **BONK!**

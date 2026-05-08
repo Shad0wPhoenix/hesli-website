@@ -80,7 +80,7 @@ I may have been good-willed in my past, but I have seen what people are capababl
 ## Student to Monstrous Archmage
 From a young age, Anvar always displayed a talent for magic. He quickly picked up what little theory he was taught by the village wizard. Fortunately for Anvar, there was a wizards tower in the forest. As soon as he reached the age of 13, he enrolled to become a disciple and further expand his knowledge and talents for magic.
 
-Within five years, he had reached the top of his class. Under the guidance of the archmage, he began to refine his skills even further. Together, they sought out other wizardry or sorcerers towers to broaden his view on the world and absorb other techniques. After ten years, Anvar became the youngest archmage in the history of [Eshil](/world/eshil.md).
+Within five years, he had reached the top of his class. Under the guidance of the archmage, he began to refine his skills even further. Together, they sought out other wizardry or sorcerers towers to broaden his view on the world and absorb other techniques. After ten years, Anvar became the youngest archmage in the history of [Eshil](/atlas/eshil).
 
 Now at the helm of a wizarding tower, Anvar took his responsibilities seriously. Diligently, he taught his students well in the same ways as his mentor did. Meanwhile, he continued his travels around the world to enrich his wealth of knowledge with new details. As the years passed, he would travel for longer periods leaving the tower in the capable hands of his best students. However, during one of his trips, he discovered something that he considered great evil.
 

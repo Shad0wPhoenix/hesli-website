@@ -14,7 +14,7 @@ Only friends of the Wandering Lileon may know more about this location.
 {% container "sidebar" %}
 
 **Location**\
-[Limani](../limani.md)
+[Limani](/atlas/eshil/limani)
 
 **Owner**\
 [The Kohome Triplets]()
@@ -38,7 +38,7 @@ The only way to find this shop, is to know about it. Few people are allowed to d
 
 {% endsidebarRight %}
 
-Tucked away in the little alleyways of [Limani](../limani.md), a small building has wedged itself between two large warehouses. People passing by never notice the building, unless they are actively looking for it. The little {% tooltip "fascia" %}The name plate above a shop{% endtooltip %} with the name of the shop shows the door to enter this shop filled with curiosa.
+Tucked away in the little alleyways of [Limani](/atlas/eshil/limani), a small building has wedged itself between two large warehouses. People passing by never notice the building, unless they are actively looking for it. The little {% tooltip "fascia" %}The name plate above a shop{% endtooltip %} with the name of the shop shows the door to enter this shop filled with curiosa.
 
 {% quote "The Kohome Triplets" %}
 

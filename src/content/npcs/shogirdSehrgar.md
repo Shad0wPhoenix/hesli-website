@@ -55,13 +55,13 @@ Bonelike white with blood almost visible through the skin
 55kg (120lb)
 
 **Belief/Deity**
-[Archmage Anvar](/npcs/archmageAnvar.md)
+[Archmage Anvar](/npcs/archmageAnvar)
 
 {% endcontainer %}
 
 {% endsidebarRight %}
 
-Always hiding in the darkness of Theorston Thicket, Shogird Sehrgar is one of [Archmage Anvar's](/npcs/archmageAnvar.md) most loyal disciples. He stepped up after his father passed away, taking up the legacy that he left behind and determined to bring it to fruition. Ever since, Shogird has been working relentlessly to find a way to bring his master back to life. With nothing but the notes and books his father left him and the Tower of Anvar at his disposal, it will be a challenge to fulfill his goal.
+Always hiding in the darkness of Theorston Thicket, Shogird Sehrgar is one of [Archmage Anvar's](/npcs/archmageAnvar) most loyal disciples. He stepped up after his father passed away, taking up the legacy that he left behind and determined to bring it to fruition. Ever since, Shogird has been working relentlessly to find a way to bring his master back to life. With nothing but the notes and books his father left him and the Tower of Anvar at his disposal, it will be a challenge to fulfill his goal.
 
 {% quote "Archmage Anvar whispering in Shogirds ear" %}
 
@@ -85,11 +85,11 @@ No, father! Leave her alone, or I'll kill you!
 {% endquote %}
 
 ## Advancements
-In order to take the heat of Anva'nuuti in the eyes of Havalla, Shogird decided to hire a group of thieves to bring him the items and people he needed to continue his quest to revive his master. He hired the [Silver Whisperer](/npcs/silverWhisperer.md) and their gang of misfits branded under the name [Bosqinchi](). Shogird had, and still has, the upper hand in any negotiations with the Silver Whisperer since he can take away the ability that the Whisperer is known for most. 
+In order to take the heat of Anva'nuuti in the eyes of Havalla, Shogird decided to hire a group of thieves to bring him the items and people he needed to continue his quest to revive his master. He hired the [Silver Whisperer](/npcs/silverWhisperer) and their gang of misfits branded under the name [Bosqinchi](). Shogird had, and still has, the upper hand in any negotiations with the Silver Whisperer since he can take away the ability that the Whisperer is known for most. 
 
 So far, a steady stream of individuals have been lead through Theorston Thicket to the Tower of Anvar where he performs many experiments and rituals. The notes of his father and forefathers have been a great help, but Shogird isn't there just yet. Many days, he spends studying in the tower, working his way through books, graphs, and drawings. Progress is slow, but it is there.
 
-Other disciples have been questioning his leadership. But with no one else hearing the voice of [Archmage Anvar](/npcs/archmageAnvar.md), they have little to go on and Shogird always makes sure to let them know he is the current leader.
+Other disciples have been questioning his leadership. But with no one else hearing the voice of [Archmage Anvar](/npcs/archmageAnvar), they have little to go on and Shogird always makes sure to let them know he is the current leader.
 
 {% quote "Shogird Sehrgar" %}
 

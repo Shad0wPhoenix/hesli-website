@@ -1,5 +1,6 @@
 ---
 title: CSS Template
+nav_order: 3
 ---
 
 # Header 1

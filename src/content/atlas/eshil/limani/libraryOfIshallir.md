@@ -14,7 +14,7 @@ Some people have a different viewpoint about the Library of Ishallir; those who 
 {% container "sidebar" %}
 
 **Location**\
-[Limani](../limani.md)
+[Limani](/atlas/eshil/limani)
 
 **Owner**\
 [Sacred Knowledge]()
@@ -22,7 +22,7 @@ Some people have a different viewpoint about the Library of Ishallir; those who 
 
 {% endsidebarRight %}
 
-Situated near the Northern Gate Lane is a safe haven for all the bookworms residing in or travelling through [Limani](../limani.md). Should one ever be in need of a book, the Library of Ishallir will certainly have it. Even if they do not, the librarians know exactly which library in [Eshil](../../eshil.md) has a copy. Such is the service provided by [Sacred Knowledge](), who own this and many other libraries throughout the region.
+Situated near the Northern Gate Lane is a safe haven for all the bookworms residing in or travelling through [Limani](/atlas/eshil/limani). Should one ever be in need of a book, the Library of Ishallir will certainly have it. Even if they do not, the librarians know exactly which library in [Eshil](/atlas/eshil) has a copy. Such is the service provided by [Sacred Knowledge](), who own this and many other libraries throughout the region.
 
 {% secret %}
 To anyone walking by, the Library of Ishallir seems like the ever innocent library. People walk in and out with books and scrolls to soothe their urge to learn and discover. The librarians, all members of [Sacred Knowledge](), assist anyone with questions about topics and literature. However, hidden in the shadows of the library lies a grim truth of it's real purpose and with that a sinister harbinger of change.
@@ -59,7 +59,7 @@ Members of Sacred Knowledge have long found the perfect place to hide their true
 
 After going through a maze of book shelves and racks of scrolls, a staircase shows itself. It is accessible to anyone visiting the library who wants to see what gems hide on the second floor. However, when pressing the right stone, the wall disappears and shows the way to the cellar. It is a long way down, but eventually a thick wooden door appears with the true crest engraved in it. The guiding librarian uses some form of magic to swing the door open.
 
-The first thing in sight is a large round table with the map of [Eshil](../../eshil.md) on it. Gnomes are running left and right, bringing papers, fabricating objects, concocting potions, and more. The quest board shows the progress towards the revival of the Grilashi Empire, and all that needs done still. There is also a chart of many faces. Some have little pieces of paper that tell their current status: gathering information, manipulated, under control, and more.
+The first thing in sight is a large round table with the map of [Eshil](/atlas/eshil) on it. Gnomes are running left and right, bringing papers, fabricating objects, concocting potions, and more. The quest board shows the progress towards the revival of the Grilashi Empire, and all that needs done still. There is also a chart of many faces. Some have little pieces of paper that tell their current status: gathering information, manipulated, under control, and more.
 
 {% endcontainer %}
 

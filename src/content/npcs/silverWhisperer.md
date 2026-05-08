@@ -38,7 +38,7 @@ The Silver Whisperer is once again roaming these lands. If you find yourself per
 
 {% endsidebarRight %}
 
-A most illustrous person currently leading the [Bosqinchi]() is best known for their eerie mastery of manipulation, hence why they got the name Silver Whisperer. No one knows what they look like, who they are, even what specie they are. Shrouded in mystery, the Silver Whisperer likes to keep their opponents and enemies guessing for their identity while they wreak havoc in their territory between [Limani](/world/eshil/limani.md) and [Matona](/world/eshil/matona.md).
+A most illustrous person currently leading the [Bosqinchi]() is best known for their eerie mastery of manipulation, hence why they got the name Silver Whisperer. No one knows what they look like, who they are, even what specie they are. Shrouded in mystery, the Silver Whisperer likes to keep their opponents and enemies guessing for their identity while they wreak havoc in their territory between [Limani](/atlas/eshil/limani) and [Matona](/atlas/eshil/matona).
 
 {% quote "Silver Whisperer" %}
 

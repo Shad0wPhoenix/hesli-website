@@ -82,7 +82,7 @@ During her teenage years, the halfling discovered camping. Setting up a little t
 
 A few trips later, Edwige made a map as she was in a region she wasn't familiar with, so she knew how to get home. It was her first toe dip into cartography and she fell in love with it head over heels. Being able to travel the world, making maps, and see all the wonders it has to offer struck a chord with Edwige. As soon as she was old enough, she attended the Wanderers School of Cartography.
 
-Four years later, with a certificate in hand, Edwige set out into the world. Her first work as a professional, but apprentice, cartographer was the map of [Eshil](/world/eshil.md). She went on to draw many more maps, some of which have been discovered and others still need to be found.
+Four years later, with a certificate in hand, Edwige set out into the world. Her first work as a professional, but apprentice, cartographer was the map of [Eshil](/atlas/eshil). She went on to draw many more maps, some of which have been discovered and others still need to be found.
 
 {% quote "Edwige Pennsworth" %}
 
