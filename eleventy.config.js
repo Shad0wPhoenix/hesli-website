@@ -2,7 +2,11 @@
 import markdown from './lib/markdown.config.js';
 import getNunjucksEnv from './lib/nunjucks.js';
 import registerShortcodes from './lib/shortcodes/index.js';
-import buildNavigationGraph from './lib/navigation.js';
+import buildContentGraph from './lib/graphs/contentGraph.js';
+import buildNavigationGraph from './lib/graphs/navigationGraph.js';
+import buildRelationGraph from './lib/graphs/relationGraph.js';
+import relationTypes from './src/_data/relationTypes.js';
+import fs from 'fs';
 
 /**
  * Eleventy Configuration
@@ -21,6 +25,9 @@ export default function (eleventy) {
     const styles = "_styles";
     const images = `${input}/_img`;
 
+    let contentGraph;
+    let relationGraph;
+
     // Nunjuck Environment
     const nunjucksEnv = getNunjucksEnv(`${workspace}/${components}`);
 
@@ -28,8 +35,8 @@ export default function (eleventy) {
     eleventy.setLibrary("md", markdown);
     eleventy.setLibrary("njk", nunjucksEnv);
 
-    // Creating Collection for Navigation
-    eleventy.addCollection("navGraph", function(collections) {
+    // Creating a ContentGraph
+    eleventy.addCollection("contentGraph", function(collections) {
         const pages = collections.all ?? collections.items;
 
         if (!pages) {
@@ -37,8 +44,53 @@ export default function (eleventy) {
             return { root: { name: "root", children: [], parent: null }, nodes: new Map(), flat: [] };
         }
 
-        return buildNavigationGraph(pages, input);
+        contentGraph = buildContentGraph(pages, input);
+
+        return contentGraph;
     });
+
+    // Creating a Collection for Navigation based on ContentGraph
+    eleventy.addCollection("navGraph", function(collections) {
+        return buildNavigationGraph(contentGraph);
+    });
+
+
+    // Enrich ContentGraph with Relations
+    eleventy.addCollection("relationGraph", function(collections) {
+        relationGraph = buildRelationGraph(contentGraph, relationTypes);
+
+        // relationsGraph.nodes.forEach(node => {
+        //     if (node.backlinks) {
+        //         for (const backlink in node.backlinks) {
+        //             console.log(node.name + ": " + backlink);
+        //         }
+        //     }
+        // });
+
+        return relationGraph;
+    });
+
+    eleventy.addFilter("getRelations", (graph, stem) => {
+        console.log(stem);
+        const node = graph.getNodeByStem(stem);
+        console.log(`[RelationGraph] ${node.name}`);
+
+        const hasRelations = Object.keys(node.relations).length !== 0;
+        const hasBacklinks = Object.keys(node.backlinks).length !== 0;
+
+        console.log(`[RelationGraph] ${node.name} has relations: ${hasRelations}, has backlinks: ${hasBacklinks}`);
+        
+        if (hasRelations || hasBacklinks) return node;
+        else return null;
+    });
+
+    eleventy.addFilter("getAncestors", (graph, stem) => {
+        return graph.getActivePath(graph.getNodeByStem(stem))
+    });
+
+    eleventy.addFilter("getBreadcrumbs", (graph, stem) => {
+        return graph.getBreadcrumbs(graph.getNodeByStem(stem))
+    })
 
     // Register (Paired) Shortcodes
     registerShortcodes(eleventy, nunjucksEnv, markdown);
@@ -52,9 +104,19 @@ export default function (eleventy) {
     // Trigger Rebuild on JS and CSS changes
     eleventy.addWatchTarget(`./${workspace}/${scripts}`);
     eleventy.addWatchTarget(`./${workspace}/${styles}`);
-    eleventy.addWatchTarget(`./${workspace}/lib`)
+    eleventy.addWatchTarget(`./${workspace}/lib`);
 
     eleventy.addGlobalData("layout", "base");
+
+    eleventy.on("eleventy.after", ({ results }) => {
+        if (relationGraph.stubs.length) {
+            let unwrittenArticles = "[RelationGraph] Unwritten articles:\r\n";
+            relationGraph.stubs.forEach(s => unwrittenArticles = unwrittenArticles + `  - ${s.name}\r\n`);
+
+            console.log(unwrittenArticles);
+            fs.writeFileSync('./unwrittenArticles.txt', unwrittenArticles);
+        }
+    });
 
     return {
         dir: {

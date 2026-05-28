@@ -21,9 +21,7 @@
     </head>
     <body>
         {%- set navigation = collections.navGraph -%}
-        {%- set currentNode = navigation.getNodeByStem(page.filePathStem) -%}
-        {%- set ancestors = navigation.getActivePath(currentNode) -%}
-        {%- set breadcrumbs = navigation.getBreadcrumbs(currentNode) -%}
+        {%- set ancestors = navigation | getAncestors(page.filePathStem) -%}
         
         {%- from "partials/sidebar-nav.njk" import render -%}
         <div class="sidebar-nav">
@@ -38,6 +36,7 @@
             {%- include "partials/header.njk" -%}
             <button id="menu-toggle"><i class="fa-solid fa-bars" id="menu-toggle"></i></button>
             <main class="page">
+                {%- include "partials/relationSidebar.njk" -%}
                 {{ content | safe }}
             </main>
 
