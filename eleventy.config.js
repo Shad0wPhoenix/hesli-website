@@ -7,6 +7,7 @@ import buildNavigationGraph from './lib/graphs/navigationGraph.js';
 import buildRelationGraph from './lib/graphs/relationGraph.js';
 import relationTypes from './src/_data/relationTypes.js';
 import fs from 'fs';
+import { rm } from 'fs/promises';
 
 /**
  * Eleventy Configuration
@@ -27,6 +28,7 @@ export default function (eleventy) {
 
     let contentGraph;
     let relationGraph;
+    let initialRun = true;
 
     // Nunjuck Environment
     const nunjucksEnv = getNunjucksEnv(`${workspace}/${components}`);
@@ -50,36 +52,22 @@ export default function (eleventy) {
     });
 
     // Creating a Collection for Navigation based on ContentGraph
-    eleventy.addCollection("navGraph", function(collections) {
+    eleventy.addCollection("navGraph", function() {
         return buildNavigationGraph(contentGraph);
     });
-
 
     // Enrich ContentGraph with Relations
     eleventy.addCollection("relationGraph", function(collections) {
         relationGraph = buildRelationGraph(contentGraph, relationTypes);
-
-        // relationsGraph.nodes.forEach(node => {
-        //     if (node.backlinks) {
-        //         for (const backlink in node.backlinks) {
-        //             console.log(node.name + ": " + backlink);
-        //         }
-        //     }
-        // });
-
         return relationGraph;
     });
 
     eleventy.addFilter("getRelations", (graph, stem) => {
-        console.log(stem);
         const node = graph.getNodeByStem(stem);
-        console.log(`[RelationGraph] ${node.name}`);
 
         const hasRelations = Object.keys(node.relations).length !== 0;
         const hasBacklinks = Object.keys(node.backlinks).length !== 0;
 
-        console.log(`[RelationGraph] ${node.name} has relations: ${hasRelations}, has backlinks: ${hasBacklinks}`);
-        
         if (hasRelations || hasBacklinks) return node;
         else return null;
     });
@@ -107,6 +95,11 @@ export default function (eleventy) {
     eleventy.addWatchTarget(`./${workspace}/lib`);
 
     eleventy.addGlobalData("layout", "base");
+
+    eleventy.on("eleventy.before", async ({ dir, runMode }) => {
+        if (runMode === "build" || initialRun) await rm(dir.output, { recursive: true, force: true });
+        initialRun = false;
+    });
 
     eleventy.on("eleventy.after", ({ results }) => {
         if (relationGraph.stubs.length) {

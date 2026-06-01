@@ -1,9 +1,0 @@
-{%- set relationNode = collections.relationGraph | getRelations(page.filePathStem) -%}
-{# {%- set relationNode = null -%} #}
-{%- if relationNode %}
-<aside>
-    {%- from "lib/relation.njk" import relationSection -%}
-    {{- relationSection(relationNode.relations) -}}
-    {{- relationSection(relationNode.backlinks) -}}
-</aside>
-{% endif -%}

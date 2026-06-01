@@ -69,3 +69,7 @@ th, td {
     border: 2px solid var(--seaGreen);
     padding: 0.1rem 0.8rem;
 }
+
+:is(ul) {
+    margin: 0;
+}

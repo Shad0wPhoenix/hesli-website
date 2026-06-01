@@ -1,0 +1,40 @@
+{%- set relationNode = collections.relationGraph | getRelations(page.filePathStem) -%}
+{%- if page.sidebar.above or page.sidebar.top or page.sidebar.bottom or page.sidebar.below or relationNode %}
+<div class="s-right col-md-4">
+    {%- if page.sidebar.above -%}
+    <section id="sidebar-above">
+        {{- page.sidebar.above | safe -}}
+    </section>
+    {% endif -%}
+
+    {%- if page.sidebar.top or page.sidebar.bottom or relationNode %}
+    <div class="sidebar">
+        {% if page.sidebar.top %}
+        <section id="sidebar-top">
+            {{- page.sidebar.top | safe -}}
+        </section>
+        {% endif -%}
+
+        {%- if relationNode %}
+        <section id="sidebar-relations">
+            {%- from "lib/relation.njk" import relationSection -%}
+            {{- relationSection(relationNode.relations) | safe -}}
+            {{- relationSection(relationNode.backlinks) | safe -}}
+        </section>
+        {% endif -%}
+
+        {%- if page.sidebar.bottom %}
+        <section id="sidebar-bottom">
+            {{- page.sidebar.bottom | safe -}}
+        </section>
+        {% endif -%}
+    </div>
+    {% endif -%}
+
+    {%- if page.sidebar.below %}
+    <section id="sidebar-below">
+        {{- page.sidebar.below | safe -}}
+    </section>
+    {% endif -%}
+</div>
+{% endif -%}
