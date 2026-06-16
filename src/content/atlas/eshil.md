@@ -3,8 +3,6 @@ title: Eshil
 tags:
     - Revisit
 ---
-# Eshil
-
 Eshil is known as the region of many faces; one moment the sweet aroma of flowers with accompanying flying critters create a cloud of acivity. Yet, within days travel, one can stumble upon a dense and eerie forest filled with the whispers of ancient myths and legends, or be surrounded by the high snowcapped peaks. It is an intricate balance that the region has masters over eons.
 
 {% quote "Edwige Pennsworth" %}

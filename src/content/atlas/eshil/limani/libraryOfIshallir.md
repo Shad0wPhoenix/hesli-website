@@ -1,26 +1,19 @@
 ---
 title: The Library of Ishallir
+type: Building
 tags:
     - Expand
+relations:
+    settlement: Limani
+    owner: Sacred Knowledge
 ---
-# The Library of Ishallir
-
-{% sidebarRight %}
+{% mainSidebar "above" %}
 
 {% secretToggle "Uncover the Secrets" %}
 Some people have a different viewpoint about the Library of Ishallir; those who know of it's true nature and purpose.
 {% endsecretToggle %}
 
-{% container "sidebar" %}
-
-**Location**\
-[Limani](/atlas/eshil/limani)
-
-**Owner**\
-[Sacred Knowledge]()
-{% endcontainer %}
-
-{% endsidebarRight %}
+{% endmainSidebar %}
 
 Situated near the Northern Gate Lane is a safe haven for all the bookworms residing in or travelling through [Limani](/atlas/eshil/limani). Should one ever be in need of a book, the Library of Ishallir will certainly have it. Even if they do not, the librarians know exactly which library in [Eshil](/atlas/eshil) has a copy. Such is the service provided by [Sacred Knowledge](), who own this and many other libraries throughout the region.
 

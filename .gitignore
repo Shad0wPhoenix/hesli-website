@@ -10,3 +10,6 @@
 node_modules
 www
 src/_styles/font
+
+# Tavern Rumours Engine files
+unwrittenArticles.txt

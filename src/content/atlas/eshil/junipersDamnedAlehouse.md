@@ -1,34 +1,27 @@
 ---
 title: Juniper's Damned Alehouse
+type: Building
 tags:
     - TavernChallenge
+relations:
+    region: Eshil
+    owner: Juniper Whistlewisp
 ---
-# Juniper's Damned Alehouse
-
-{% sidebarRight %}
+{% mainSidebar "above" %}
 
 {% secretToggle "Show me the context of the other realm" %}
 This building appears in two realms. Do you want to know what it looks like on the other side?
 {% endsecretToggle %}
 
-{% container "sidebar" %}
+{% endmainSidebar %}
+
+{% mainSidebar "top" %}
 
 {% image "/_img/buildings/junipersDamnedAlehouse.jpg" %}
 {% credits "Tavern in Ruins", "https://unsplash.com/photos/4dPHQviRbWo", "Andrew Ridley", "https://unsplash.com/@aridley88" %}
 {% endimage %}
 
-**Location**\
-[Lonely Marshes]()
-
-**Owner**\
-[Juniper Whistlewisp]()
-
-**Type**\
-Tavern / Inn
-
-{% endcontainer %}
-
-{% endsidebarRight %}
+{% endmainSidebar %}
 
 In the middle of the [Lonely Marshes](), on one of the larger patches of dry land, stands an abandoned ruin. Looking at the surroundings, this building used to be a central point in these swamps. Many of little deserted roads and neglected bridges lead to this building of old.
 

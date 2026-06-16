@@ -1,33 +1,34 @@
 ---
 title: The Rusty Scrapyard
+type: Building
 tags:
     - TLC
     - Expand
+relations:
+    settlement: Limani
+    owner: Djoric Slambeard
 ---
-# The Rusty Scrapyard
+{% mainSidebar "bottom" %}
 
-{% sidebar %}
-
-**Location**\
-[Limani](/atlas/eshil/limani)
-
-**Owner**\
-[Djoric Slambeard]()
-
-**Shop Type**\
+{% keyValue "Shop Type" %}
 Craftsman
+
 - Blacksmith
 - Weaponsmith
 - Armoursmith
 - Sharpener
 
-**Services**\
+{% endkeyValue %}
+
+{% keyValue "Services" %}
 Armour & Weapon Repairs
+{% endkeyValue %}
 
-**Goods**\
+{% keyValue "Goods" %}
 Armour & Weapons
+{% endkeyValue %}
 
-{% endsidebar %}
+{% endmainSidebar %}
 
 The outskirts of Limani's trading district is filled with scattered small craftsman buildings. The sound of a hammer hitting metal echoes through the neighbourhood. Following the sound leads to a small building with a chimney so crooked that it is a miracle it still stands. With a backyard full of scrap metal, the name of this place makes much sense.
 

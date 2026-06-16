@@ -1,33 +1,34 @@
 ---
 title: Mara Againa
+type: Building
 tags:
     - Potential
     - Rewrite
+relations:
+    settlement: Limani
+    owner: Mirthal
 ---
-# Mara Againa
+{% mainSidebar "bottom" %}
 
-{% sidebar %}
-
-**Location**\
-[Limani](../limani)
-
-**Owner**\
-[Mirthal]()
-
-**Shop Type**\
+{% keyValue "Shop Type" %}
 Craftsman
+
 - Blacksmith
 - Weaponsmith
 - Armoursmith
 - Sharpener
 
-**Services**\
+{% endkeyValue %}
+
+{% keyValue "Services" %}
 Armour & Weapon Repairs
+{% endkeyValue %}
 
-**Goods**\
+{% keyValue "Goods" %}
 Armour & Weapons
+{% endkeyValue %}
 
-{% endsidebar %}
+{% endmainSidebar %}
 
 In the middle of the trading district, three large chimneys stick out above all the nearby buildings. Black plumes of smoke make its way out, as air gets pumped into the system. Connected to these chimneys is a large workshop with multiple furnaces, anvils, and sweaty [High Elfs](/encyclopaedia/races/elf/highElf) battling the ore.
 

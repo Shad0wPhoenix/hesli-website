@@ -56,9 +56,9 @@ export default {
 
     region: {
         label:              "Located in",
-        inverse:            "settlements",
-        inverseLabel:       "Settlement",
-        inverseLabelPlural: "Settlements",
+        inverse:            "subregion",
+        inverseLabel:       "Subregion",
+        inverseLabelPlural: "Subregions",
     },
 
     landmark: {
@@ -73,6 +73,32 @@ export default {
         inverse:            "borders",
         inverseLabel:       "Borders",
     },
+ 
+    // Article type — used when type: settlement is set on an article
+    settlement: {
+        label:              "Located in",
+        inverse:            "settlements",
+        inverseLabel:       "Settlement",
+        inverseLabelPlural: "Settlements",
+    },
+ 
+    // Article type — used when type: building is set on an article
+    building: {
+        label:              "Contains building",
+        labelPlural:        "Contains buildings",
+        inverse:            "buildings",
+        inverseLabel:       "Building",
+        inverseLabelPlural: "Buildings",
+    },
+ 
+    // Article type — used when type: subregion is set on an article
+    // subregion: {
+    //     label:              "Contains subregion",
+    //     labelPlural:        "Contains subregions",
+    //     inverse:            "subregions",
+    //     inverseLabel:       "Subregion",
+    //     inverseLabelPlural: "Subregions",
+    // },
 
     // ── Society & culture ─────────────────────────────────────────────────────
 
@@ -134,6 +160,45 @@ export default {
         inverse:            "members",
         inverseLabel:       "Member",
         inverseLabelPlural: "Members",
+    },
+
+    owner: {
+        label:              "Owned by",
+        inverse:            "owns",
+        inverseLabel:       "Owns",
+    },
+
+    ethnicity: {
+        label:              "Parent Ethnicity",
+        labelPlural:        "Parent Ethnicities",
+        inverse:            "subethnicity",
+        inverseLabel:       "Subethnicity",
+        inverseLabelPlural: "Subethnicities",
+
+        // Edge-specific overrides — keyed by the TARGET's type
+        byTargetType: {
+            species: {
+                inverse:            "ethnicity-specie",
+                inverseLabel:       "Ethnicity",
+                inverseLabelPlural: "Ethnicities",
+            },
+
+            region: {
+                label:              "Found in",
+                labelPlural:        "Found in",
+                inverse:            "ethnicGroups",
+                inverseLabel:       "Ethnic group present",
+                inverseLabelPlural: "Ethnic groups present",
+            },
+
+            settlement: {
+                label:              "Found in",
+                labelPlural:        "Found in",
+                inverse:            "ethnicGroups",
+                inverseLabel:       "Ethnic group present",
+                inverseLabelPlural: "Ethnic groups present",
+            }
+        },
     },
 
     // ── Conflict ──────────────────────────────────────────────────────────────

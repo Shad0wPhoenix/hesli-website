@@ -17,6 +17,27 @@
 @import url('./custom.css');
 @import url('./formatting.css');
 
+@font-face {
+    font-family: 'PixelTypewriter';
+    src: url("./font/PixelTypewriter.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PixelTypewriter';
+    src: url("./font/PixelTypewriter-Bold.woff2") format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PixelTypewriter';
+    src: url("./font/PixelTypewriter-Italic.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
 :root {
 
     /* Colour Palette */
@@ -39,12 +60,12 @@
     --container-background-solid: #d5ba96;
 
     /* Fonts */
-    --fontHeader: Edu NSW ACT Hand Pre;
-    --fontScript: Patrick Hand;
-    --fontContainer: Playwrite NZ Basic;
+    --fontHeader: PixelTypewriter;
+    --fontScript: PixelTypewriter;
+    --fontContainer: PixelTypewriter;
     font-size: 20px;
     font-family: var(--fontScript);
-    line-height: 1.25;
+    line-height: 1.1;
 
     --pagePadding: 0.8rem;
 }
@@ -61,6 +82,7 @@ body {
     background-color: var(--brown);
     display: flex;
     margin: 1rem;
+    font-size: 0.9rem;
 
     &.no-scroll {
         overflow: hidden;

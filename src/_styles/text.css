@@ -44,7 +44,7 @@
 }
 
 :is(h2, h3) {
-    color: var(--darkTeal);
+    color: var(--seaGreen);
 }
 
 :is(h2) {
@@ -57,7 +57,7 @@
 
 :is(h4, h5, h6) {
     font-size: clamp(1em, 1.5em, 2vw);
-    color: var(--seaGreen);
+    color: var(--lavender);
 }
 
 table {

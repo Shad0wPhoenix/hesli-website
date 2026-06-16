@@ -1,9 +1,11 @@
 ---
 title: Limani
+type: Settlement
 tags:
     - Rework
+relations:
+    region: Eshil
 ---
-# Limani
 Located at the mouth of [Nacheilchomòr](), where the water rushes into the [Àitemòrgorm](), lies a large port town. Home to many merchants and a large dock, Limani is an essential trading town in [Eshil](/atlas/eshil), capable of transporting many goods and people further into the region over land and water. Many adventurers coming to this region have a first stop this town, either to travel further or to pick up a quest to start off their journey.
 
 {% quote "Ashish the Greeter" %}

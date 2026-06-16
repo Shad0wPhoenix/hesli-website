@@ -1,9 +1,8 @@
 ---
-title: Home
+title: Hesli
+nav_title: Home
 nav_order: 1
 ---
-
-# Hesli
 _Created By ShadowPhoenix_ { .center }
 
 For a long time, the world of Hesli has been prospering in relative peace. Its four major powers have set aside the majority of their differences and manage to coexist alongside another. In some places, people of all shapes and sizes live together as one.

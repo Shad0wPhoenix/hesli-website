@@ -1,12 +1,14 @@
 ---
 title: The Wandering Lileon
+type: Building
 tags:
     - Rewrite
     - TLC
+relations:
+    settlement: Limani
+    owner: Barnabas Stripepaw
 ---
-# The Wandering Lileon
-
-{% sidebarRight %}
+{% mainSidebar "below" %}
 
 {% aloud "menu" %}
 
@@ -42,7 +44,7 @@ Foodz here, drinkz here, have look, choose wisely, or ask.
 
 {% endaloud %}
 
-{% endsidebarRight %}
+{% endmainSidebar %}
 
 Amidst the bustling squares of the entertainment district in [Limani](/atlas/eshil/limani), stands a tall building painted in the most eccentric colours imaginable. Popping out with its blue walls and orange support beams, it is hard to miss The Wandering Lileon. With its equally whimsical owner [Barnabas Stripepaw](/npcs/barnabasStripepaw), travellers and adventurers are in for a treat when they decide to stay at this curious tavern.
 

@@ -84,7 +84,7 @@
     background: var(--container-background-trans);
     font-family: var(--fontContainer);
     font-size: 0.8rem;
-    line-height: 1.65;
+    line-height: 1.25;
 
     .secret,
     .spoiler,

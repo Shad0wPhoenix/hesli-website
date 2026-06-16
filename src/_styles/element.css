@@ -4,15 +4,15 @@
     display: block;
     text-align: center;
     width: fit-content;
-    padding: 2px 1rem;
+    padding: 5px 1rem;
     margin: 0.6rem 2rem;
     border-top: var(--border);
     border-bottom: var(--border);
     background: var(--container-background-solid);
     color: var(--darkTeal);
     font-family: var(--fontScript);
-    font-size: 1rem;
-    line-height: 1.35;
+    font-size: 0.9rem;
+    line-height: 1.25;
     transition: background 100ms;
     cursor: pointer;
     position: relative;

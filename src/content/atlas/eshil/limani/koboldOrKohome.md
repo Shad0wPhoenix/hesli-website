@@ -1,34 +1,38 @@
 ---
 title: Kobold or Kohome
+type: Building
 tags:
     - Expand
+relations:
+    settlement: Limani
+    owner: The Kohome Triplets
 ---
-# Kobold or Kohome
-
-{% sidebarRight %}
+{% mainSidebar "above" %}
 
 {% secretToggle "Are you Friend or Foe?" %}
 Only friends of the Wandering Lileon may know more about this location.
 {% endsecretToggle %}
 
-{% container "sidebar" %}
+{% endmainSidebar %}
 
-**Location**\
-[Limani](/atlas/eshil/limani)
+{% mainSidebar "bottom" %}
 
-**Owner**\
-[The Kohome Triplets]()
-
-**Shop Type**\
+{% keyValue "Shop Type" %}
 General Goods
+{% endkeyValue %}
 
-**Goods**\
+{% keyValue "Goods" %}
+
 - General Goods
 - Simple Potions
 - Food and Beverages
 - Curiosa
 
-{% endcontainer %}
+{% endkeyValue %}
+
+{% endmainSidebar %}
+
+{% mainSidebar "below" %}
 
 {% secret %}
 
@@ -36,7 +40,7 @@ The only way to find this shop, is to know about it. Few people are allowed to d
 
 {% endsecret %}
 
-{% endsidebarRight %}
+{% endmainSidebar %}
 
 Tucked away in the little alleyways of [Limani](/atlas/eshil/limani), a small building has wedged itself between two large warehouses. People passing by never notice the building, unless they are actively looking for it. The little {% tooltip "fascia" %}The name plate above a shop{% endtooltip %} with the name of the shop shows the door to enter this shop filled with curiosa.
 
