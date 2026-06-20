@@ -46,11 +46,20 @@ relations:
 
 ## Targeting multiple articles
 
-Pass several values as an array:
+Pass several values as an array like this:
 
 ```yaml
 relations:
   tradePartners: [Port of Cael, Iron Reach, Ashfen]
+```
+
+Or like this:
+```yaml
+relations:
+  tradePartners:
+    - Port of Cael
+    - Iron Reach
+    - Ashfen
 ```
 
 All three receive a **"Trade partner"** backlink. The heading on this article
