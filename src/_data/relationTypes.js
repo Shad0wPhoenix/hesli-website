@@ -59,6 +59,8 @@ export default {
         inverse:            "subregion",
         inverseLabel:       "Subregion",
         inverseLabelPlural: "Subregions",
+
+        aggregate: ["ethnicity"],
     },
 
     landmark: {
