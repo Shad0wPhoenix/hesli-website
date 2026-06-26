@@ -1,5 +1,5 @@
 {%- macro button(content, url, classes='') %}
-<a class="btn {{- classes -}}" href="{{- url | url -}}">
+<a class="btn {{ classes -}}" href="{{- url | url -}}">
     <span class="left"></span>
     <span class="right"></span>
     {{ content | safe }}

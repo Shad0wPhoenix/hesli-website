@@ -1,20 +1,43 @@
 ---
 title: Ashish Ludak
+type: Character
 tags:
     - NPC
     - Rewrite
+relations:
+    currentLocation: Limani
+    currentResidence: Limani
+    profession: Information Broker
+    specie: Gnome
 ---
-# Ashish Ludak
-{% sidebar %}
+{% mainSidebar "above" %}
 
 {% image "/_img/npcs/ashishLudak.jpg" %}
 {% credits "This is Ashish!" %}
 {% endimage %}
 
+{% endmainSidebar %}
+
+{% mainSidebar "bottom" %}
+
+{% keyValue "Current Status" %}Excitedly greeting new adventurers at the port{% endkeyValue %}
+{% keyValue "Age" %}165 years{% endkeyValue %}
+{% keyValue "Pronouns" %}They/Them{% endkeyValue %}
+{% keyValue "Gender" %}Female{% endkeyValue %}
+{% keyValue "Eyes" %}Lively and Dark Amber{% endkeyValue %}
+{% keyValue "Hair" %}Long and Black, often Braided{% endkeyValue %}
+{% keyValue "Skin Tone/Pigmentation" %}Surprisingly Pale{% endkeyValue %}
+{% keyValue "Height" %}0.9m (3ft){% endkeyValue %}
+{% keyValue "Weight" %}16kg (35lbs){% endkeyValue %}
+
+{% endmainSidebar %}
+
+{% mainSidebar "below" %}
+
 #### Character Study
 Ashish with their upbeat mood bounces through life like a skippyball. Their long and black hair - often braided - wave through the air accompanied by their surprisingly pale skin. With lively and dark amber eyes, they are capable of spotting every new and old adventurer setting foot in down; which is rather impressive, considering they are a mere 90cm (3ft) all. If anything, it is almost a miracle Ashish hasn't been blown away by the wind yet with just 16kgs holder her on the ground. 
 
-{% endsidebar %}
+{% endmainSidebar %}
 
 Being the most extravagant presence of the entire town, Ashish certainly has made a name for themself. Their obnoxious flamboyancy certainly played a part to becoming the talk of the decade. However, there is one skillset that they possess which still astounds many people visiting and living in [Limani](/atlas/eshil/limani).
 

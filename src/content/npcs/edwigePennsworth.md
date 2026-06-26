@@ -1,12 +1,15 @@
 ---
 title: Edwige Pennsworth
+type: Character
 tags:
     - Revisit
     - Expand
+relations:
+    specie: Halfling
+    ethnicity: Wanderers
+    profession: Cartographer
 ---
-# Edwige Pennsworth
-
-{% sidebarRight %}
+{% mainSidebar "above" %}
 
 {% container "edwigePortrait" %}
 
@@ -14,50 +17,24 @@ tags:
 
 {% endcontainer %}
 
-{% container "sidebar" %}
+{% endmainSidebar %}
 
-**Alignment**\
-Chaotic Hilarious
+{% mainSidebar "top" %}
 
-**Current Status**\
-Mapping Hesli
+{% keyValue "Alignment" %}Chaotic Hilarious{% endkeyValue %}
+{% keyValue "Current Status" %}Mapping Hesli{% endkeyValue %}
+{% keyValue "Current Location" %}Unknown{% endkeyValue %}
+{% keyValue "Current Residence" %}Her tiny (tree)tent{% endkeyValue %}
+{% keyValue "Age" %}Unknown{% endkeyValue %}
+{% keyValue "Gender" %}Female{% endkeyValue %}
+{% keyValue "Pronouns" %}She/Her{% endkeyValue %}
+{% keyValue "Eyes" %}Jolly hazel brown{% endkeyValue %}
+{% keyValue "Hair" %}Short and slightly spiked brown hair{% endkeyValue %}
+{% keyValue "Skin Tone/Pigmentation" %}Tanned{% endkeyValue %}
+{% keyValue "Height" %}95cm (3ft 1in){% endkeyValue %}
+{% keyValue "Weight" %}20kg (44lbs) {% endkeyValue %}
 
-**Current Location**\
-Unknown
-
-**Current Residence**\
-Her tiny (tree)tent
-
-**Specie**\
-Halfling
-
-**Age**\
-Unknown
-
-**Gender**\
-Female
-
-**Pronouns**\
-She/Her
-
-**Eyes**\
-Jolly hazel brown
-
-**Hair**\
-Short and slightly spiked brown hair
-
-**Skin Tone/Pigmentation**\
-Tanned
-
-**Height**\
-95cm (3'1")
-
-**Weight**\
-20kg (44lb)
-
-{% endcontainer %}
-
-{% endsidebarRight %}
+{% endmainSidebar %}
 
 Roaming the eternal plains and mountains of this world, there is only one goal: draw maps. Accompanied by her trusty friend La-de-Da-de the Tartoise, Edwige travels far and wide to draw maps of every region and town she visits. No matter how small she may be, she always finds a way to get a good view and to make most of her travels.
 

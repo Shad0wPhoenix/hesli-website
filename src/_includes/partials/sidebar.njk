@@ -1,6 +1,6 @@
 {%- set relationNode = collections.relationGraph | getRelations(page.filePathStem) -%}
 {%- if page.sidebar.above or page.sidebar.top or page.sidebar.bottom or page.sidebar.below or relationNode %}
-<div class="s-right col-md-4">
+<div class="s-right col-md-4 mw-500">
     {%- if page.sidebar.above -%}
     <section id="sidebar-above">
         {{- page.sidebar.above | safe -}}

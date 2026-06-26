@@ -1,12 +1,15 @@
 ---
 title: Haldir
+type: Ethnicity
 excerpt: An old dwarven clan whose source of food was violently taken away from them after a conflict with a city and a kingdom.
 tags:
     - Summercamp23
+relations:
+    region: Greze Urngorr
+    specie: Dwarf
+    settlement: Matona
 ---
-# Haldir
-
-{% sidebarRight %}
+{% mainSidebar "above" %}
 
 {% secretToggle "Show me the Forgotten Knowledge" %}
 
@@ -14,20 +17,13 @@ The true origin of the Haldir has been forgotten over the generations and theref
 
 {% endsecretToggle %}
 
-{% container "sidebar" %}
+{% endmainSidebar %}
 
-**Encompassed species**\
-[Dwarf](/encyclopaedia/races/dwarf)
+{% mainSidebar "bottom" %}
 
-**Related Locations**\
-Greze Urngorr
+{% keyValue "Status" %}Extinct{% endkeyValue %}
 
-**Status**\
-Extinct
-
-{% endcontainer %}
-
-{% endsidebarRight %}
+{% endmainSidebar %}
 
 The Haldir used to be a clan of proud [Dwarfs](/encyclopaedia/races/dwarf) living in the deepest caves of Greze Urngorr. A few documents lost to time indicate that these dwarfs lived there for millenia, and were capable of using very advanced magic. A conflict between them and the [Mandri](/encyclopaedia/ethnicities/mandri) combined with the Kingdom of Illtresi about the [Zedonias](/encyclopaedia/materials/misc/zedonia) has dwindled their numbers immensely to the point of extinction. However, rumours tell of outside forces have caused these dwarfs to fall astray.
 

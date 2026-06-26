@@ -1,11 +1,18 @@
 ---
 title: Gwenash
+type: Ethnicity
 tags:
     - Revisit
     - Refine
+relations:
+    region: Eshil
+    specie:
+        - Gnome
+        - Swamp Gnome
+    settlement:
+        - Limani
+        - Matona
 ---
-# Gwenash
-
 For as long as history exists, the Gwenash are at the heart of Gnomish society. Most other or subcultures are a derivative of the Gwenash in one way or another, since it has been the main Gnomish ethnicity. They started out small near the rivers, lakes, and meadows of <park name here>. Nowadays, they have spread far and wide throughout the entire world, bringing along with them heaps of technology and innovation.
 
 {% quote "Text from the Holy Manual of the Master Tinkerer" %}

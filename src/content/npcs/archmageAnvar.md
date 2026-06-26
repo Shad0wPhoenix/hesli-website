@@ -1,12 +1,13 @@
 ---
 title: Archmage Anvar
+type: Character
 tags:
     - Revisit
     - Summercamp22
+relations:
+    specie: Human
 ---
-# Archmage Anvar
-
-{% sidebarRight %}
+{% mainSidebar "above" %}
 
 {% secretToggle "I am a Disciple of Anvar" %}
 
@@ -18,56 +19,32 @@ Disciples close to Anvar are familiar with the secrets surrounding Archmage Anva
 {% credits "Young Archmage Anvar", "", "ShadowPhoenix using HeroForge", "https://www.heroforge.com" %}
 {% endimage %}
 
-{% container "sidebar" %}
+{% endmainSidebar %}
 
-**Alignment**\
-Chaotic Monstrous
+{% mainSidebar "bottom" %}
 
-**Current Status**\
-Dead
+{% keyValue "Alignment" %}Chaotic Monstrous{% endkeyValue %}
+{% keyValue "Current Status" %}Dead{% endkeyValue %}
 
 {% secret %}
 
 Waiting to be Revived
 
-**Current Location**\
-Caesars Forest
+{% keyValue "Current Location" %}Caesars Forest{% endkeyValue %}
 
 {% endsecret %}
 
-**Circumstances of Death**\
-Prophesied
+{% keyValue "Circumstances of Death" %}Prophesied{% endkeyValue %}
+{% keyValue "Place of Death" %}[Tower of Anvar](){% endkeyValue %}
+{% keyValue "Age" %}Unknown{% endkeyValue %}
+{% keyValue "Gender" %}Male{% endkeyValue %}
+{% keyValue "Eyes" %}Piercing Green{% endkeyValue %}
+{% keyValue "Hair" %}Short with a purple hue{% endkeyValue %}
+{% keyValue "Skin Tone/Pigmentation" %}Bleak, almost white{% endkeyValue %}
+{% keyValue "Height" %}1.84m (6'0"){% endkeyValue %}
+{% keyValue "Weight" %}79kg (174lbs){% endkeyValue %}
 
-**Place of Death**\
-[Tower of Anvar]()
-
-**Specie**\
-[Human]()
-
-**Age**\
-Unknown
-
-**Gender**\
-Male
-
-**Eyes**\
-Piercing Green
-
-**Hair**\
-Short with a purple hue
-
-**Skin Tone/Pigmentation**\
-Bleak, almost white
-
-**Height**\
-1.84m (6'0")
-
-**Weight**\
-79kg (174lbs)
-
-{% endcontainer %}
-
-{% endsidebarRight %}
+{% endmainSidebar %}
 
 Once regarded one of the greatest mages of their time, Archmage Anvar used to focus on helping people. Wanting to use their magical powers for a greater good, he travelled far and wide to widen his knowledge and repetoir of spells while occassionally coming back to his hometown in the middle of Caesars Forest. However, one day the villages noticed a difference upon his return. One that would lead to the village's demise.
 

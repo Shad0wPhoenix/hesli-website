@@ -157,6 +157,10 @@ p.center,
     max-width: 300px;
 }
 
+.mw-500 {
+    max-width: 500px;
+}
+
 @container f-wrapper (max-width: 767px) {
     .col-md-6 {
         flex-shrink: 0;

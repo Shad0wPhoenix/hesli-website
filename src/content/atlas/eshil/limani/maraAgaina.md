@@ -20,13 +20,8 @@ Craftsman
 
 {% endkeyValue %}
 
-{% keyValue "Services" %}
-Armour & Weapon Repairs
-{% endkeyValue %}
-
-{% keyValue "Goods" %}
-Armour & Weapons
-{% endkeyValue %}
+{% keyValue "Services" %}Armour & Weapon Repairs{% endkeyValue %}
+{% keyValue "Goods" %}Armour & Weapons{% endkeyValue %}
 
 {% endmainSidebar %}
 

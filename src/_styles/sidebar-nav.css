@@ -59,6 +59,15 @@
     }
 }
 
+.nav-node span + a {
+    display: inline-block;
+    margin: 0.1rem 0;
+}
+
+.nav-node :has(button) {
+    margin-top: 0.1rem;
+}
+
 @media screen and (max-width: 960px) {
     .content button#menu-toggle {
         display: block;

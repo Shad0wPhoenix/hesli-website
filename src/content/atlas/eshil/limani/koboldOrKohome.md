@@ -17,10 +17,7 @@ Only friends of the Wandering Lileon may know more about this location.
 
 {% mainSidebar "bottom" %}
 
-{% keyValue "Shop Type" %}
-General Goods
-{% endkeyValue %}
-
+{% keyValue "Shop Type" %}General Goods{% endkeyValue %}
 {% keyValue "Goods" %}
 
 - General Goods

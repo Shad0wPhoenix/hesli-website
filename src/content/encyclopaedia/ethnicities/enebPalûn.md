@@ -7,6 +7,7 @@ tags:
 relations:
     region: Lonely Marshes
     ethnicity: Palûn
+    organisation: Palûn Guardians
     specie:
         - Swamp Elf
         - Swamp Gnome
@@ -14,31 +15,7 @@ relations:
         - Mo
         - Abeko
         - Puddlets
-        - Limani
 ---
-# Eneb Palûn
-{% sidebar %}
-
-**Location**\
-[Lonely Marshes](/atlas/eshil/lonelyMarshes)
-
-**Parent Ethnicity**\
-[Palûn](/encyclopaedia/ethnicities/palûn)
-
-**Encompassed Species**\
-Swamp Gnome
-[Swamp Elf](/encyclopaedia/races/elf/swampElf)
-
-**Related Religious Organisation**\
-[Palûn Guardians](/encyclopaedia/organisations/religious/palûnGuardians)
-
-**Main Settlements**\
-[Mo](/atlas/eshil/lonelyMarshes/mo)\
-[Abeko](/atlas/eshil/lonelyMarshes/abeko)\
-[Puddlets](/atlas/eshil/lonelyMarshes/puddlet)
-
-{% endsidebar %}
-
 Hidden in the shadows of the [Lonely Marshes](/atlas/eshil/lonelyMarshes) lives a large population of [Swamp Elf](/encyclopaedia/races/elf/swampElf) and Swamp Gnomes. They are part of the [Palûn](/encyclopaedia/ethnicities/palûn), tasked with maintaining the rivers, ponds, moss patches, plants and trees that grow in the wetlands of Hesli. Just everything that a swamp contains is preserved by the keepers. Being the keepers of the Lonely Marshes, they are also called The Lonely Keepers by some of the other groups. Still, these people are far from lonely.
 
 {% quote "Tales of the Long Lost Wanderer" %}

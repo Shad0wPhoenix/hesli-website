@@ -1,8 +1,7 @@
 ---
-title: Primer
+displayTitle: Primer
 nav_order: 2
 ---
-
 # Welcome in Hesli, Curious Bean!
 Hesli is a world filled with adventure and cosy/wholesome vibes, where you shouldn't believe everything at face value: concealed meanings, unsuspecting twists, and dangers hide in plain sight waiting for the right moment and opportunity to strike.
 

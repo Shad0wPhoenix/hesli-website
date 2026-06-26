@@ -1,10 +1,13 @@
 ---
 title: Irrean
+type: Ethnicity
 tags:
     - Expand
     - WorldEmber21
+relation:
+    region: Vallahir
+    specie: Dwarf
 ---
-# Irrean
 At the heart of the empire Vallahir stand the Irreans. It is a society of dwarfs that formed in the capital Dunfaern. During the Rise of the Empire, the Irreans spread to all corners of the dwarfish lands taking their culture along with them.
 
 ## Social Status

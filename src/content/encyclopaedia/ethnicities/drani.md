@@ -1,9 +1,13 @@
 ---
 title: Drani
+type: Ethnicity
 tags:
     - Expand
+relations:
+    region: Eshil
+    specie: High Elf
+    settlement: Limani
 ---
-# Drani
 While the [Eilmari](encyclopaedia/ethnicities/eilmari) claim that the Drani are distant cousins of them, the clans of Drani stand by their myths and legends that tell a wholly different story. The arrogance of the Eilmari high elves has already created a rift which drove the Drani in the arms of the [Quani](encyclopaedia/ethnicities/quani) with whom they now live in peace.
 
 {% quote "Head of the Drani" %}

@@ -4,29 +4,19 @@ excerpt: The one who is capable of manipulating all. Can they get to you?
 tags:
     - Expand
     - Summercamp23
+relations:
+    currentLocation: Gardens of Bermuth
+    memberOf: Bosqinchi
 ---
-# The Silver Whisperer
+{% mainSidebar "top" %}
 
-{% sidebarRight %}
+{% keyValue "Alignment" %}Suave Evil{% endkeyValue %}
+{% keyValue "Current Status" %}Persuading people to voluntairlly give up their possessions and money to his organisation of misfits{% endkeyValue %}
+{% keyValue "Height" %}1.80m (5ft 11in){% endkeyValue %}
 
-{% container "sidebar" %}
+{% endmainSidebar %}
 
-**Alignment**\
-Suave Evil
-
-**Current Status**\
-Persuading people to voluntarily give up their possessions and money to his organisation of misfits.
-
-**Current Location**\
-Gardens of Bermuth
-
-**Height**\
-1.80cm (5'11")
-
-**Member of**\
-[Bosqinchi]()
-
-{% endcontainer %}
+{% mainSidebar "below" %}
 
 {% quote "A poster at one of the public settlement boards warning for the Silver Whisperer" %}
 
@@ -36,7 +26,7 @@ The Silver Whisperer is once again roaming these lands. If you find yourself per
 
 {% endquote %}
 
-{% endsidebarRight %}
+{% endmainSidebar %}
 
 A most illustrous person currently leading the [Bosqinchi]() is best known for their eerie mastery of manipulation, hence why they got the name Silver Whisperer. No one knows what they look like, who they are, even what specie they are. Shrouded in mystery, the Silver Whisperer likes to keep their opponents and enemies guessing for their identity while they wreak havoc in their territory between [Limani](/atlas/eshil/limani) and [Matona](/atlas/eshil/matona).
 

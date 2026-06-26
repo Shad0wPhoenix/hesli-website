@@ -1,27 +1,31 @@
 ---
 title: Dwarf
+type: Specie
 tags:
     - Revisit
     - Rewrite
+relations:
+    region:
+        - Vallahir
+        - Eshil
 ---
-# Dwarf
 
-{% sidebar %}
-**Scientific Name**\
-Dvares
+{% mainSidebar "top" %}
 
-**Lifespan**\
-250 years
+{% keyValue "Scientific Name" %}Dvares{% endkeyValue %}
+{% keyValue "Lifespan" %}250 years{% endkeyValue %}
 
-**Average Height**\
-Male: 120 - 150cm (4" - 5")\
+{% keyValue "Average Height" %}
+Male: 120 - 150cm (4" - 5")<br>
 Female: 105 - 135cm (3.5" - 4.5")
+{% endkeyValue %}
 
-**Average Weight**\
-Male: 80 - 110kg (175 - 240lb)\
+{% keyValue "Average Weight" %}
+Male: 80 - 110kg (175 - 240lb)<br>
 Female: 60 - 90kg (130 - 200lb)
+{% endkeyValue %}
 
-{% endsidebar %}
+{% endmainSidebar %}
 
 Short, bulky, and packing the biggest punch; that sums up the dwarfs of Hesli. They are a proud people, and always loyal to their family and companions. With traditions rooted deep in their hearts, they do not stray away from their religion and traditions easily. Those who do need a very good reason, otherwise they will get treated like outcasts by the community.
 

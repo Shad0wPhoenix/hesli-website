@@ -1,27 +1,30 @@
 ---
 title: High Elf
+type: Specie
 tags:
     - Revisit
     - Rewrite
+relations:
+    region: Eshil
+    specie: Elf
 ---
-# High Elf
 
-{% sidebar %}
-**Scientific Name**\
-Aileve Hores
+{% mainSidebar "top" %}
 
-**Lifespan**\
-375 years
+{% keyValue "Scientific Name" %}Aileve Hores{% endkeyValue %}
+{% keyValue "Lifespan" %}375 years{% endkeyValue %}
 
-**Average Height**\
-Male: 1.80 - 2.00m (5'10" - 6'7")\
+{% keyValue "Average Height" %}
+Male: 1.80 - 2.00m (5'10" - 6'7")<br>
 Female: 1.65 - 1.80m (4'10" - 5'10")
+{% endkeyValue %}
 
-**Average Weight**\
-Male: 60 - 85kg (130 - 190lb)\
+{% keyValue "Average Weight" %}
+Male: 60 - 85kg (130 - 190lb)<br>
 Female: 45 - 70kg (100 - 155lb)
+{% endkeyValue %}
 
-{% endsidebar %}
+{% endmainSidebar %}
 
 The High Elfs of Hesli are a pretentious race. They claim to have been created by the mightiest of dragons, [the Gold Dragons](), which gives them the belief that they are superior over all other races. However, other species do not take their superiority too seriously and rather mock the elfs about one big weakness: they don't like water thus don't like swimming at all or getting wet in general.
 
@@ -46,4 +49,4 @@ High Elfs are highly intelligent. Their knowledge of the world is vast and they 
 ## Taboos
 It is forbidden to speak of or ask about elven age, especially from the olden days. Currently, their average lifespan is around 375 years, but this used to be 750 years a long time ago. According to [The Council of Eilmaris](), in ancient times, someone had a condition that resulted in halving their life expectancy. This condition spread genetically for a long time before it was discovered, resulting in only very few high elf bloodlines staying out of this horror.
 
-{% button "", "m-right" %}_Learn more about Cuille_{% endbutton %}
+{% button "", "m-right italic" %}Learn more about Cuille{% endbutton %}

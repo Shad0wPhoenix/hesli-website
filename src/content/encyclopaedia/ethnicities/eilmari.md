@@ -1,9 +1,13 @@
 ---
 title: Eilmari
+type: Ethnicity
 tags:
     - Expand
+relations:
+    region: Eshil
+    specie: High Elf
+    settlement: Limani
 ---
-# Eilmari
 At the heart of Yurin society, all of whom are high elves, are the Eilmari. Named after their city Eilmaris, these high elves take the utmost pride in their existence. However, with that pride comes a unique set of quirks as well.
 
 {% quote "A dwarf mocking his high elf companion" %}

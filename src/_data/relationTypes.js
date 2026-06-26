@@ -91,16 +91,17 @@ export default {
         inverse:            "buildings",
         inverseLabel:       "Building",
         inverseLabelPlural: "Buildings",
+
+        byTargetType: {
+            owner: {
+                label:              "Owned by",
+                labelPlural:        "Owned by",
+                inverse:            "owns",
+                inverseLabel:       "Owns",
+                inverseLabelPlural: "Owned by",
+            },
+        }
     },
- 
-    // Article type — used when type: subregion is set on an article
-    // subregion: {
-    //     label:              "Contains subregion",
-    //     labelPlural:        "Contains subregions",
-    //     inverse:            "subregions",
-    //     inverseLabel:       "Subregion",
-    //     inverseLabelPlural: "Subregions",
-    // },
 
     // ── Society & culture ─────────────────────────────────────────────────────
 
@@ -166,9 +167,23 @@ export default {
 
     owner: {
         label:              "Owned by",
+        labelPlural:        "Owned by",
         inverse:            "owns",
         inverseLabel:       "Owns",
+        inverseLabelPlural: "Owned by",
     },
+
+    // specie: {
+    //     label:              "Genetic Ancestor",
+    //     labelPlural:        "Genetic Ancestors",
+    //     inverse:            "descendantSpecie",
+    //     inverseLabel:       "Genetic Descendant",
+    //     inverseLabelPlural: "Genetic Descendants",
+
+    //     // aggregate:      [
+    //     //                     "ethnicity",
+    //     //                 ],
+    // },
 
     ethnicity: {
         label:              "Parent Ethnicity",
@@ -179,26 +194,48 @@ export default {
 
         // Edge-specific overrides — keyed by the TARGET's type
         byTargetType: {
-            species: {
+            specie: {
                 inverse:            "ethnicity-specie",
                 inverseLabel:       "Ethnicity",
                 inverseLabelPlural: "Ethnicities",
             },
 
+            organisation: {
+                label:              "Related Organisation",
+                labelPlural:        "Related Organisations",
+                inverse:            "organisation-ethnicity",
+                inverseLabel:       "Related Ethnicity",
+                inverseLabelPlural: "Related Ethnicities",
+            },
+
             region: {
-                label:              "Found in",
-                labelPlural:        "Found in",
+                label:              "Found in Region",
+                labelPlural:        "Found in Regions",
                 inverse:            "ethnicGroups",
                 inverseLabel:       "Ethnic group present",
                 inverseLabelPlural: "Ethnic groups present",
             },
 
             settlement: {
-                label:              "Found in",
-                labelPlural:        "Found in",
+                label:              "Found in Settlement",
+                labelPlural:        "Found in Settlements",
                 inverse:            "ethnicGroups",
                 inverseLabel:       "Ethnic group present",
                 inverseLabelPlural: "Ethnic groups present",
+            }
+        },
+    },
+
+    condition: {
+        label:  "Related Condition",
+        labelPlural: "Related Conditions",
+
+        byTargetType: {
+            specie: {
+                label:  "Affected Specie",
+                labelPlural:    "Affected Species",
+                inverse: "affectedBy",
+                inverseLabel: "Affected by",
             }
         },
     },

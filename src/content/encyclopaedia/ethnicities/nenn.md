@@ -1,9 +1,13 @@
 ---
 title: Nenn
+type: Ethnicity
 tags:
     - Expand
+relations:
+    region: Eshil
+    organisation: Sacred Knowledge
+    specie: Gnome
 ---
-# Nenn
 The last known reminder of the former Grilashi Empire manifests itself in the remainder of its gnomes residing in @[Eshil](/atlas/eshil). These gnomes, who call themselves The Nenn, still adhere to the core values taught by their superiors. While they are no longer part of the larger whole, they desperately cling onto the old ways.
 
 {% quote "Main motto found in every Nenn's home" %}

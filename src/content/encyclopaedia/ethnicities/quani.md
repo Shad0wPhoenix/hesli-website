@@ -1,9 +1,15 @@
 ---
 title: Quani
+type: Ethnicity
 tags:
     - Expand
+relations:
+    region: Eshil
+    specie: High Elf
+    settlement:
+        - Matona
+        - Limani
 ---
-# Quani
 Defiant of their cousins and wanting to do things their way, some high elfs have left Yurin long ago to find another place where they can be free of the ludacris caused by their brethren. Now scattered throughout [Eshil](/atlas/eshil), these elves enjoy their freedom but still with a strong dislike for water.
 
 {% quote "A Quani High Elf" %}

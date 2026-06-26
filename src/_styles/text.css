@@ -73,3 +73,7 @@ th, td {
 :is(ul) {
     margin: 0;
 }
+
+.italic {
+    font-style: italic;
+}

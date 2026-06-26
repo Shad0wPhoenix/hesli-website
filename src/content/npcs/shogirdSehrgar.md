@@ -1,65 +1,37 @@
 ---
 title: Shogird Sehrgar
+type: Character
 tags:
     - Revisit
     - Summercamp23
+relations:
+    currentLocation: Tower of Anvar
+    specie: Human
+    deity: Archmage Anvar
 ---
-# Shogird Sehrgar
-
-{% sidebarRight %}
+{% mainSidebar "above" %}
 
 {% image "/_img/npcs/shogirdSehrgar.png" %}
 {% credits "Shogird Sehrgar", "", "Shadowphoenix using HeroForge", "https://www.heroforge.com" %}
 {% endimage %}
 
-{% container "sidebar" %}
+{% endmainSidebar %}
 
-**Alignment**\
-Chaotic Loyal
+{% mainSidebar "bottom" %}
 
-**Current Status**\
-Trying to bring their master back to life
+{% keyValue "Alignment" %}Chaotic Loyal{% endkeyValue %}
+{% keyValue "Current Status" %}Trying to bring their master back to life{% endkeyValue %}
+{% keyValue "Age" %}Unknown{% endkeyValue %}
+{% keyValue "Sex" %}None{% endkeyValue %}
+{% keyValue "Gender" %}Non Binary{% endkeyValue %}
+{% keyValue "Pronouns" %}He/Him<br>They/Them{% endkeyValue %}
+{% keyValue "Eyes" %}Hollow and White{% endkeyValue %}
+{% keyValue "Hair" %}None that is visible{% endkeyValue %}
+{% keyValue "Skin Tone/Pigmentation" %}Bonelike white with blood almost visible through the skin{% endkeyValue %}
+{% keyValue "Height" %}1.55m (5ft 1in){% endkeyValue %}
+{% keyValue "Weight" %}55kg (120lbs){% endkeyValue %}
 
-**Current Location**\
-Tower of Anvar
-
-**Specie**\
-[Human]()
-
-**Age**\
-Unknown
-
-**Sex**\
-None
-
-**Gender**\
-Non Binary
-
-**Pronouns**\
-He/Him\
-They/Them
-
-**Eyes**\
-Hollow and White
-
-**Hair**\
-None that is visible
-
-**Skin Tone/Pigmentation**\
-Bonelike white with blood almost visible through the skin
-
-**Height**\
-1.55m (5'1")
-
-**Weight**\
-55kg (120lb)
-
-**Belief/Deity**
-[Archmage Anvar](/npcs/archmageAnvar)
-
-{% endcontainer %}
-
-{% endsidebarRight %}
+{% endmainSidebar %}
 
 Always hiding in the darkness of Theorston Thicket, Shogird Sehrgar is one of [Archmage Anvar's](/npcs/archmageAnvar) most loyal disciples. He stepped up after his father passed away, taking up the legacy that he left behind and determined to bring it to fruition. Ever since, Shogird has been working relentlessly to find a way to bring his master back to life. With nothing but the notes and books his father left him and the Tower of Anvar at his disposal, it will be a challenge to fulfill his goal.
 

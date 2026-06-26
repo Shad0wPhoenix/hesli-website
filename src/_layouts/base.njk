@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:site-name" content="Hesli" />
         <meta name="author" content="ShadowPhoenix" />
-        <title>{{title}} - Hesli</title>
-        <meta property="og:title" content="{{title}} - Hesli" />
+        <title>{{title or displayTitle}} - Hesli</title>
+        <meta property="og:title" content="{{title or displayTitle}} - Hesli" />
         <meta name="description" content="{{excerpt}}" />
         <meta property="og:description" content="{{excerpt}}" />
         <meta property="og:image" content="" />
@@ -36,7 +36,7 @@
             {%- include "partials/header.njk" -%}
             <button id="menu-toggle"><i class="fa-solid fa-bars" id="menu-toggle"></i></button>
             <main class="page">
-                <h1>{{ title }}</h1>
+                {%- if title %}<h1>{{ title }}</h1>{% endif -%}
                 {%- include "partials/sidebar.njk" -%}
                 {{ content | safe }}
             </main>

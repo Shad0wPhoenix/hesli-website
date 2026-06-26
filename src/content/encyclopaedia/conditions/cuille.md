@@ -1,11 +1,15 @@
 ---
 title: Cuille
+type: condition
 tags:
     - Summercamp22
+relations:
+    specie:
+        - High Elf
+        - Swamp Elf
 ---
-# Cuille
 
-{% sidebarRight "col-md-4" %}
+{% mainSidebar "above" %}
 
 {% secretToggle "I'm a member of Altan'Luu" %}
 
@@ -13,23 +17,15 @@ Only members of Altan'Luu know the true origin and purpose of Cuille and how it 
 
 {% endsecretToggle %}
 
-{% container "sidebar" %}
+{% endmainSidebar %}
 
-**Type**\
-Genetic
+{% mainSidebar "bottom" %}
 
-**Origin**\
-Natural
+{% keyValue "Type" %}Genetic{% endkeyValue %}
+{% keyValue "Origins" %}Natural{% endkeyValue %}
+{% keyValue "Rarity" %}Common{% endkeyValue %}
 
-**Rarity**\
-Common
-
-**Affected Species**\
-[High Elf](/encyclopaedia/races/elf/highElf)
-
-{% endcontainer %}
-
-{% endsidebarRight %}
+{% endmainSidebar %}
 
 Plaguing the [High Elves](/encyclopaedia/races/elf/highElf) since time immemorial, is a common condition among the [Eilmari]() high elves. Cuille nearly halves the lifespan of the elves, rendering them a mere 375 years old on average instead of 750 years. There are a very few high elf families that have been able to avoid this condition from manifesting itself in their bloodline.
 

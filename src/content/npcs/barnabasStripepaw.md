@@ -1,20 +1,41 @@
 ---
 title: Barnabas Stripepaw
+type: Character
 tags:
     - NPC
     - Rewrite
+relations:
+    currentLocation: Limani
+    currentResidence: Limani
+    specie: Lileon
 ---
-# Barnabas Stripepaw
-{% sidebar %}
+{% mainSidebar "above" %}
 
 {% image "/_img/npcs/barnabasStripepaw.jpg" %}
 {% credits "This is Barnabas!" %}
 {% endimage %}
 
+{% endmainSidebar %}
+
+{% mainSidebar "bottom" %}
+
+{% keyValue "Current Status" %}Cleaning glasses at the bar{% endkeyValue %}
+{% keyValue "Age" %}Unknown{% endkeyValue %}
+{% keyValue "Gender" %}Male{% endkeyValue %}
+{% keyValue "Eyes" %}Fiery Yellow{% endkeyValue %}
+{% keyValue "Hair" %}Bright purple manes{% endkeyValue %}
+{% keyValue "Skin Tone/Pigmentation" %}Apple green fur with anthracite stripes{% endkeyValue %}
+{% keyValue "Height" %}On hind-legs: 3.6m (11ft 10in){% endkeyValue %}
+{% keyValue "Weight" %}280kg (620lbs){% endkeyValue %}
+
+{% endmainSidebar %}
+
+{% mainSidebar "below" %}
+
 #### Character Study
 Barnabas is a man of great patience with a peculiar appearence, not found anywhere in Limani or even Eshil. His fiery yellow eyes piece through your soul seemingly capable of reading your very emotions. The apple green fur with anthracite stripes decorated with bright purple manes attract the attention of everyone in a crowded street. Dwarfing everyone on his hind-legs at a staggering 3.6m (11'10") at 280kg makes him intimidating to look at, but he wouldn't hurt a fly unless deserved.
 
-{% endsidebar %}
+{% endmainSidebar %}
 
 Mostly walking on all fours, but sometimes only on the hind-legs, Barnabas Stripepaw serves the patrons of [The Wandering Lileon](/atlas/eshil/limani/wanderingLileon). His hulking frame intimidates most of the (new) customers who threaten to become a problem. Those that behave get to know his gentle nature and his witty sense of humour that brings a smile to anyone's face.
 
