@@ -111,11 +111,11 @@ export default function (eleventy) {
 
     eleventy.on("eleventy.after", ({ results }) => {
         if (relationGraph.stubs.length) {
-            let unwrittenArticles = "[RelationGraph] Unwritten articles:\r\n";
-            relationGraph.stubs.forEach(s => unwrittenArticles = unwrittenArticles + `  - ${s.name}\r\n`);
+            let stubArticles = "[RelationGraph] Stub articles:\r\n";
+            relationGraph.stubs.forEach(s => stubArticles = stubArticles + `  - ${s.name}\r\n`);
 
-            console.log(unwrittenArticles);
-            fs.writeFileSync('./unwrittenArticles.txt', unwrittenArticles);
+            console.log(stubArticles);
+            fs.writeFileSync('./stubArticles.txt', stubArticles);
         }
     });
 
