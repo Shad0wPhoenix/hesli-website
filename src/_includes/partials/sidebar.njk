@@ -4,15 +4,19 @@
 {%- macro render(attributes) -%}
 {%- if attributes %}
     {%- for key, value in attributes %}
-        <p><strong>{{- key -}}</strong>
-        <br>
-        {%- if value | isArray %}
-            {%- for val in value %}
-                {{- val -}}<br>
-            {% endfor -%}
-        {% else %}
-            {{- value -}}
-        {% endif -%}
+        <p>
+            <strong>{{- key -}}</strong><br>
+            {%- if value | isArray %}
+                {%- for item in value %}
+                    {{- item -}}<br>
+                {% endfor -%}
+            {%- elif value | isObject %}
+                {%- for itemKey, itemValue in value %}
+                    {{- itemKey -}}: {{- itemValue -}}<br>
+                {% endfor -%}
+            {%- else %}
+                {{- value -}}
+            {% endif -%}
         </p>
     {% endfor -%}
 {% endif -%}

@@ -62,6 +62,7 @@ export default function (eleventy) {
         return relationGraph;
     });
 
+    // Filters
     eleventy.addFilter("getRelations", (graph, stem) => {
         const node = graph.getNodeByStem(stem);
 
@@ -81,6 +82,11 @@ export default function (eleventy) {
     })
 
     eleventy.addFilter("isArray", value => Array.isArray(value));
+
+    eleventy.addFilter("isObject", value => value !== null
+        && typeof value === "object"
+        && !Array.isArray(value)
+    );
 
     // Register (Paired) Shortcodes
     registerShortcodes(eleventy, nunjucksEnv, markdown);
