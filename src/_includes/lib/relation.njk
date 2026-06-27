@@ -33,7 +33,7 @@
 {%- macro relationSection(collection, heading) %}
 {%- set hasContent = false -%}
 {%- for key, group in collection -%}
-    {%- if group.nodes | length %}
+    {%- if group.nodes | length and not group.hidden %}
         {%- set hasContent = true -%}
     {% endif -%}
 {% endfor -%}
@@ -45,7 +45,9 @@
         {% endif -%}
 
         {%- for key, group in collection %}
-            {{- relationGroup(group) -}}
+            {%- if not group.hidden %}
+                {{- relationGroup(group) -}}
+            {% endif -%}
         {% endfor -%}
     </div>
 {% endif -%}

@@ -181,17 +181,36 @@ export default {
         inverseLabelPlural: "Owned by",
     },
 
-    // specie: {
-    //     label:              "Genetic Ancestor",
-    //     labelPlural:        "Genetic Ancestors",
-    //     inverse:            "descendantSpecie",
-    //     inverseLabel:       "Genetic Descendant",
-    //     inverseLabelPlural: "Genetic Descendants",
+    character: {
+        label:              "Related To",
+        labelPlural:        "Related To",
+        inverse:            "relatedTo",
+        inverseLabel:       "Related To",
+        inverseLabelPlural: "Related To",
 
-    //     // aggregate:      [
-    //     //                     "ethnicity",
-    //     //                 ],
-    // },
+        byTargetType: {
+            specie: {
+                label:              "Specie",
+                labelPlural:        "Species",
+                inverse:            "characterSpecie",
+                inverseLabel:       "Important Character",
+                inverseLabelPlural: "Important Characters",
+                inverseHidden:      true,
+            }
+        }
+    },
+
+    specie: {
+        label:              "Genetic Ancestor",
+        labelPlural:        "Genetic Ancestors",
+        inverse:            "descendantSpecie",
+        inverseLabel:       "Genetic Descendant",
+        inverseLabelPlural: "Genetic Descendants",
+
+        aggregate:      [
+                            "ethnicity",
+                        ],
+    },
 
     ethnicity: {
         label:              "Parent Ethnicity",
