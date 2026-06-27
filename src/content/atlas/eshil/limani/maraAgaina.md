@@ -4,26 +4,19 @@ type: Building
 tags:
     - Potential
     - Rewrite
+attributes:
+    "Shop Type": Craftsman
+    "Services": Armour & Weapon Repairs
+    "Goods": Armour & Weapon Repairs
 relations:
     settlement: Limani
     owner: Mirthal
+    profession:
+        - Blacksmith
+        - Weaponsmith
+        - Armoursmith
+        - Sharpener
 ---
-{% mainSidebar "bottom" %}
-
-{% keyValue "Shop Type" %}
-Craftsman
-
-- Blacksmith
-- Weaponsmith
-- Armoursmith
-- Sharpener
-
-{% endkeyValue %}
-
-{% keyValue "Services" %}Armour & Weapon Repairs{% endkeyValue %}
-{% keyValue "Goods" %}Armour & Weapons{% endkeyValue %}
-
-{% endmainSidebar %}
 
 In the middle of the trading district, three large chimneys stick out above all the nearby buildings. Black plumes of smoke make its way out, as air gets pumped into the system. Connected to these chimneys is a large workshop with multiple furnaces, anvils, and sweaty [High Elfs](/encyclopaedia/races/elf/highElf) battling the ore.
 

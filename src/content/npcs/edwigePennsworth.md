@@ -4,6 +4,19 @@ type: Character
 tags:
     - Revisit
     - Expand
+attributes:
+    "Alignment": Chaotic Hilarious
+    "Current Status": Mapping Hesli
+    "Current Location": Unknown
+    "Current Residence": Her tiny (tree)tent
+    "Age": Unknown
+    "Gender": Female
+    "Pronouns": She/Her
+    "Eyes": Jolly hazel and brown
+    "Hair": Short and slightly spiked brown hair
+    "Skin Tone/Pigmentation": Tanned
+    "Height": 95cm (3'1")
+    "Weight": 20kg (44lbs)
 relations:
     specie: Halfling
     ethnicity: Wanderers
@@ -16,23 +29,6 @@ relations:
 {% image "/_img/npcs/edwigePortrait.png" %}{% endimage %}
 
 {% endcontainer %}
-
-{% endmainSidebar %}
-
-{% mainSidebar "top" %}
-
-{% keyValue "Alignment" %}Chaotic Hilarious{% endkeyValue %}
-{% keyValue "Current Status" %}Mapping Hesli{% endkeyValue %}
-{% keyValue "Current Location" %}Unknown{% endkeyValue %}
-{% keyValue "Current Residence" %}Her tiny (tree)tent{% endkeyValue %}
-{% keyValue "Age" %}Unknown{% endkeyValue %}
-{% keyValue "Gender" %}Female{% endkeyValue %}
-{% keyValue "Pronouns" %}She/Her{% endkeyValue %}
-{% keyValue "Eyes" %}Jolly hazel brown{% endkeyValue %}
-{% keyValue "Hair" %}Short and slightly spiked brown hair{% endkeyValue %}
-{% keyValue "Skin Tone/Pigmentation" %}Tanned{% endkeyValue %}
-{% keyValue "Height" %}95cm (3ft 1in){% endkeyValue %}
-{% keyValue "Weight" %}20kg (44lbs) {% endkeyValue %}
 
 {% endmainSidebar %}
 

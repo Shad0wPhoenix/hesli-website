@@ -4,6 +4,16 @@ type: Character
 tags:
     - NPC
     - Rewrite
+attributes:
+    "Current Status": Excitedly greeting new adventurers at the port
+    "Age": 165 years
+    "Gender": Female
+    "Pronouns": They/Them
+    "Eyes": Lively and Dark Amber
+    "Hair": Long and Black, often Braided
+    "Skin Tone/Pigmentation": Surprisingly Pale
+    "Height": 0.9m (3'0")
+    "Weight": 16kg (35lbs)
 relations:
     currentLocation: Limani
     currentResidence: Limani
@@ -15,20 +25,6 @@ relations:
 {% image "/_img/npcs/ashishLudak.jpg" %}
 {% credits "This is Ashish!" %}
 {% endimage %}
-
-{% endmainSidebar %}
-
-{% mainSidebar "bottom" %}
-
-{% keyValue "Current Status" %}Excitedly greeting new adventurers at the port{% endkeyValue %}
-{% keyValue "Age" %}165 years{% endkeyValue %}
-{% keyValue "Pronouns" %}They/Them{% endkeyValue %}
-{% keyValue "Gender" %}Female{% endkeyValue %}
-{% keyValue "Eyes" %}Lively and Dark Amber{% endkeyValue %}
-{% keyValue "Hair" %}Long and Black, often Braided{% endkeyValue %}
-{% keyValue "Skin Tone/Pigmentation" %}Surprisingly Pale{% endkeyValue %}
-{% keyValue "Height" %}0.9m (3ft){% endkeyValue %}
-{% keyValue "Weight" %}16kg (35lbs){% endkeyValue %}
 
 {% endmainSidebar %}
 

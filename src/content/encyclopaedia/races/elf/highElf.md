@@ -4,27 +4,19 @@ type: Specie
 tags:
     - Revisit
     - Rewrite
+attributes: 
+    "Scientific Name": Aileve Hores
+    "Lifespan": 375 years
+    "Average Height":
+        "Male": 1.80 - 2.00m (5'10" - 6'7")
+        "Female": 1.65 - 1.80m (4'10" - 5'10")
+    "Average Weight":
+        "Male": 60 - 85kg (130 - 190lbs)
+        "Female": 45 - 70kg (100 - 155lbs)
 relations:
     region: Eshil
     specie: Elf
 ---
-
-{% mainSidebar "top" %}
-
-{% keyValue "Scientific Name" %}Aileve Hores{% endkeyValue %}
-{% keyValue "Lifespan" %}375 years{% endkeyValue %}
-
-{% keyValue "Average Height" %}
-Male: 1.80 - 2.00m (5'10" - 6'7")<br>
-Female: 1.65 - 1.80m (4'10" - 5'10")
-{% endkeyValue %}
-
-{% keyValue "Average Weight" %}
-Male: 60 - 85kg (130 - 190lb)<br>
-Female: 45 - 70kg (100 - 155lb)
-{% endkeyValue %}
-
-{% endmainSidebar %}
 
 The High Elfs of Hesli are a pretentious race. They claim to have been created by the mightiest of dragons, [the Gold Dragons](), which gives them the belief that they are superior over all other races. However, other species do not take their superiority too seriously and rather mock the elfs about one big weakness: they don't like water thus don't like swimming at all or getting wet in general.
 

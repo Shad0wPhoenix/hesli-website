@@ -4,26 +4,19 @@ type: Building
 tags:
     - TLC
     - Expand
+attributes:
+    "Shop Type": Craftsman
+    "Services": Armour & Weapon Repairs
+    "Goods": Armour & Weapons
 relations:
     settlement: Limani
     owner: Djoric Slambeard
+    profession:
+        - Blacksmith
+        - Weaponsmith
+        - Armoursmith
+        - Sharpener
 ---
-{% mainSidebar "bottom" %}
-
-{% keyValue "Shop Type" %}
-Craftsman
-
-- Blacksmith
-- Weaponsmith
-- Armoursmith
-- Sharpener
-
-{% endkeyValue %}
-
-{% keyValue "Services" %}Armour & Weapon Repairs{% endkeyValue %}
-{% keyValue "Goods" %}Armour & Weapons{% endkeyValue %}
-
-{% endmainSidebar %}
 
 The outskirts of Limani's trading district is filled with scattered small craftsman buildings. The sound of a hammer hitting metal echoes through the neighbourhood. Following the sound leads to a small building with a chimney so crooked that it is a miracle it still stands. With a backyard full of scrap metal, the name of this place makes much sense.
 

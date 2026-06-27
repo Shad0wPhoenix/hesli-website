@@ -4,18 +4,14 @@ excerpt: The one who is capable of manipulating all. Can they get to you?
 tags:
     - Expand
     - Summercamp23
+attributes:
+    "Alignment": Suave Evil
+    "Current Status": Persuading people to voluntairly give up their possessions and money to his organisation of misfits
+    "Height": 1.80m (5'11")
 relations:
     currentLocation: Gardens of Bermuth
     memberOf: Bosqinchi
 ---
-{% mainSidebar "top" %}
-
-{% keyValue "Alignment" %}Suave Evil{% endkeyValue %}
-{% keyValue "Current Status" %}Persuading people to voluntairlly give up their possessions and money to his organisation of misfits{% endkeyValue %}
-{% keyValue "Height" %}1.80m (5ft 11in){% endkeyValue %}
-
-{% endmainSidebar %}
-
 {% mainSidebar "below" %}
 
 {% quote "A poster at one of the public settlement boards warning for the Silver Whisperer" %}

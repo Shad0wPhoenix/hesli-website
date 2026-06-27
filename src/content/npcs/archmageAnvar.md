@@ -4,9 +4,20 @@ type: Character
 tags:
     - Revisit
     - Summercamp22
+attributes:
+    "Circumstances of Death": Prophesied
+    "Age": Unknown
+    "Gender": Male
+    "Eyes": Piercing Green
+    "Hair": Short with a purple hue
+    "Skin Tone/Pigmentation": Bleak, almost white
+    "Height": 1.84m (6'0")
+    "Weight": 79kg (174lbs)
 relations:
     specie: Human
+    placeOfDeath: Tower of Anvar
 ---
+
 {% mainSidebar "above" %}
 
 {% secretToggle "I am a Disciple of Anvar" %}
@@ -21,7 +32,7 @@ Disciples close to Anvar are familiar with the secrets surrounding Archmage Anva
 
 {% endmainSidebar %}
 
-{% mainSidebar "bottom" %}
+{% mainSidebar "top" %}
 
 {% keyValue "Alignment" %}Chaotic Monstrous{% endkeyValue %}
 {% keyValue "Current Status" %}Dead{% endkeyValue %}
@@ -33,16 +44,6 @@ Waiting to be Revived
 {% keyValue "Current Location" %}Caesars Forest{% endkeyValue %}
 
 {% endsecret %}
-
-{% keyValue "Circumstances of Death" %}Prophesied{% endkeyValue %}
-{% keyValue "Place of Death" %}[Tower of Anvar](){% endkeyValue %}
-{% keyValue "Age" %}Unknown{% endkeyValue %}
-{% keyValue "Gender" %}Male{% endkeyValue %}
-{% keyValue "Eyes" %}Piercing Green{% endkeyValue %}
-{% keyValue "Hair" %}Short with a purple hue{% endkeyValue %}
-{% keyValue "Skin Tone/Pigmentation" %}Bleak, almost white{% endkeyValue %}
-{% keyValue "Height" %}1.84m (6'0"){% endkeyValue %}
-{% keyValue "Weight" %}79kg (174lbs){% endkeyValue %}
 
 {% endmainSidebar %}
 

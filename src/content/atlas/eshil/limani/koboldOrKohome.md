@@ -3,6 +3,13 @@ title: Kobold or Kohome
 type: Building
 tags:
     - Expand
+attributes:
+    "Shop Type": General Goods
+    "Goods":
+        - General Goods
+        - Simple Potions
+        - Food and Beverages
+        - Curiosa
 relations:
     settlement: Limani
     owner: The Kohome Triplets
@@ -12,20 +19,6 @@ relations:
 {% secretToggle "Are you Friend or Foe?" %}
 Only friends of the Wandering Lileon may know more about this location.
 {% endsecretToggle %}
-
-{% endmainSidebar %}
-
-{% mainSidebar "bottom" %}
-
-{% keyValue "Shop Type" %}General Goods{% endkeyValue %}
-{% keyValue "Goods" %}
-
-- General Goods
-- Simple Potions
-- Food and Beverages
-- Curiosa
-
-{% endkeyValue %}
 
 {% endmainSidebar %}
 

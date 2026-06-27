@@ -3,6 +3,10 @@ title: Cuille
 type: condition
 tags:
     - Summercamp22
+attributes:
+    "Type": Genetic
+    "Origins": Natural
+    "Rarity": Common
 relations:
     specie:
         - High Elf
@@ -16,14 +20,6 @@ relations:
 Only members of Altan'Luu know the true origin and purpose of Cuille and how it came to be.
 
 {% endsecretToggle %}
-
-{% endmainSidebar %}
-
-{% mainSidebar "bottom" %}
-
-{% keyValue "Type" %}Genetic{% endkeyValue %}
-{% keyValue "Origins" %}Natural{% endkeyValue %}
-{% keyValue "Rarity" %}Common{% endkeyValue %}
 
 {% endmainSidebar %}
 

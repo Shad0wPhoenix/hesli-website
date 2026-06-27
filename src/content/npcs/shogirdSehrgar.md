@@ -4,6 +4,20 @@ type: Character
 tags:
     - Revisit
     - Summercamp23
+attributes:
+    "Alignment": Chaotic Loyal
+    "Current Status": Trying to bring their master back to life
+    "Age": Unknown
+    "Sex": Non Binary
+    "Gender": None
+    "Pronouns": 
+        - He/Him
+        - They/Them
+    "Eyes": Hollow and White
+    "Hair": None that is visible
+    "Skin Tone/Pigmentation": Bonelike white with blood almost visible through the skin
+    "Height": 1.55m (5'1")
+    "Weight": 55kg (120lbs)
 relations:
     currentLocation: Tower of Anvar
     specie: Human
@@ -14,22 +28,6 @@ relations:
 {% image "/_img/npcs/shogirdSehrgar.png" %}
 {% credits "Shogird Sehrgar", "", "Shadowphoenix using HeroForge", "https://www.heroforge.com" %}
 {% endimage %}
-
-{% endmainSidebar %}
-
-{% mainSidebar "bottom" %}
-
-{% keyValue "Alignment" %}Chaotic Loyal{% endkeyValue %}
-{% keyValue "Current Status" %}Trying to bring their master back to life{% endkeyValue %}
-{% keyValue "Age" %}Unknown{% endkeyValue %}
-{% keyValue "Sex" %}None{% endkeyValue %}
-{% keyValue "Gender" %}Non Binary{% endkeyValue %}
-{% keyValue "Pronouns" %}He/Him<br>They/Them{% endkeyValue %}
-{% keyValue "Eyes" %}Hollow and White{% endkeyValue %}
-{% keyValue "Hair" %}None that is visible{% endkeyValue %}
-{% keyValue "Skin Tone/Pigmentation" %}Bonelike white with blood almost visible through the skin{% endkeyValue %}
-{% keyValue "Height" %}1.55m (5ft 1in){% endkeyValue %}
-{% keyValue "Weight" %}55kg (120lbs){% endkeyValue %}
 
 {% endmainSidebar %}
 

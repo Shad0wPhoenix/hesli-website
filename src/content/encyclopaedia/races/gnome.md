@@ -4,26 +4,18 @@ type: Specie
 tags:
     - Revisit
     - Rewrite
+attributes:
+    "Scientific Name": Geenom
+    "Lifespan": 300 years
+    "Average Height":
+        "Male": 1.0 - 1.2m (3'3" - 4'0")
+        "Female": 0.85 - 1.05m (2'9" - 3'5")
+    "Average Weight":
+        "Male": 17 - 22kg (37 - 49lbs)
+        "Female": 15 - 19kg (33 - 42lbs)
 relations:
     region: Eshil
 ---
-
-{% mainSidebar "top" %}
-
-{% keyValue "Scientific Name" %}Geenom{% endkeyValue %}
-{% keyValue "Lifespan" %}300 years{% endkeyValue %}
-
-{% keyValue "Average Height" %}
-Male: 1.0 - 1.2m (3'3" - 4'0")<br>
-Female: 0.85 - 1.05m (2'9" - 3'5")
-{% endkeyValue %}
-
-{% keyValue "Average Weight" %}
-Male: 17 - 22kg (37 - 49lb)<br>
-Female: 15 - 19kg (33 - 42lb)
-{% endkeyValue %}
-
-{% endmainSidebar %}
 
 The smallest species current known to Hesli are the Gnomes. These tiny creatures are the heart of technological innovation and advancement of all known races. Their wittiness and humour makes it impossible to hate them upon first sight. Gnomes are incredibly proficient in hiding their true emotions and intentions. Therefore, do not always be fooled by their looks and personality, because some carry a dark past.
 

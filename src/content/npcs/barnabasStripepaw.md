@@ -4,6 +4,15 @@ type: Character
 tags:
     - NPC
     - Rewrite
+attributes:
+    "Current Status": Cleaning glasses at the bar
+    "Age": Unknown
+    "Gender": Male
+    "Eyes": Fiery Yellow
+    "Hair": Bright purple manes
+    "Skin Tone/Pigmentation": Apple green fur with anthracite stripes
+    "Height": On hind-legs; 3.6m (11'10")
+    "Weight": 280kg (620lbs)
 relations:
     currentLocation: Limani
     currentResidence: Limani
@@ -14,19 +23,6 @@ relations:
 {% image "/_img/npcs/barnabasStripepaw.jpg" %}
 {% credits "This is Barnabas!" %}
 {% endimage %}
-
-{% endmainSidebar %}
-
-{% mainSidebar "bottom" %}
-
-{% keyValue "Current Status" %}Cleaning glasses at the bar{% endkeyValue %}
-{% keyValue "Age" %}Unknown{% endkeyValue %}
-{% keyValue "Gender" %}Male{% endkeyValue %}
-{% keyValue "Eyes" %}Fiery Yellow{% endkeyValue %}
-{% keyValue "Hair" %}Bright purple manes{% endkeyValue %}
-{% keyValue "Skin Tone/Pigmentation" %}Apple green fur with anthracite stripes{% endkeyValue %}
-{% keyValue "Height" %}On hind-legs: 3.6m (11ft 10in){% endkeyValue %}
-{% keyValue "Weight" %}280kg (620lbs){% endkeyValue %}
 
 {% endmainSidebar %}
 

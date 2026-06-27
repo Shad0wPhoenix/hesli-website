@@ -4,6 +4,8 @@ type: Ethnicity
 excerpt: An old dwarven clan whose source of food was violently taken away from them after a conflict with a city and a kingdom.
 tags:
     - Summercamp23
+attributes:
+    "Status": Extinct
 relations:
     region: Greze Urngorr
     specie: Dwarf
@@ -16,12 +18,6 @@ relations:
 The true origin of the Haldir has been forgotten over the generations and therefore isn't public knowledge anymore.
 
 {% endsecretToggle %}
-
-{% endmainSidebar %}
-
-{% mainSidebar "bottom" %}
-
-{% keyValue "Status" %}Extinct{% endkeyValue %}
 
 {% endmainSidebar %}
 
