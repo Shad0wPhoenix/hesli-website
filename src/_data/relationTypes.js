@@ -120,6 +120,14 @@ export default {
         inverseLabelPlural: "Followers",
     },
 
+    deity: {
+        label:              "Follows Deity",
+        labelPlural:        "Follows Deities",
+        inverse:            "followers",
+        inverseLabel:       "Follower",
+        inverseLabelPlural: "Followers"
+    },
+
     ruledBy: {
         label:              "Ruled by",
         inverse:            "rules",

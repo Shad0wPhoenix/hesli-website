@@ -80,6 +80,8 @@ export default function (eleventy) {
         return graph.getBreadcrumbs(graph.getNodeByStem(stem))
     })
 
+    eleventy.addFilter("isArray", value => Array.isArray(value));
+
     // Register (Paired) Shortcodes
     registerShortcodes(eleventy, nunjucksEnv, markdown);
 

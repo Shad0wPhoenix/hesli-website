@@ -1,5 +1,23 @@
 {%- set relationNode = collections.relationGraph | getRelations(page.filePathStem) -%}
 {%- if page.sidebar.above or page.sidebar.top or page.sidebar.bottom or page.sidebar.below or relationNode %}
+
+{%- macro render(attributes) -%}
+{%- if attributes %}
+    {%- for key, value in attributes %}
+        <p><strong>{{- key -}}</strong>
+        <br>
+        {%- if value | isArray %}
+            {%- for val in value %}
+                {{- val -}}<br>
+            {% endfor -%}
+        {% else %}
+            {{- value -}}
+        {% endif -%}
+        </p>
+    {% endfor -%}
+{% endif -%}
+{% endmacro -%}
+
 <div class="s-right col-md-4 mw-500">
     {%- if page.sidebar.above -%}
     <section id="sidebar-above">
@@ -25,8 +43,11 @@
 
         {%- if page.sidebar.bottom %}
         <section id="sidebar-bottom">
+            {{- render(attributes) -}}
             {{- page.sidebar.bottom | safe -}}
         </section>
+        {% else %}
+            {{ render(attributes) }}
         {% endif -%}
     </div>
     {% endif -%}
