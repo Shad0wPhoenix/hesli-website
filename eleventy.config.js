@@ -1,13 +1,13 @@
 // Imports
-import markdown from './lib/markdown.config.js';
-import getNunjucksEnv from './lib/nunjucks.js';
-import registerShortcodes from './lib/shortcodes/index.js';
+import fs from 'fs';
+import { rm } from 'fs/promises';
 import buildContentGraph from './lib/graphs/contentGraph.js';
 import buildNavigationGraph from './lib/graphs/navigationGraph.js';
 import buildRelationGraph from './lib/graphs/relationGraph.js';
+import markdown from './lib/markdown.config.js';
+import getNunjucksEnv from './lib/nunjucks.config.js';
+import registerShortcodes from './lib/shortcodes/index.js';
 import relationTypes from './src/_data/relationTypes.js';
-import fs from 'fs';
-import { rm } from 'fs/promises';
 
 /**
  * Eleventy Configuration
@@ -38,7 +38,7 @@ export default function (eleventy) {
     eleventy.setLibrary("njk", nunjucksEnv);
 
     // Creating a ContentGraph
-    eleventy.addCollection("contentGraph", function(collections) {
+    eleventy.addCollection("contentGraph", (collections) => {
         const pages = collections.all ?? collections.items;
 
         if (!pages) {
@@ -46,18 +46,18 @@ export default function (eleventy) {
             return { root: { name: "root", children: [], parent: null }, nodes: new Map(), flat: [] };
         }
 
-        contentGraph = buildContentGraph(pages, input);
+        contentGraph = buildContentGraph(pages);
 
         return contentGraph;
     });
 
     // Creating a Collection for Navigation based on ContentGraph
-    eleventy.addCollection("navGraph", function() {
+    eleventy.addCollection("navGraph", () => {
         return buildNavigationGraph(contentGraph);
     });
 
     // Enrich ContentGraph with Relations
-    eleventy.addCollection("relationGraph", function(collections) {
+    eleventy.addCollection("relationGraph", () => {
         relationGraph = buildRelationGraph(contentGraph, relationTypes);
         return relationGraph;
     });
@@ -109,9 +109,9 @@ export default function (eleventy) {
         initialRun = false;
     });
 
-    eleventy.on("eleventy.after", ({ results }) => {
+    eleventy.on("eleventy.after", () => {
         if (relationGraph.stubs.length) {
-            let stubArticles = "[RelationGraph] Stub articles:\r\n";
+            let stubArticles = `[RelationGraph] Stub articles (${relationGraph.stubs.length}):\r\n`;
             relationGraph.stubs.forEach(s => stubArticles = stubArticles + `  - ${s.name}\r\n`);
 
             console.log(stubArticles);

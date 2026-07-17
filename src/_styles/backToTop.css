@@ -8,7 +8,7 @@
     color: var(--darkRed);
     border: none;
     opacity: 0;
-    pointer-events: 0;
+    pointer-events: none;
     transition: color 0.5s ease, opacity 0.5s ease;
 
     &.visible {

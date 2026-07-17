@@ -9,7 +9,7 @@
     background-color: var(--parchment);
     color: var(--purple);
 
-    transition: flex-basis 0.3 ease;
+    transition: flex-basis 0.3s ease;
 
     .navigation {
         margin: 0.8rem;
