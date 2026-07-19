@@ -2,8 +2,8 @@
 title: Dwarf
 type: Specie
 tags:
-    - Revisit
-    - Rewrite
+    - Finished
+    - Needs Art
 attributes:
     "Scientific Name": Dvares
     "Lifespan": 250 years
@@ -13,51 +13,47 @@ attributes:
     "Average Weight":
         "Male": 80 - 110kg (175 - 240lbs)
         "Female": 60 - 90kg (130 - 200lbs)
-relations:
-    region:
-        - Vallahir
-        - Eshil
 ---
+Relatively short, bulky and packing a surprisingly big punch; that sums up the dwarfs of Hesli. They are a proud people, and always loyal to their family and companions. Once a dwarf sets its mind to something, it shall be accomplished one way or another.
 
-Short, bulky, and packing the biggest punch; that sums up the dwarfs of Hesli. They are a proud people, and always loyal to their family and companions. With traditions rooted deep in their hearts, they do not stray away from their religion and traditions easily. Those who do need a very good reason, otherwise they will get treated like outcasts by the community.
+{% quote "A dad to his son" %}
 
-## Anatomy
-Old legends claim that the dwarfs have been shaped by the mountain. It is what gave them their sturdy posture.
+Son, it's time to set out on your own and find people to spend a life with; good companions are always worth living for!
 
-{% quote "Tales of the Long Lost Wanderer" %}
-Let me tell you the tale of the Dvares Creation..
 {% endquote %}
 
-Dwarfs have four strong limbs: two arms to maintain the mountains of Hesli and two legs to travel the narrow paths and caves. Because they travel much in caves, they are shorter than Elfs and Humans so they won't scratch their heads on the cave ceilings all the time. Their torso is especially sturdy which is necessary to transport the excess rocks while maintaining the mountains.
+## Body of Steel
+Old legends claim that the dwarfs have been shaped and created by the very earth of Hesli. This rocky start is what gave the dwarfs their immovable posture.
 
-### Perception
-Dwarfs have an extraordinary sense of hearing. They are used to being in dark caves and while dark vision grants them excellent sight, their hearing is essential to their survival of monsters in the caves.
+{% quote "Tales of the Long Lost Wanderer" %}
 
-### Ecology
-Most Dwarfs thrive in or near the mountains. Surrounded by rock and gems, they feel right at home. Still, they also love the outdoors to get some fresh air and a prey to pursue.
+Let met tell you the tale of the Dvares Creation..
 
-Some love the outdoors much more than others. They usually take up the professions as farmers of the community. However, there are also groups that entirely live out in the open.
+{% endquote %}
 
-### Diet
-Because of the hard and physical labour, dwarfs require extra protein in their diet. Which comes in handy, because they love meat. Hunting for prey in the coves or the outdoors is a fun activity for them, but they also have some kettle, pig and sheep farms for a steady meat supply.
+Generations beneath the stone shaped the dwarfs. They adopted shorter legs so they won't stratch their heads continuously against cave ceilings. Their low center of gravity grants them stability upon the treacherous mountainpasses, while their broad torsos allow them to carry the burdens that would otherwise break larger folk.
 
-### Growth Rate
-Dwarfs age in a similar process as the humans, but stretched out over 250 years instead of 60. When a dwarf reaches the age of 50, they're considered an adult by the community.
+Navigating in the darkness of their caves had the dwarfs adapting their sights and developing their hearing. With excellent darkvision and extraordinary sense of hearing, they can pinpoint any living creature - sometimes even without seeing them.
 
-The exact adult age can differ between clans, but the majority uses 50 as their milestone.
+{% sidebarLeft %}
 
-### Average Intelligence
-Dwarfs are a sapient thus intelligent species. They have proven to be capable of creating and innovating new things. Their most notivation invention is the cure against Miner's Lung: Minneoris.
+{% aloud %}
 
-### Average Physique
-Most male dwarfs are very strong and their physique shows it. Their arms and legs are usually quite ripped with a tight bum. However, they do love to eat and drink ale a little too much at time. So most have a soft or beer belly which adds a fluffy protective layer over their steel abs.
+#### The Dwarven Twists
+To dwarfs, hair is a lot more than just appearance; hair is memory, identity, and trust made visible. Families celebrate a child's first successful braid, Travellers weave wooden markers into their beards, and some clans preserve locks of departed loved ones so they may remain close to their kin. But dabble in counterfeit beards to appear of higher status and fellow dwarfs will seize to trust the one with the cursed mark.
 
-### Facial Characteristics
-The most recognisable feature of a dwarf is the beard. Many have big beards or elaborate mustaches that they take meticulous care of. The beard or mustache shows in some Dwarven cultures the social hierarchy, especially in Irrean society. Dwarfs that have a simple beard are considered low in rank in these societies whereas a dwarf with an elaborate and perfectly groomed beard is known for being at the top of the social ladder.
+The [Dwarven Twists]() originated among the ancient mountain clans, but spread and diversified as dwarfs settled on new and different lands. Though every dwarf honours the hair in some fashion, no two communities really agree on what constitutes a proper twist - and that disagreement is often a source of pride rather than conflict.
 
-## History
-Dwarfs have a rich history spanning many generations. In recent years, they have been focussing on restoring their relationship with the [High Elfs]() and maintaining a proper one with the [Gnomes](./gnome) and [Humans](./human).
+{% endaloud %}
 
-Together with the High Elfs, they have sent searching parties to the corners of Hesli to find the disappeared [Wood Elfs](), but to no avail thus far.
+{% endsidebarLeft %}
 
-Other than the past thousand years, there isn't much known about their history. Where they came from, and how they were created are still unknown. However, there are rumours that The Elders might know more than that, since they are possibly hiding the complete history and the truth from outsiders and even the Dwarfs themselves.
+## Where to Find Them
+The majority of the [Boulder Dwarfs]() find their refuge in or near the mountains. They thrive among the rocks and gems maintaining the risen earth from crumbling into they valleys. Some of them live at the base, taking on essential tasks such as farming to feed everyone inside.
+
+The [Ice Dwarfs]() prefer the conditions of the mountainpeaks where ice, snow and wind dominates. These rough elements batter against their skin and it makes them feel alive.
+
+However, it is possible to find dwarfs outside the mountainranges. Among the hills and the forest, one can easily find a clan of [Meadow Dwarfs](). As they work closely together with [Elfs of all kinds](../elf), they have been taught how to hone magic more effectively.
+
+## Growing Up
+Dwarfs age in a similar process as [Humans](), but stretched out over 250 years instead of 60. When a dwarf reaches the age of 50, they're considered an adult by most communities. Over the next 150 years, they stay mostly the same and in the last 50 years their health deteriorates fast. In the end, it's a quick process before they return to the very earth from whence they came.

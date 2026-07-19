@@ -1,13 +1,13 @@
 ---
-title: Eneb Palûn
+title: Eneb Pålun
 type: Ethnicity
 tags:
     - Revisit
     - Summercamp22
 relations:
     region: Lonely Marshes
-    ethnicity: Palûn
-    organisation: Palûn Guardians
+    ethnicity: Pålun
+    organisation: Pålun Guardians
     specie:
         - Swamp Elf
         - Swamp Gnome
@@ -16,7 +16,7 @@ relations:
         - Abeko
         - Puddlets
 ---
-Hidden in the shadows of the [Lonely Marshes](/atlas/eshil/lonelyMarshes) lives a large population of [Swamp Elf](/encyclopaedia/races/elf/swampElf) and Swamp Gnomes. They are part of the [Palûn](/encyclopaedia/ethnicities/palûn), tasked with maintaining the rivers, ponds, moss patches, plants and trees that grow in the wetlands of Hesli. Just everything that a swamp contains is preserved by the keepers. Being the keepers of the Lonely Marshes, they are also called The Lonely Keepers by some of the other groups. Still, these people are far from lonely.
+Hidden in the shadows of the [Lonely Marshes](/atlas/eshil/lonelyMarshes) lives a large population of [Swamp Elf](/encyclopaedia/races/elf/swampElf) and Swamp Gnomes. They are part of the [Pålun](/encyclopaedia/ethnicities/Pålun), tasked with maintaining the rivers, ponds, moss patches, plants and trees that grow in the wetlands of Hesli. Just everything that a swamp contains is preserved by the keepers. Being the keepers of the Lonely Marshes, they are also called The Lonely Keepers by some of the other groups. Still, these people are far from lonely.
 
 {% quote "Tales of the Long Lost Wanderer" %}
 
@@ -25,17 +25,17 @@ The nomads of the swamp; fascinating elves and gnomes that take their task serio
 {% endquote %}
 
 ## Life in the Swamp
-There are two distinct ways of living in the wetlands as an Eneb Palûn. One instance is living in stable and permanent towns, often providing services or working as a merchant. The other is trekking through the marsh in [Puddlets](/atlas/eshil/lonelyMarshes/puddlet) as nomadic tribes in search for valuables for the market while maintaining the wetlands.
+There are two distinct ways of living in the wetlands as an Eneb Pålun. One instance is living in stable and permanent towns, often providing services or working as a merchant. The other is trekking through the marsh in [Puddlets](/atlas/eshil/lonelyMarshes/puddlet) as nomadic tribes in search for valuables for the market while maintaining the wetlands.
 
 ### Masters of the Trade Hubs
-The swamp has a lot to offer, both to its inhabitants and the people outside. Within the [Lonely Marshes](/atlas/eshil/lonelyMarshes), there are two major trading hubs that the Eneb Palûn run: [Mo](/atlas/eshil/lonelyMarshes/mo) and [Abeko](/atlas/eshil/lonelyMarshes/abeko). In these settlements, merchants can trade the materials that have been gathered by the nomadic families wandering the wetlands. In turn, the elves and gnomes receive goods from outside the swamp that they would normally never obtain. Merchants can also make use of the services provided in these hubs. Especially clothing made from refined silkweed is popular among [High Elves](/encyclopaedia/races/elf/highElf).
+The swamp has a lot to offer, both to its inhabitants and the people outside. Within the [Lonely Marshes](/atlas/eshil/lonelyMarshes), there are two major trading hubs that the Eneb Pålun run: [Mo](/atlas/eshil/lonelyMarshes/mo) and [Abeko](/atlas/eshil/lonelyMarshes/abeko). In these settlements, merchants can trade the materials that have been gathered by the nomadic families wandering the wetlands. In turn, the elves and gnomes receive goods from outside the swamp that they would normally never obtain. Merchants can also make use of the services provided in these hubs. Especially clothing made from refined silkweed is popular among [High Elves](/encyclopaedia/races/elf/highElf).
 
 For adventurers who want to wander through the swamp themselves, the towns are the perfect places to stay safely overnight. It is in the nature of the Keepers to teach outsiders of the marsh to help them safely cross the space. That includes teaching them which local foods they can forage, which paths to take to avoid danger, and preparing them in general for the possible animals they can encounter. If a swamp elf or gnome considers the group honourary, they might help the adventurers to obtain a [Swamp Floater](/encyclopaedia/transportation/swampFloater) to make travelling easier.
 
 ### Nomads of the Swamp
 Those who wander through the wetlands in search for the trading resources, are the nomads. Living in [Puddlets](/atlas/eshil/lonelyMarshes/puddlet), they often travel in tribes consisting of one or two families. Everyone has a task to perform in the tribe, usually suited to their abilities.
 
-The head of the tribe is the oldest son of the newest generation with children. He has to lead everyone to a safe and habitable space within the marsh, close to a new set of harvestable supplies. The oldest generation teaches the children everything about the swamp and educate them in the [Ways of the Keeper](/encyclopaedia/organisations/religious/palûnGuardians). The generation between the oldest and newest perform one or more of the following tasks based on their knowledge and physical capabilities: maintaining the wetlands, foraging trading resources, providing basic services to the encampment such as cooking and making clothes, scouting for new habitable space.
+The head of the tribe is the oldest son of the newest generation with children. He has to lead everyone to a safe and habitable space within the marsh, close to a new set of harvestable supplies. The oldest generation teaches the children everything about the swamp and educate them in the [Ways of the Keeper](/encyclopaedia/organisations/religious/PålunGuardians). The generation between the oldest and newest perform one or more of the following tasks based on their knowledge and physical capabilities: maintaining the wetlands, foraging trading resources, providing basic services to the encampment such as cooking and making clothes, scouting for new habitable space.
 
 To find a new habitable space, the tribe head takes a few tribe members with him and sets out to find a new location, while leaving another member in charge of the current encampment. It can take multiple days for the scouting party to find a suitable space for their people. Once the group has found something, two will start setting up a new camp. Meanwhile, the tribe head will return to the current encampment with the remaining members of the party. The entire tribe will pack up their homes and belongings and make their way to the new place. It is an infinite cycle.
 

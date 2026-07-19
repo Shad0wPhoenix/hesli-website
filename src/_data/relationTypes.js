@@ -115,6 +115,7 @@ export default {
 
     religion: {
         label:              "Follows religion",
+        labelPlural:        "Follows religions",
         inverse:            "followers",
         inverseLabel:       "Follower",
         inverseLabelPlural: "Followers",
@@ -210,6 +211,25 @@ export default {
         aggregate:      [
                             "ethnicity",
                         ],
+    },
+
+    tradition: {
+        label:              "Tradition",
+        labelPlural:        "Traditions",
+        
+        byTargetType: {
+            specie: {
+                label:              "Followed by",
+                inverse:            "specie-tradition",
+                inverseLabel:       "Practiced by",
+            },
+            religion: {
+                label:              "Part of",
+                inverse:            "religion-tradition",
+                inverseLabel:       "Contains tradition",
+                inverseLabelPlural: "Contains traditions",
+            }
+        }
     },
 
     ethnicity: {

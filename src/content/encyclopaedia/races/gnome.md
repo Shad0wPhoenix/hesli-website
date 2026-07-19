@@ -2,41 +2,57 @@
 title: Gnome
 type: Specie
 tags:
-    - Revisit
-    - Rewrite
+    - Finished
+    - Needs Art
 attributes:
     "Scientific Name": Geenom
     "Lifespan": 300 years
     "Average Height":
-        "Male": 1.0 - 1.2m (3'3" - 4'0")
-        "Female": 0.85 - 1.05m (2'9" - 3'5")
+        "Male": 1.1 - 1.3m (3'7" - 4'3")
+        "Female": 0.95 - 1.15m (3'1" - 3'9")
     "Average Weight":
-        "Male": 17 - 22kg (37 - 49lbs)
-        "Female": 15 - 19kg (33 - 42lbs)
-relations:
-    region: Eshil
+        "Male": 35 - 45kg (77 - 99lbs)
+        "Female": 30 - 40kg (66 - 88lbs)
 ---
+They may be small in stature, but no race knows the waters of Hesli better than the gnomes. They lie at the heart of technological innovation across Hesli, although the humans have proven formidable rivals in recent centuries. Nevertheless, perseverance defines the gnomes. Once they set their minds on a problem, giving up simply isn't part of who they are.
 
-The smallest species current known to Hesli are the Gnomes. These tiny creatures are the heart of technological innovation and advancement of all known races. Their wittiness and humour makes it impossible to hate them upon first sight. Gnomes are incredibly proficient in hiding their true emotions and intentions. Therefore, do not always be fooled by their looks and personality, because some carry a dark past.
+{% quote "A mother to her daughter" %}
 
-## Anatomy
-Gnomes are tiny creatures that belong to the humanoid family. Small in statue, their arms and legs are accordingly small. However, these gnomes have one secret: their lung capacity is enormous. They are capable of swimming fairly long distances under water, only coming up for air once every 200 meters.
+My love, you know how we are, don't you? We swim the longest rivers to make sure they find their way to the ocean at all times. I have watched this creek grow, carving its way through the land. May the force of the water propel you to new heights and far into the future.
 
-### Perception
-Gnomes used to be right at home in the water, and therefore their eyesight is capable of identifying many objects in the depths of the lakes and oceans. They can use this ability in caves and mountains, seeing as if things were in dim light instead of pit darkness.
+{% endquote %}
 
-### Ecology
-Gnomes used to thrive in the waters and oceans of Hesli. However, for some reason lost to history, they have moved onto land and made it their home. They prefer the hilly grasslands with many rivers and small bodies of water. Tending to the fish and small animals is what they like best, and their habitat allows them to do so. They do not care about conquering the mountains, as they feel like they can get squished by a boulder at any moment.
+## Diving Masters
+The gnomes are known to be just a smidge shorter than [Dwarfs](./dwarf) but a fair bit lighter. Experienced divers often gain and lose considerable weight throughout the year depending on where the currents take them and how much time they spend beneath the waves.
 
-### Diet
-Gnomes have no special dietary needs or habits. They eat what they can get. They hunt fish and land critters and supplement it with green that they like to grow themselves on their tiny farms.
+To help in their swimming endeavours, gnomes naturally possess an unusually large lung capacity. This allows them to dive and swim for fairly long distances underwater, remaining underwater for astonishing lengths of time.
 
-### Growth Rate
-Of their 300 year life span, gnomes grow fairly slowly. In the first 10 years, the basic functions of the body develop. Think the arms, legs, and primary organs. The body is still fagile at this stage and doesn't have much strength yet.
+{% quote "A dwarfen child seeing a gnome dive for the first time" %}
 
-That's what develops in the next phase of 10 years. Muscles strengthen, as does the heart, and some of the primary organs develop further into a more advanced stage. During these days, the body establishes the first secundary organs.
+Dad! DAD!
 
-In the last phase of 10 years, these secundary organs grow into the final version. Also the tertiary organs develop to its full capacity in this period. It is during this phase, that their water capabilities come to fruition.
+That boy in the water, he hasn't come up for over 10 minutes! He.. he must be drowning!
 
-### Average Intelligence
-The size of the gnomes make up for their intelligence. They are highly intelligent creatures that look into creating new inventions to help them tackle everyday things. Their specialty is technology as they love to tinker with gears and sprockets. Nowadays, they also create machines that help the dwarves in their mining operations, and traders in transporting goods.
+...
+
+Hey! How do you do that? Staying that long underwater?
+
+{% endquote %}
+
+The eyes of gnomes have adapted to life beneath the water surface over a long time. They can distinguish objects with remarkable clarity in the depths of lakes, oceans and rushing mountain rivers alike. This adaptation also allows them to see surprisingly well underground. While caves remain an uncomfortable place for most gnomes — they only go there when forced — what others perceive as complete darkness feels more like twilight to them.
+
+## Where to Find Them
+Most [River Gnomes]() have made their way onto land over time but they rarely stray far away from the water. Rivers are their preferred home, where they can tend to the fish and aquatic plants.
+
+As the name suggests, the [Swamp Gnomes]() make their home in the shallow waters of the swamps. They have perfected the art of shallow swimming and can make their way through the swamps without being detected.
+
+Still, there are those that prefer the depths of the oceans and still dive deep to take care of the rock formations and the life around them in parts of the world hardly visited by outsiders. [Ocean Gnomes]() visit the land only on rare occasions, feeling like a fish out of the water when doing so.
+
+## From Infant to Master
+Over their 300 year life span, gnomes grow fairly slowly. During their first decade, a young gnome's body is still very fragile. Their bones remain soft, their muscles weak, and even their remarkable lungs have barely begun to develop. It's no wonder that gnome parents are fiercely protective of their youngest children — much to the kids dismay.
+
+In the next ten years, the strength of the younglings rapidly increases. They finally start learning how to swim which even further increases the speed at which they gain strength. Their heart rate slows down which will come in handy when they learn to dive.
+
+Finally, during the third decade, the organs responsible for their ability to thrive beneath the water fully mature. Their lung capacity increases, their efficiency in swimming blooms, and their ability to control bloodflow enhances.
+
+Although their bodies finish developing after roughly thirty years, young gnomes spend many decades learning their craft before being recognised as adults at the age of one hundred.
