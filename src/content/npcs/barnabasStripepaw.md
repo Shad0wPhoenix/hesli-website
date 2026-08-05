@@ -1,5 +1,6 @@
 ---
 title: Barnabas Stripepaw
+status: Under Review
 type: Character
 tags:
     - NPC

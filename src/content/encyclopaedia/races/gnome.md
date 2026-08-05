@@ -1,5 +1,6 @@
 ---
 title: Gnome
+status: Published
 type: Specie
 tags:
     - Finished

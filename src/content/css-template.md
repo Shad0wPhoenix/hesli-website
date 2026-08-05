@@ -1,5 +1,6 @@
 ---
 title: CSS Template
+status: draft
 nav_order: 3
 ---
 
@@ -9,6 +10,10 @@ nav_order: 3
 #### Header 4
 ##### Header 5
 ###### Header 6
+
+But first, some icons!
+
+:heart: :arrowup: :arrowleft: :arrowright: :arrowdown: :book: :envelope: :quill: :scroll: :comment: :compass: :mountain: :map: { .icon }
 
 {% sidebarRight %}
 I want a sidebar here...
@@ -107,7 +112,9 @@ Because it has a nested authored quote
 {% endquote %}
 
 {% aloud %}
+
 This is a small WA aloud box
+
 {% endaloud %}
 
 {% quote %}

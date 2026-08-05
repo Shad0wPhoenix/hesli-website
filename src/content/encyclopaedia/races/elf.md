@@ -1,5 +1,6 @@
 ---
 title: Elf
+status: Published
 type: Specie
 tags:
     - Finished
@@ -44,7 +45,7 @@ The [Wood Elves]() live their lives in the vast forests that covers the ground a
 
 Finally, the [Swamp Elves]() inhabit the place where water meets land turning it into swamps and marshes. Their closer connection to nature and life makes them the wisest of all elves and also avid teachers of their crafts.
 
-## Stunted Growth
+## Speedrun to Adolesence
 Elves grow rather quickly. A child will be fully grown by the age of 10 and have learned to speak fluent Elvish by that time. From age 10 till age 30, the final accentual parts in Elven biology will develop, therefore becoming a full adult at the age of 30.
 
 {% aloud %}

@@ -1,5 +1,6 @@
 ---
 title: Juniper's Damned Alehouse
+status: Published
 type: Building
 tags:
     - TavernChallenge

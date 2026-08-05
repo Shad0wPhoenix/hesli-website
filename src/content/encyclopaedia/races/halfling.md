@@ -1,5 +1,6 @@
 ---
 title: Halfling
+status: Published
 type: Specie
 tags:
     - WIP

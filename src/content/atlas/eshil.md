@@ -1,12 +1,15 @@
 ---
 title: Eshil
+status: Under Review
 tags:
     - Revisit
 ---
 Eshil is known as the region of many faces; one moment the sweet aroma of flowers with accompanying flying critters create a cloud of acivity. Yet, within days travel, one can stumble upon a dense and eerie forest filled with the whispers of ancient myths and legends, or be surrounded by the high snowcapped peaks. It is an intricate balance that the region has masters over eons.
 
 {% quote "Edwige Pennsworth" %}
+
 There are few places I've visited where the landscape changes around every corner. It truly feels like teleporting to a completely different place. A true joy for any cartographer.. or a nightmare.
+
 {% endquote %}
 
 However, beneath the beauty of natures hides a conflict that - fortunately - hasn't left any visible mark yet. The Kingdom of Illtresi wants a firmer grasp on the activities and services that the Limani Supplies Dealer provide, whereas the trading company wants to keep its freedom while supporting the Kingdom on the sidelines. In their struggle for power, they are blinded to the other dangers brewing in the shadows.
@@ -15,7 +18,9 @@ However, beneath the beauty of natures hides a conflict that - fortunately - has
 There is tons Eshil has to offer to anyone looking for an adventure. Here people can scour the mountains for hidden treasure in caves, learn about all the different animals keeping the farming ecosystem alive, or simply Looking for some heads to pounce in exchange for coin.
 
 {% quote "Ashish Ludak" %}
+
 Hey you, I heard you were looking for some quests! I highly advice you to make your way to [the Wandering Lileon](./limani/wanderingLileon) in [Limani](./limani); they have the best brew and food in the region, but most important of all a good quest board to get you started! How do I know? Well, I might be the one supplying the quests.
+
 {% endquote %}
 
 ### Gardens of Bermuth
@@ -51,6 +56,7 @@ On the other side of the river lies the less explored Bani Reshumbra, a savanna 
 ### Spikes of Narbu
 According to legends, the Spikes of Narbu are a creation meant to deter people from ever traversing to the other side. While some may have tried, it is unknown if it's possible to get past them as many of the paths leading through this mountain range usually lead to a dead end. Birds are the only creatures seen nesting and calling these mountains their home.
 
+<!---
 ## Diverse People
 Just like its landscape, Eshil supports a large variety of ethnicities with its bountiful lands. From elves to dwarfs, from gnomes to humans, everyone has a place and a part to play.
 
@@ -70,3 +76,4 @@ I.. I thought high elves could only bathe in pure water? How come these Drani do
 
 ### The Humans: <name> & <name>
 Stubborn as they always are, the humans of <name> & <name> are a force to be reckoned with; they will continue to try and find a new way to get what they want, much to dismay of the people around them. However, more and more people of Eshil are starting to see the appeal and rely on these fleshy beings to find solutions to seemingly impossible requests.
+--->

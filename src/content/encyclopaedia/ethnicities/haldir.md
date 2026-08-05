@@ -1,5 +1,6 @@
 ---
 title: Haldir
+status: Under Review
 type: Ethnicity
 excerpt: An old dwarven clan whose source of food was violently taken away from them after a conflict with a city and a kingdom.
 tags:

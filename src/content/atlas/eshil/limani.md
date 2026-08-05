@@ -1,5 +1,6 @@
 ---
 title: Limani
+status: Under Review
 type: Settlement
 tags:
     - Rework
@@ -9,7 +10,9 @@ relations:
 Located at the mouth of [Nacheilchomòr](), where the water rushes into the [Àitemòrgorm](), lies a large port town. Home to many merchants and a large dock, Limani is an essential trading town in [Eshil](/atlas/eshil), capable of transporting many goods and people further into the region over land and water. Many adventurers coming to this region have a first stop this town, either to travel further or to pick up a quest to start off their journey.
 
 {% quote "Ashish the Greeter" %}
+
 Welcome to Limani, young traveller! This is the town where many adventures start! I see you're looking for a quest. Go and visit Barney in The Wandering Lileon, he'll know something for you to do.
+
 {% endquote %}
 
 ## Town Layout
@@ -21,7 +24,9 @@ The town has a vibrating outer rim on the inside side. This district filled with
 Furthermore, this district houses the citizens of Limani. Many people working in the production industry or on the farms just outside the town live here. It is a dense and compact neighbourhood, but still with enough room for everyone to move and for kids to play outside.
 
 {% quote "Ashish the Greeter" %}
+
 Beware, young traveller! Not every place is as inviting as others. Rumours go around that you should keep clear from a few of these establishments, for they are known for their discrimination. Especially Jehzahrs Friend's only let in their... friends...
+
 {% endquote %}
 
 ### Trading District
@@ -42,7 +47,9 @@ Limani has a rich history as it evolved through the centuries of its existence. 
 As the years passed, the village grew into a large, if not the largest, trading hub of [Eshil](../eshil). It began with a small trading pact between Limani and another village. Soon after, the village had many of these pacts and business grew exponentially, which lead to more people flocking towards the village. It grew into a town over these years, expanding heavily on the docks and the trading district.
 
 {% quote "Ashish the Greeter" %}
+
 See these burned pieces of wood? These are the last remnands of the war. Yes, the Grilashi Empire tried to occupy Limani to obtain its trading secrets! This memorial still stands to honour our ancestors who gave their lives on the Nacheilchomòr, and set their boats on fire to keep off the enemy.
+
 {% endquote %}
 
 In the meantime, the Grilashi Empire was expanding on the other side of the [Nacheilchomòr](). The government was intoxicated with riches and they grew immensely jealous of Limani's wealth. Spies disguised as merchants tried to obtain knowledge about the trading pacts and ways to no avail. Out of spite, the governors ordered to gain control of the town by force, but they were met with much resistance. The locals held out long enough for the upcoming [Kingdom of Illtresi]() to come to their aid. Together, the resistance and the army drove the Grilashi Empire away from their lands and pushed them back even further across [Rudeilemòr]().

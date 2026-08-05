@@ -42,3 +42,24 @@ High Elfs are highly intelligent. Their knowledge of the world is vast and they 
 It is forbidden to speak of or ask about elven age, especially from the olden days. Currently, their average lifespan is around 375 years, but this used to be 750 years a long time ago. According to [The Council of Eilmaris](), in ancient times, someone had a condition that resulted in halving their life expectancy. This condition spread genetically for a long time before it was discovered, resulting in only very few high elf bloodlines staying out of this horror.
 
 {% button "", "m-right italic" %}Learn more about Cuille{% endbutton %}
+
+
+***
+
+***
+
+High Elf
+
+So, if someone had never met us before, there's one thing they _have_ to understand: we don't do water. Nope, it needs to be purified otherwise it would burn our skin and turn us green and let me tell you; waterfrost, no bueno. It hurts like hell, you can barely get the skin to stretch or you'll end up with teared skin and if you're not careful, it can even scar.
+
+Outsiders often think that we believe we're high and mightly, that we're the descendants of some odd dragon which grants us with the wisdom that we have and therefore thou shalt listen to what we have to say. In reality though, we're not like that. We just wish to understand. We want to make sure you're taken care of, as is all life on this planet; whether that be by animal or plant.
+
+Careful, that's how I'd describe us. We like to think things through instead of rushing in like a headless chickon; that'll get you into trouble. But also, we generally need to be more prepared to go out into the world than others. Water is everywhere; at dawn on the leaves of the grass, during a downpour, a little pond right at the path, a small river crossing and even in every day homes because y'all wash your hands before eating.. right? So yeah, we really need to be careful if we want to keep ourselves from harm, really.
+
+Oh yeah, the first thing you learn as a child is that every living being on this planet is sacred. One doesn't just shed the blood because it is fun. And yes, we know we need to eat which means that - because children are taught that every living thing is sacred - we are always immensely thankful for our meals. We treat our animals well, spoil them even, so make sure they lived the best possible life before they make their sacrifice. No, we don't take that lightly.
+
+So, we have this big ass world tree that, y'know, _huge_. That's where Eilmaris is located. You could say it's the capital of our homeland, Yurin. But only the elite live there and I honestly don't understand why they would want to live there. Yeah, there's the big ass tree, but look around you. See the meadows, the small patches of trees, the big forests.. okay the big forests are kinda scary, that why our distant cousins the Wood Elves take care of that, but yeah.. look around! There's life everywhere! Maybe I'm the weird guy who doesn't understand what's so special about that big tree.. are you sure I'm the right guy for this interview?
+
+So yeah, we have these long ass legs and such but they're not as long as our other distant cousins, the Swamp Elves. But we can quite easily reach the tops of branches and all that, so that's pretty cool. And you should see my sister sometime, her control of magic.. I don't know how she does it man, it's just perfect. But hey, we have fun with it, she sometimes zooms me through the trees because she can, or she dumps me in a cold path - with purified water of course, she doesn't _torture_ me or anything - because she's annoyed with me. I'm her big brother, of course I need to be as annoying as can be, y'know?
+
+I know that the dwarfs often maken fun of us but deep down, they love us, they just don't want to admit it. These shorties need us to reach things from the ceiling, hehe. Y'know, everyone is cool, really, but there have been some "developments" that are turning relations sour and.. it concerns me, not gonna lie.

@@ -1,5 +1,6 @@
 ---
 title: The Library of Ishallir
+status: Under Review
 type: Building
 tags:
     - Expand

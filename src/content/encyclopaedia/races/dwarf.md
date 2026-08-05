@@ -1,5 +1,6 @@
 ---
 title: Dwarf
+status: Published
 type: Specie
 tags:
     - Finished

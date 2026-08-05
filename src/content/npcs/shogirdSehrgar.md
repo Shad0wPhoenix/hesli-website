@@ -1,5 +1,6 @@
 ---
 title: Shogird Sehrgar
+status: Under Review
 type: Character
 tags:
     - Revisit

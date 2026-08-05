@@ -1,5 +1,6 @@
 ---
 title: Eneb Pålun
+status: Under Review
 type: Ethnicity
 tags:
     - Revisit

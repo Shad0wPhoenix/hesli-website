@@ -1,5 +1,6 @@
 ---
 title: Human
+status: Published
 type: Specie
 tags:
     - WIP

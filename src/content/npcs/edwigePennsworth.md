@@ -1,5 +1,6 @@
 ---
 title: Edwige Pennsworth
+status: Under Review
 type: Character
 tags:
     - Revisit
