@@ -6,6 +6,7 @@ import buildNavigationGraph from './lib/graphs/navigationGraph.js';
 import buildRelationGraph from './lib/graphs/relationGraph.js';
 import markdown from './lib/markdown.config.js';
 import getNunjucksEnv from './lib/nunjucks.config.js';
+import shouldPublish, { getStatus, toStatus } from './lib/publish.config.js';
 import registerShortcodes from './lib/shortcodes/index.js';
 import relationTypes from './src/_data/relationTypes.js';
 
@@ -39,9 +40,10 @@ export default function (eleventy) {
 
     // Creating a ContentGraph
     eleventy.addCollection("contentGraph", (collections) => {
-        const pages = collections.all ?? collections.items;
+        const pages = (collections.getAll() ?? [])
+            .filter(page => shouldPublish(page.data.status));
 
-        if (!pages) {
+        if (!pages.length) {
             console.warn("No pages found in collections!");
             return { root: { name: "root", children: [], parent: null }, nodes: new Map(), flat: [] };
         }
@@ -65,6 +67,7 @@ export default function (eleventy) {
     // Filters
     eleventy.addFilter("getRelations", (graph, stem) => {
         const node = graph.getNodeByStem(stem);
+        if (!node) return null;
 
         const hasRelations = Object.keys(node.relations).length !== 0;
         const hasBacklinks = Object.keys(node.backlinks).length !== 0;
@@ -74,11 +77,15 @@ export default function (eleventy) {
     });
 
     eleventy.addFilter("getAncestors", (graph, stem) => {
-        return graph.getActivePath(graph.getNodeByStem(stem))
+        const node = graph.getNodeByStem(stem);
+
+        return node ? graph.getActivePath(node) : new Set();
     });
 
     eleventy.addFilter("getBreadcrumbs", (graph, stem) => {
-        return graph.getBreadcrumbs(graph.getNodeByStem(stem))
+        const node = graph.getNodeByStem(stem);
+
+        return node ? graph.getBreadcrumbs(node) : null;
     })
 
     eleventy.addFilter("isArray", value => Array.isArray(value));
@@ -102,9 +109,12 @@ export default function (eleventy) {
     eleventy.addWatchTarget(`./${workspace}/${styles}`);
     eleventy.addWatchTarget(`./${workspace}/lib`);
 
+    // Global Data for all Articles
     eleventy.addGlobalData("layout", "base");
+    eleventy.addGlobalData("status", "Draft");
 
     eleventy.on("eleventy.before", async ({ dir, runMode }) => {
+        process.env.ELEVENTY_RUN_MODE = process.env.FORCED_RUN_MODE ?? runMode;
         if (runMode === "build" || initialRun) await rm(dir.output, { recursive: true, force: true });
         initialRun = false;
     });
@@ -117,6 +127,23 @@ export default function (eleventy) {
             console.log(stubArticles);
             fs.writeFileSync('./stubArticles.txt', stubArticles);
         }
+
+        const counts = {};
+
+        for (const article of contentGraph.flat) {
+            const status = toStatus(article.page.data.status);
+            counts[status] = (counts[status] ?? 0) + 1;
+        }
+
+        let articleCountLog = `[ContentGraph] Total articles: ${contentGraph.flat.length}`;
+
+        for (const [status, count] of Object.entries(counts).sort()) {
+            articleCountLog = articleCountLog + `; ${getStatus(status)}: ${count}`;
+        }
+
+        articleCountLog = articleCountLog + `; Stubs: ${relationGraph.stubs.length}`;
+
+        console.log(articleCountLog);
     });
 
     return {

@@ -98,7 +98,8 @@
     .content {
         background: transparent;
 
-        > :first-child {
+        > :first-child,
+        > span:first-child + * {
             margin-top: 0;
         }
 
@@ -119,10 +120,6 @@
         color: var(--darkRed);
         margin-top: 0.3rem;
         text-align: right;
-
-        &::before {
-            content: "- ";
-        }
     }
 }
 

@@ -9,8 +9,13 @@ p.right,
 }
 
 p.center,
+.center > p,
 .t-center {
     text-align: center;
+}
+
+[class^="col"].center {
+    margin: auto;
 }
 
 .f-left {
@@ -47,6 +52,14 @@ p.center,
 
 .m-right-0-8 {
     margin-right: 0.8rem;
+}
+
+.m-left-0-3 {
+    margin-left: 0.3rem;
+}
+
+.m-right-0-3 {
+    margin-right: 0.3rem;
 }
 
 .w-10 {
@@ -166,4 +179,8 @@ p.center,
         flex-shrink: 0;
         width: 100%;
     }
+}
+
+.dark-red {
+    color: var(--darkRed);
 }

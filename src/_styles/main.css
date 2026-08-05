@@ -19,7 +19,7 @@
 
 @font-face {
     font-family: 'PixelTypewriter';
-    src: url("./font/PixelTypewriter.woff2") format('woff2');
+    src: url("./font/PixelTypewriter-Regular.woff2") format('woff2');
     font-weight: 400;
     font-style: normal;
 }
@@ -35,6 +35,13 @@
     font-family: 'PixelTypewriter';
     src: url("./font/PixelTypewriter-Italic.woff2") format('woff2');
     font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PixelTypewriter';
+    src: url("./font/PixelTypewriter-BoldItalic.woff2") format('woff2');
+    font-weight: 700;
     font-style: italic;
 }
 

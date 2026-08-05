@@ -35,6 +35,7 @@
 :is(h1, h2, h3, h4, h5, h6) {
     font-family: var(--fontHeader);
     margin: 1rem auto 0.3rem;
+    letter-spacing: 1px;
 }
 
 :is(h1) {
@@ -76,4 +77,11 @@ th, td {
 
 .italic {
     font-style: italic;
+}
+
+.icon {
+    font-variant-ligatures: discretionary-ligatures;
+    font-size: 2em;
+    line-height: 0.1;
+    margin-right: 0.3rem;
 }

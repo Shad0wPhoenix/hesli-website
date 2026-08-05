@@ -179,7 +179,6 @@ export default {
         labelPlural:        "Owned by",
         inverse:            "owns",
         inverseLabel:       "Owns",
-        inverseLabelPlural: "Owned by",
     },
 
     character: {
@@ -199,6 +198,18 @@ export default {
                 inverseHidden:      true,
             }
         }
+    },
+
+    currentResidence: {
+        label:              "Current Residence",
+        inverse:            "currentlyResides",
+        inverseLabel:       "Currently Resides",
+    },
+
+    currentLocation: {
+        label:              "Current Location",
+        inverse:            "charactersLocatedHere",
+        inverseLabel:       "Currently Located Here",
     },
 
     specie: {

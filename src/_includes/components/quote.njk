@@ -4,6 +4,6 @@
     <div class="corner top right"></div>
     <div class="corner bottom left"></div>
     <div class="corner bottom right"></div>
-    {{ content | safe }}{%- if author and author | trim -%}<div class="author">{{ author }}</div>{%- endif -%}
+    <span class="icon f-left m-right-0-3">:comment:</span>{{- content | safe -}}{%- if author and author | trim -%}<div class="author"><span class="icon m-right-0-3">:quill:</span>{{ author }}</div>{%- endif -%}
 </blockquote>
 {% endmacro -%}
