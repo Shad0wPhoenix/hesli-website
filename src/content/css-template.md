@@ -11,6 +11,8 @@ nav_order: 3
 ##### Header 5
 ###### Header 6
 
+***
+
 But first, some icons!
 
 :heart: :arrowup: :arrowleft: :arrowright: :arrowdown: :book: :envelope: :quill: :scroll: :comment: :compass: :mountain: :map: { .icon }
@@ -169,3 +171,17 @@ Because I'm hiding here
 {% tooltip "An Extended Tooltip!", "tti-ex" %}
 An extended tooltip that _should_ allow more for complex and longer markdown text, such as basic [urls](#) and more.
 {% endtooltip %}
+
+{% container "plaque" %}
+
+**WorldEmber 2022 — Featured Feedback**
+
+_Kelly Pawlik, Kobold Press_
+
+1.Phoenixes being the successors or creations of dragons is a really great idea. They seem to have replaced dragons in this world, which is a novel and welcome take on them.
+ 
+2.The variety in phoenix-kind is really neat. The descriptions of the different types of phoenix are nicely done.
+ 
+3.The different manners by which phoenixes reincarnate, based on the type of phoenix, is inspiring. The image of a forest phoenix chick hopping out of a mossy heap is playing on repeat in my mind.
+
+{% endcontainer %}
