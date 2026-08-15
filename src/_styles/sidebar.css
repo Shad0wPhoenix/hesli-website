@@ -21,6 +21,9 @@ aside,
 
 .s-right,
 .s-left {
+    container-type: inline-size;
+    container-name: sidebar;
+
     .secret,
     .secretToggle,
     .spoiler,
@@ -32,6 +35,14 @@ aside,
     .img {
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
+    }
+}
+
+@container sidebar (max-width: 299px) {
+    .s-right .hesli-divider,
+    .s-left .hesli-divider {
+        min-width: 0;
+        width: 100%;
     }
 }
 

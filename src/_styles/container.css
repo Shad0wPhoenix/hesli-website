@@ -252,3 +252,25 @@
 .spoiler {
     display: flow-root;
 }
+
+.plaque {
+    --base-colour: #c0c0c0;
+    --base-light: #cdcdcd;
+    --base-dark: #9a9a9a;
+    --border-width: 0.6rem;
+
+    background-color: var(--base-colour);
+    padding: 1rem;
+    margin: 1rem auto;
+    border: var(--border-width) solid;
+    border-top-color: var(--base-light);
+    border-left-color: var(--base-light);
+    border-right-color: var(--base-dark);
+    border-bottom-color: var(--base-dark);
+    max-width: calc(500px + var(--border-width));
+    text-align: center;
+
+    > p:first-child {
+        margin-top: 0;
+    }
+}

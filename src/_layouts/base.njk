@@ -8,10 +8,10 @@
         <meta name="author" content="ShadowPhoenix" />
         <title>{{displayTitle or title}} - Hesli</title>
         <meta property="og:title" content="{{displayTitle or title}} - Hesli" />
-        <meta name="description" content="{{excerpt}}" />
-        <meta property="og:description" content="{{excerpt}}" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure-url" content="" />
+        <meta name="description" content="{{default.excerpt}}" />
+        <meta property="og:description" content="{{default.excerpt}}" />
+        <meta property="og:image" content="https://hesli.shadowphoenix.nl{{ default.headerImage | url }}" />
+        <meta property="og:image:secure-url" content="https://hesli.shadowphoenix.nl{{ default.headerImage | url}}" />
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-grid.min.css" rel="stylesheet" />
 

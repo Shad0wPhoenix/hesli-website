@@ -1,0 +1,45 @@
+<svg class="hesli-divider" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg"
+     role="separator" aria-hidden="true">
+
+  <g fill="none" stroke="currentColor" stroke-width="6"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Main lines -->
+    <path d="M105 60 H350" />
+    <path d="M850 60 H1095" />
+
+    <!-- Curved flourishes -->
+    <path d="M330 60
+             C385 60 400 30 455 30
+             C485 30 505 45 520 60" />
+
+    <path d="M330 60
+             C385 60 400 90 455 90
+             C485 90 505 75 520 60" />
+
+    <path d="M870 60
+             C815 60 800 30 745 30
+             C715 30 695 45 680 60" />
+
+    <path d="M870 60
+             C815 60 800 90 745 90
+             C715 90 695 75 680 60" />
+
+    <rect x="438" y="53" width="14" height="14"
+          transform="rotate(45 445 60)" />
+
+    <rect x="748" y="53" width="14" height="14"
+          transform="rotate(45 755 60)" />
+
+    <!-- Outer diamonds -->
+    <rect x="58" y="48" width="24" height="24"
+          transform="rotate(45 70 60)" />
+
+    <rect x="1118" y="48" width="24" height="24"
+          transform="rotate(45 1130 60)" />
+
+    <!-- Central diamond -->
+    <rect x="545" y="20" width="60" height="60"
+          transform="rotate(45 577 87)" />
+  </g>
+</svg>

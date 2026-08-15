@@ -10,7 +10,8 @@ p.right,
 
 p.center,
 .center > p,
-.t-center {
+.t-center,
+.h-center {
     text-align: center;
 }
 
@@ -183,4 +184,14 @@ p.center,
 
 .dark-red {
     color: var(--darkRed);
+}
+
+.hesli-divider {
+    display: block;
+    width: 50%;
+    min-width: 300px;
+    max-width: 1200px;
+    height: auto;
+    margin: 1rem auto;
+    color: var(--darkTeal);
 }
