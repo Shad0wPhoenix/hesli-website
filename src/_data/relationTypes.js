@@ -59,6 +59,7 @@ export default {
         inverse:            "subregion",
         inverseLabel:       "Subregion",
         inverseLabelPlural: "Subregions",
+        deferToSourceType:  true,
 
         aggregate: ["ethnicity"],
     },
@@ -82,6 +83,17 @@ export default {
         inverse:            "settlements",
         inverseLabel:       "Settlement",
         inverseLabelPlural: "Settlements",
+        deferToSourceType:  true,
+
+        byTargetType: {
+            ethnicity: {
+                label:              "Ethnic group present",
+                labelPlural:        "Ethnic groups present",
+                inverse:            "ethnicGroups",
+                inverseLabel:       "Found in Settlement",
+                inverseLabelPlural: "Found in Settlements",
+            }
+        }
     },
  
     // Article type — used when type: building is set on an article
@@ -98,7 +110,7 @@ export default {
                 labelPlural:        "Owned by",
                 inverse:            "owns",
                 inverseLabel:       "Owns",
-                inverseLabelPlural: "Owned by",
+                inverseLabelPlural: "Owns",
             },
         }
     },
@@ -222,6 +234,14 @@ export default {
         aggregate:      [
                             "ethnicity",
                         ],
+
+        byTargetType: {
+            region: {
+                label:          "Inhabits",
+                inverse:        "inhabitedBy",
+                inverseLabel:   "Inhabited by"
+            }
+        }
     },
 
     tradition: {
@@ -274,13 +294,13 @@ export default {
                 inverseLabelPlural: "Ethnic groups present",
             },
 
-            settlement: {
-                label:              "Found in Settlement",
-                labelPlural:        "Found in Settlements",
-                inverse:            "ethnicGroups",
-                inverseLabel:       "Ethnic group present",
-                inverseLabelPlural: "Ethnic groups present",
-            }
+            // settlement: {
+            //     label:              "Found in Settlement",
+            //     labelPlural:        "Found in Settlements",
+            //     inverse:            "ethnicGroups",
+            //     inverseLabel:       "Ethnic group present",
+            //     inverseLabelPlural: "Ethnic groups present",
+            // }
         },
     },
 
@@ -315,5 +335,32 @@ export default {
         inverseLabel:       "Ally",
         inverseLabelPlural: "Allies",
     },
+
+    // -- Misc ----
+    developedBy: {
+        label:              "Developed by",
+        inverse:            "developed",
+        inverseLabel:       "Developed"
+    },
+
+    headquarter: {
+        label:              "Headquarter",
+        labelPlural:        "Headquarters",
+        inverse:            "headquarterOf",
+        inverseLabel:       "Headquarter of",
+        inverseLabelPlural: "Headquarters of",
+    },
+
+    capital: {
+        label:              "Capital",
+        inverse:            "capitalOf",
+        inverseLabel:       "Capital of",
+    },
+
+    influence: {
+        label:              "Has influence in",
+        inverse:            "influencedBy",
+        inverseLabel:       "Is influenced by",
+    }
 
 };

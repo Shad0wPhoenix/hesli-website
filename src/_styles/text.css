@@ -75,6 +75,14 @@ th, td {
     margin: 0;
 }
 
+p + ul {
+    margin: 0.6rem 0 0;
+}
+
+.slightly-larger {
+    font-size: 1.1rem;
+}
+
 .italic {
     font-style: italic;
 }
