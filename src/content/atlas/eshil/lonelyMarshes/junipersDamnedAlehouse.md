@@ -5,7 +5,7 @@ type: Building
 tags:
     - TavernChallenge
 relations:
-    region: Eshil
+    region: Lonely Marshes
     owner: Juniper Whistlewisp
 ---
 {% mainSidebar "above" %}

@@ -1,6 +1,7 @@
 ---
 title: Mo
 type: Settlement
+status: Under Review
 relations:
     region: Lonely Marshes
 ---
@@ -8,7 +9,7 @@ relations:
 
 {% aloud %}
 
-Did you know that the [Swamp Elves](/encyclopaedia/races/elf/swampElf) and [Swamp Gnomes](/encyclopaedia/races/gnome/swampGnome) who live deeper in the Lonely Marshes provides the Lonely Market with one of its most prized trading products? Slumber Flower Nectar is a rare product that only the members of The Keepers Order can create.
+Did you know that the Swamp Elves and Swamp Gnomes who live deeper in the Lonely Marshes provides the Lonely Market with one of its most prized trading products? Slumber Flower Nectar is a rare product that only the members of The Keepers Order can create.
 
 {% endaloud %}
 

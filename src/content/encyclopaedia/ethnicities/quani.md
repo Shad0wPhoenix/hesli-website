@@ -9,7 +9,6 @@ relations:
     specie: High Elf
     settlement:
         - Matona
-        - Limani
 ---
 Defiant of their cousins and wanting to do things their way, some high elfs have left Yurin long ago to find another place where they can be free of the ludacris caused by their brethren. Now scattered throughout [Eshil](/atlas/eshil), these elves enjoy their freedom but still with a strong dislike for water.
 

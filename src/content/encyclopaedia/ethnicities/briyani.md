@@ -8,8 +8,6 @@ relations:
     region: Eshil
     specie:
         - Dwarf
-    settlement:
-        - Limani
 ---
 Claiming to have come from the land itself, are the Briyani dwarves. These sturdy cousins of the dwarfs from the mountains thrive on land, tending to the plants, animals, and rivers meandering through it. Their affinity with magic marks the major difference between them and the [Irrean](/encyclopaedia/ethnicities/irrean) (sub)clans.
 

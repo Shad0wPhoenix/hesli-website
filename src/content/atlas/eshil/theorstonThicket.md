@@ -1,8 +1,9 @@
 ---
 title: Theorston Thicket
 type: Region
+status: Under Review
 relations:
-    located: Eshil
+    region: Eshil
 ---
 {% mainSidebar "top" %}
 
@@ -24,10 +25,10 @@ But if you come too close, you can feel the chills sizzling down your spine. Som
 {% endquote %}
 
 ## Old Home of a Dark Mage
-The most prominent building that stands right at the heart of this doomed forest, is the [Tower of Anvar](). It is here where [Archmage Anvar](/encyclopaedia/npcs/archmageAnvar) developed into a dark mage and gathered his disciples to perform monstrous experiments on the students unwilling to join him. Later on, he used random people who wandered too close or even into the Theorston Thicket as lab rats for mastering the dark arts.
+The most prominent building that stands right at the heart of this doomed forest, is the Tower of Anvar. It is here where [Archmage Anvar](/npcs/archmageAnvar) developed into a dark mage and gathered his disciples to perform monstrous experiments on the students unwilling to join him. Later on, he used random people who wandered too close or even into the Theorston Thicket as lab rats for mastering the dark arts.
 
 Residue of his atrocious deeds still linger in the trees. Stories of old claim that the forest was lively and green before the mage turned into a force of evil. However, none of those leaves have ever return after his demise. If anything, it seems that in the past few years, the forest itself seems to become more active. Creatures are wandering through the trees and new plants are popping up.
 
-The people from [Havalla]() are very anxious about this development. They are seeing the signs from the forest that older generations remember from the time that Archmage Anvar was working on his experiments. Sometimes, misformed animals wander just outside the forest border instilling fear in travellers.
+The people from [Havalla](/atlas/eshil/havalla) are very anxious about this development. They are seeing the signs from the forest that older generations remember from the time that Archmage Anvar was working on his experiments. Sometimes, misformed animals wander just outside the forest border instilling fear in travellers.
 
 Ever since the fall of Archmage Anvar, no one who lives nearby has dared venturing into the forest. Adventurers and travellers have attempted to cross through the forest, but never successfully. Even when they managed to get through the forest physically, they never were the same again.

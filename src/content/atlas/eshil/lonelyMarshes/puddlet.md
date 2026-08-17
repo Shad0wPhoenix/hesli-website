@@ -1,6 +1,7 @@
 ---
 title: Puddlet
 type: Settlement
+status: Under Review
 relations:
     region: Lonely Marshes
 attributes:

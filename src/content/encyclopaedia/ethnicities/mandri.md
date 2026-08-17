@@ -10,7 +10,6 @@ relations:
     specie: Dwarf
     settlement:
         - Matona
-        - Limani
 ---
 Residing in and surrounding the mountains of [Eshil](/atlas/eshil) are the Mandri. These dwarfs have travelled all the way from Vallahir for a new beginning and stumbled upon the beautiful round mountains of Greze Urngorr first. From there, they spread throughout Illtresi and are now living either in the mountain ranges or in the villages and cities scattered across the country.
 

@@ -1,6 +1,7 @@
 ---
 title: Matona
 type: Settlement
+status: Under Review
 excerpt: As hub for many mining related professions, Matona holds the cards when it comes to raw materials. Sitting atop the largest lair filled with Zedonias, they nearly fully control the export of this product.
 relations:
     region: Eshil
@@ -22,7 +23,7 @@ The Dwarven Mining Enterprise also has a big presence in the profession communit
 
 In the trading district, the Limani Supplies Dealer has an establishment to take care of all its merchants. Matona has close relations with the merchants from [Limani](/atlas/eshil/limani) who deliver and trade the products from the mines for other goods to sustain the population. In return, the town gave the organisation permission to build flexible homes for their merchants. It provides their employees with temporary housing for their stay in the town before going on their way to their next assignment.
 
-#### Useful comments from WorldAnvil beans
+<!-- #### Useful comments from WorldAnvil beans
 **Those2Nerds:** I'm curious, with so many coming here for education, and entire families moving here for work... what do they do for fun? I can only imagine what hijinks college students get up to in a mining town :D
 
 **Response:** Oooh good question! That's definitely something I should expand on ^^ I can see those students playing hide and seek in the mines, or messing with school equipment (swapping standard coals for charcoals so the fire doesn't burn at a stable heat which makes the smithing job even more difficult XD).
@@ -33,4 +34,4 @@ In the trading district, the Limani Supplies Dealer has an establishment to take
 
 **Catoblepon:** Can people that aint dwarves learn in the blacksmith academia? I would love to learn a bit in there...
 
-**Response:** The academy is for everyone! ^^ Good upperbody strength is necessary, though. Still, the elves and gnomes have found ways to do it, so you can do too ^^
+**Response:** The academy is for everyone! ^^ Good upperbody strength is necessary, though. Still, the elves and gnomes have found ways to do it, so you can do too ^^ -->

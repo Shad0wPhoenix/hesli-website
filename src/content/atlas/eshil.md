@@ -1,5 +1,6 @@
 ---
 title: Eshil
+type: Region
 status: Under Review
 tags:
     - Revisit
