@@ -95,6 +95,22 @@ export default function (eleventy) {
         && !Array.isArray(value)
     );
 
+    eleventy.addFilter("splitArticleContent", (content) => {
+        const match = content.match(/<h[2-6]\b[^>]*>/i);
+
+        if (!match) {
+            return {
+                introduction: content,
+                body: "",
+            };
+        }
+
+        return {
+            introduction: content.slice(0, match.index),
+            body: content.slice(match.index),
+        };
+    });
+
     // Register (Paired) Shortcodes
     registerShortcodes(eleventy, nunjucksEnv, markdown);
 

@@ -123,3 +123,25 @@ footer,
 .row {
     --bs-gutter-x: var(--pagePadding);
 }
+
+@media (max-width: 768px) {
+    .page {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .article-introduction {
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+        .s-right {
+            grid-column: 1;
+            grid-row: 3;
+        }
+
+        .article-body {
+            grid-column: 1;
+            grid-row: 4;
+        }
+    }
+}

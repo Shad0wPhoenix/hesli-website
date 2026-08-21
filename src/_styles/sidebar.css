@@ -8,13 +8,15 @@ aside,
 
 aside,
 .s-right {
-    float: right;
-    margin: 0rem 0rem 0.8rem 0.8rem;
+    /* float: right; */
+    margin: 0.8rem auto;
+    max-width: 500px;
+    width: 100%
     /* margin-left: 0.8rem; */
 }
 
 .s-left {
-    float: left;
+    /* float: left; */
     margin: 0rem 0.8rem 0.8rem 0rem;
     /* margin-right: 0.8rem; */
 }
@@ -46,15 +48,17 @@ aside,
     }
 }
 
-/* @container article (min-width: 700px) {
+@media (min-width: 769px) {
     aside,
     .s-right {
         float: right;
         margin: 0rem 0rem 0.8rem 0.8rem;
+        width: clamp(300px, 33%, 500px);
     }
 
     .s-left {
         margin: 0rem 0.8rem 0.8rem 0rem;
         float: left;
+        width: clamp(300px, 33%, 500px);
     }
-} */
+}

@@ -22,6 +22,7 @@
     <body>
         {%- set navigation = collections.navGraph -%}
         {%- set ancestors = navigation | getAncestors(page.filePathStem) -%}
+        {%- set article = content | splitArticleContent -%}
         
         {%- from "partials/sidebar-nav.njk" import render -%}
         <div class="sidebar-nav">
@@ -39,8 +40,17 @@
             </button>
             <main class="page">
                 {%- if title %}<h1>{{ title }}</h1>{% endif -%}
+
                 {%- include "partials/sidebar.njk" -%}
-                {{ content | safe }}
+
+                <div class="article-introduction">
+                    {{- article.introduction | safe -}}
+                </div>
+
+                <div class="article-body">
+                    {{- article.body | safe -}}
+                </div>
+                {# {{ content | safe }} #}
             </main>
 
             {%- include "partials/tooltip.njk" -%}
